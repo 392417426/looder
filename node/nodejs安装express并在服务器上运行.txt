@@ -1,0 +1,8 @@
+﻿
+1、在nodejs文件夹里新建Learn文件夹，在Learn文件夹里新建Lesson1文件夹，输入命令:npm install -g express
+
+如果express不是内部命令：npm install -g express-generator
+
+2、用express创建一个工程,输入命令:express hello
+	
+3、输入命令：npm install；npm start，在浏览器上输入http://localhost:3000/
