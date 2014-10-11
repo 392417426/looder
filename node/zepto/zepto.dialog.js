@@ -1,7 +1,7 @@
 (function() {
 	$.fn.dialog = function(options) {
 		var defaults = {
-			hasBg : false,
+			modal : false,
 			isCenter : true,
 			hasTimeLimit : false,
 			showTime : '2000',
@@ -25,7 +25,7 @@
 			setTimeout(closeDialog,options.showTime);
 		}
 		
-		if(options.hasBg){
+		if(options.modal){
 			var bgHeight = $(document).height()+'px';
 			var bgOpt = {
 					display : 'block',
@@ -81,7 +81,7 @@
 		}
 		
 		function closeDialog(){
-			if(options.hasBg){
+			if(options.modal){
 				$('.jp_bg').css('display','none');
 			}
 			$this.css('display','none');
