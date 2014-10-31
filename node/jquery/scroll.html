@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="js/jquery2.0.js"></script>
+    <style>
+        .Box{position:relative;}
+        .contentBox{width:400px;height:240px;background:#EEE;position:relative;overflow:hidden;}
+        .content{position:absolute;width:400px;top:0;left:0;line-height:25px;color:#666;}
+        .scrollBox{position:absolute;width:5px;height:200px;top:0;left:410px;background:#EEE}
+        .scroll{position:absolute;width:5px;height:20px;top:0;left:0;background:#666;cursor:default;}
+    </style>
+</head>
+<body>
+<div class="Box">
+    <div class="contentBox">
+        <div class="content" id="content">
+            STAR<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            hello world<br />
+            END
+        </div>
+    </div>
+    <div class="scrollBox">
+        <div class="scroll" id="scroll"></div>
+    </div>
+</div>
+<script>
+    var scrollMyao = function(a,b,c,d){
+        var $scroll = $(a);
+        var $content = $(b);
+        var $contentHA = $content.height() - c;
+        if($contentHA <= 0){
+            $scroll.parent().hide();
+        }
+        $scroll.mousedown(function(e){
+            var mouseY = e.pageY;
+            var $scrollP = $scroll.position().top;
+            $(document).bind("mousemove",function(e){
+                var mouseYnow = e.pageY;
+                var mValue = mouseYnow - mouseY + $scrollP;
+                var per = mValue / d;
+                var $contentH = -$contentHA*per;
+                if(mValue >= 0 && mValue <=d){
+                    $scroll.css("top",mValue+"px");
+                    $content.css("top",$contentH+"px");
+                }
+                if(mValue <= 0){
+                    $scroll.css("top","0");
+                    $content.css("top","0");
+                }
+                if(mValue >= d){
+                    $scroll.css("top",d+"px");
+                    $content.css("top",-$contentHA+"px");
+                }
+            })
+        })
+        $(document).mouseup(function(){
+            $(document).unbind("mousemove");
+        })
+    }
+    scrollMyao("#scroll","#content",240,180)
+</script>
+</body>
+</html>
