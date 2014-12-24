@@ -70,12 +70,96 @@
             50% {  opacity: 0;  }
             100% { opacity: 0 }
         }
+
+        .banner2 {position:relative;width:300px;height:200px;overflow: hidden;float:left;margin-left:300px;}
+        .banner2 ul li{width:300px;height:200px;background-size:100% 100%;float:left;background-repeat: no-repeat;}
+        .banner2 ul{
+            width:1200px;
+            overflow:hidden;
+            position: absolute;
+            left:0;
+            top:0;
+            animation:myfirst2 20s linear  infinite  0s;
+            -moz-animation:myfirst2 20s linear  infinite  0s;
+            -webkit-animation:myfirst2 20s linear  infinite  0s;
+            -o-animation:myfirst2 20s linear  infinite 0s;
+        }
+        .banner2 ul li:nth-child(1){
+            background-image: url(images/1.jpg);
+        }
+        .banner2 ul li:nth-child(2){
+            background-image: url(images/2.jpg);
+        }
+        .banner2 ul li:nth-child(3){
+            background-image: url(images/3.jpg);
+        }
+        .banner2 ul li:nth-child(4){
+            background-image: url(images/4.jpg);
+        }
+        @keyframes myfirst2
+        {
+            0% { left: 0;  }
+            12.5% {  left: 0;  }
+            25% {  left: -300px;  }
+            37.5% {  left: -300px;  }
+            50% { left: -600px; }
+            62.5%{left: -600px;}
+            75%{left: -900px;}
+            87.5%{left: -900px;}
+            100%{left: 0;}
+
+        }
+        @-moz-keyframes myfirst2 /* Firefox */
+        {
+            0% { left: 0;  }
+            12.5% {  left: 0;  }
+            25% {  left: -300px;  }
+            37.5% {  left: -300px;  }
+            50% { left: -600px; }
+            62.5%{left: -600px;}
+            75%{left: -900px;}
+            87.5%{left: -900px;}
+            100%{left: 0;}
+        }
+        @-webkit-keyframes myfirst2 /* Safari and Chrome */
+        {
+            0% { left: 0;  }
+            12.5% {  left: 0;  }
+            25% {  left: -300px;  }
+            37.5% {  left: -300px;  }
+            50% { left: -600px; }
+            62.5%{left: -600px;}
+            75%{left: -900px;}
+            87.5%{left: -900px;}
+            100%{left: 0;}
+        }
+        @-o-keyframes myfirst2 /* Opera */
+        {
+            0% { left: 0;  }
+            12.5% {  left: 0;  }
+            25% {  left: -300px;  }
+            37.5% {  left: -300px;  }
+            50% { left: -600px; }
+            62.5%{left: -600px;}
+            75%{left: -900px;}
+            87.5%{left: -900px;}
+            100%{left: 0;}
+        }
     </style>
 </head>
 <body>
 <div class="banner">
     <ul>
         <li> </li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<div class="banner2">
+    <ul>
+        <li> </li>
+        <li></li>
         <li></li>
         <li></li>
     </ul>
