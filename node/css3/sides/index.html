@@ -3,8 +3,89 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <style>
+        body,dl,dd,h1,h2,h3,p,form,ol,ul,li{margin:0;padding:0;}
+        table {border-collapse: collapse;border-spacing: 0;}
+        img{border:none;}
+        .banner {position:relative;}
+        .banner ul li{width:300px;height:200px;opacity:0;background-size:100% 100%;position:absolute;left:0;top:0;background-repeat: no-repeat;}
+        .banner ul li{
+            animation:myfirst 15s linear  infinite 0s;
+            /* Firefox: */
+            -moz-animation:myfirst 15s linear  infinite 0s;
+            /* Safari and Chrome: */
+            -webkit-animation:myfirst 15s linear  infinite 0s;
+            /* Opera: */
+            -o-animation:myfirst 15s linear  infinite 0s;}
+        .banner ul li:nth-child(1){
+            background-image: url(images/1.jpg);
+            -webkit-animation-delay: 0s;
+            -moz-animation-delay: 0s;
+            -o-animation-delay: 0s;
+            -ms-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+        .banner ul li:nth-child(2){
+            background-image: url(images/2.jpg);
+            -webkit-animation-delay: 5s;
+            -moz-animation-delay: 5s;
+            -o-animation-delay: 5s;
+            -ms-animation-delay: 5s;
+            animation-delay: 5s;
+        }
+        .banner ul li:nth-child(3){
+            background-image: url(images/3.jpg);
+            -webkit-animation-delay: 10s;
+            -moz-animation-delay: 10s;
+            -o-animation-delay: 10s;
+            -ms-animation-delay: 10s;
+            animation-delay: 10s;
+        }
+
+        @keyframes myfirst
+        {
+            0% { opacity: 0;  }
+            17% {  opacity: 1;  }
+            33% {  opacity: 1;  }
+            50% {  opacity: 0;  }
+            100% { opacity: 0 }
+        }
+
+        @-moz-keyframes myfirst /* Firefox */
+        {
+            0% { opacity: 0;  }
+            17% {  opacity: 1;  }
+            33% {  opacity: 1;  }
+            50% {  opacity: 0;  }
+            100% { opacity: 0 }
+        }
+
+        @-webkit-keyframes myfirst /* Safari and Chrome */
+        {
+            0% { opacity: 0;  }
+            17% {  opacity: 1;  }
+            33% {  opacity: 1;  }
+            50% {  opacity: 0;  }
+            100% { opacity: 0 }
+        }
+
+        @-o-keyframes myfirst /* Opera */
+        {
+            0% { opacity: 0;  }
+            17% {  opacity: 1;  }
+            33% {  opacity: 1;  }
+            50% {  opacity: 0;  }
+            100% { opacity: 0 }
+        }
+    </style>
 </head>
 <body>
-
+<div class="banner">
+    <ul>
+        <li> </li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
 </body>
 </html>
