@@ -71,7 +71,7 @@
             100% { opacity: 0 }
         }
 
-        .banner2 {position:relative;width:300px;height:200px;overflow: hidden;float:left;margin-left:300px;}
+        .banner2 {position:relative;width:300px;height:200px;overflow: hidden;float:left;margin-left:400px;}
         .banner2 ul li{width:300px;height:200px;background-size:100% 100%;float:left;background-repeat: no-repeat;}
         .banner2 ul{
             width:1200px;
@@ -109,7 +109,7 @@
             100%{left: 0;}
 
         }
-        @-moz-keyframes myfirst2 /* Firefox */
+        @-moz-keyframes myfirst2
         {
             0% { left: 0;  }
             12.5% {  left: 0;  }
@@ -121,7 +121,7 @@
             87.5%{left: -900px;}
             100%{left: 0;}
         }
-        @-webkit-keyframes myfirst2 /* Safari and Chrome */
+        @-webkit-keyframes myfirst2
         {
             0% { left: 0;  }
             12.5% {  left: 0;  }
@@ -133,7 +133,7 @@
             87.5%{left: -900px;}
             100%{left: 0;}
         }
-        @-o-keyframes myfirst2 /* Opera */
+        @-o-keyframes myfirst2
         {
             0% { left: 0;  }
             12.5% {  left: 0;  }
@@ -144,6 +144,83 @@
             75%{left: -900px;}
             87.5%{left: -900px;}
             100%{left: 0;}
+        }
+
+        .banner3 {position:relative;width:300px;height:200px;overflow: hidden;float:left;margin-left:100px;}
+        .banner3 ul li{width:300px;height:200px;background-size:100% 100%;float:left;background-repeat: no-repeat;}
+        .banner3 ul{
+            width:1200px;
+            overflow:hidden;
+            position: absolute;
+            right:0;
+            top:0;
+            animation:myfirst3 20s linear  infinite  0s;
+            -moz-animation:myfirst3 20s linear  infinite  0s;
+            -webkit-animation:myfirst3 20s linear  infinite  0s;
+            -o-animation:myfirst3 20s linear  infinite 0s;
+        }
+        .banner3 ul li:nth-child(1){
+            background-image: url(images/1.jpg);
+        }
+        .banner3 ul li:nth-child(2){
+            background-image: url(images/2.jpg);
+        }
+        .banner3 ul li:nth-child(3){
+            background-image: url(images/3.jpg);
+        }
+        .banner3 ul li:nth-child(4){
+            background-image: url(images/4.jpg);
+        }
+        @keyframes myfirst3
+        {
+            0% { right: 0;  }
+            12.5% {  right: 0;  }
+            25% {  right: -300px;  }
+            37.5% {  right: -300px;  }
+            50% { right: -600px; }
+            62.5%{right: -600px;}
+            75%{right: -900px;}
+            87.5%{right: -900px;}
+            100%{right: 0;}
+
+        }
+        @-moz-keyframes myfirst3
+        {
+            0% { right: 0;  }
+            12.5% {  right: 0;  }
+            25% {  right: -300px;  }
+            37.5% {  right: -300px;  }
+            50% { right: -600px; }
+            62.5%{right: -600px;}
+            75%{right: -900px;}
+            87.5%{right: -900px;}
+            100%{right: 0;}
+        }
+        @-webkit-keyframes myfirst3
+        {
+            0% { right: 0;  }
+            12.5% {  right: 0;  }
+            25% {  right: -300px;  }
+            37.5% {  right: -300px;  }
+            50% { right: -600px; }
+            62.5%{right: -600px;}
+            75%{right: -900px;}
+            87.5%{right: -900px;}
+            100%{right: 0;}
+
+        }
+        @-o-keyframes myfirst3
+        {
+            0% { right: 0;  }
+            12.5% {  right: 0;  }
+            25% {  right: -300px;  }
+            37.5% {  right: -300px;  }
+            50% { right: -600px; }
+            62.5%{right: -600px;}
+            75%{right: -900px;}
+            87.5%{right: -900px;}
+            100%{right: 0;}
+
         }
     </style>
 </head>
@@ -157,6 +234,14 @@
 </div>
 
 <div class="banner2">
+    <ul>
+        <li> </li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="banner3">
     <ul>
         <li> </li>
         <li></li>
