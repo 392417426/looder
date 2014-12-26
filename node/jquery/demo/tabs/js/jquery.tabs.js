@@ -3,7 +3,7 @@
         var defaults = {
             tabsBar : new Array(),
             tabsContent : new Array(),
-            cssName : "curren",
+            cssName : "current",
             onTabsNum : 0,
             eventType : "click",
             request : new Array(),//{"url":"*****" , "data" : {"***" : "***"}}
