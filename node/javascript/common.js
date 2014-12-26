@@ -57,42 +57,60 @@ function startMove(obj, json, fnEnd)
     }, 30);
 }
 
-function ajax(url, fnSucc, fnFaild)
-{
-    //1.创建Ajax对象
-    if(window.XMLHttpRequest)
-    {
-        var oAjax=new XMLHttpRequest();
+/*ajax({
+    url: "./TestXHR.aspx",              //请求地址
+    type: "POST",                       //请求方式
+    data: { name: "super", age: 20 },        //请求参数
+    dataType: "json",
+    async: true,    //默认是同步
+    success: function (response, xml) {
+        // 此处放成功后执行的代码
+    },
+    error: function (status) {
+        // 此处放失败后执行的代码
     }
-    else
-    {
-        var oAjax=new ActiveXObject("Microsoft.XMLHTTP");
+});*/
+
+function ajax(options) {
+    options = options || {};
+    options.type = (options.type || "GET").toUpperCase();
+    options.dataType = options.dataType || "json";
+    var params = formatParams(options.data);
+
+    //创建 - 非IE6 - 第一步
+    if (window.XMLHttpRequest) {
+        var xhr = new XMLHttpRequest();
+    } else { //IE6及其以下版本浏览器
+        var xhr = new ActiveXObject('Microsoft.XMLHTTP');
     }
 
-    //2.连接服务器
-    //open(方法, 文件名, 异步传输)
-    oAjax.open('GET', url, true);
-
-    //3.发送请求
-    oAjax.send();
-
-    //4.接收返回
-    oAjax.onreadystatechange=function ()
-    {
-        //oAjax.readyState	//浏览器和服务器，进行到哪一步了
-        if(oAjax.readyState==4)	//读取完成
-        {
-            if(oAjax.status==200)	//成功
-            {
-                fnSucc(oAjax.responseText);
-            }
-            else
-            {
-                if(fnFaild)
-                {
-                    fnFaild(oAjax.status);
-                }
+    //接收 - 第三步
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4) {
+            var status = xhr.status;
+            if (status >= 200 && status < 300) {
+                options.success && options.success(xhr.responseText, xhr.responseXML);
+            } else {
+                options.error && options.error(status);
             }
         }
-    };
+    }
+
+    if (options.type == "GET") {
+        xhr.open("GET", options.url + "?" + params,options.async);
+        xhr.send(null);
+    } else if (options.type == "POST") {
+        xhr.open("POST", options.url, options.async);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.send(params);
+    }
+}
+//格式化参数
+function formatParams(data) {
+    var arr = [];
+    for (var name in data) {
+        arr.push(encodeURIComponent(name) + "=" + encodeURIComponent(data[name]));
+    }
+    arr.push(("v=" + Math.random()).replace("."));
+    return arr.join("&");
 }
