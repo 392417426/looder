@@ -114,3 +114,40 @@ function formatParams(data) {
     arr.push(("v=" + Math.random()).replace("."));
     return arr.join("&");
 }
+
+function getParams(){
+    var obj_prm = null;
+    var url = location.href;
+    var index = url.lastIndexOf('?');
+    if (index > -1) {
+        obj_prm = {};
+
+        var str_prms = url.substring(index + 1);
+        if(str_prms.lastIndexOf("#") > 0){
+            str_prms = str_prms.substring(0, str_prms.lastIndexOf("#")-1);
+        }
+
+        var strArr_prms = str_prms.split('&');
+        for (var i = 0; i < strArr_prms.length; i++) {
+            var str_prm = strArr_prms[i];
+            var strArr_prm = str_prm.split('=');
+            var str_key = strArr_prm[0];
+            var str_value = strArr_prm[1];
+
+            obj_prm[str_key] = decodeURIComponent(str_value).replace("+", " ");
+        }
+    }
+    return obj_prm;
+}
+
+function showTime(time){
+    var datetime = new Date();
+    datetime.setTime(time);
+    var year = datetime.getFullYear();
+    var month = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
+    var date = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
+    var hour = datetime.getHours()< 10 ? "0" + datetime.getHours() : datetime.getHours();
+    var minute = datetime.getMinutes()< 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
+    var second = datetime.getSeconds()< 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
+    return year + "-" + month + "-" + date+" "+hour+":"+minute+":"+second;
+}
