@@ -75,6 +75,7 @@ function ajax(options) {
     options = options || {};
     options.type = (options.type || "GET").toUpperCase();
     options.dataType = options.dataType || "json";
+    options.async = options.async  ?  true : false;
     var params = formatParams(options.data);
 
     //创建 - 非IE6 - 第一步
