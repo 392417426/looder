@@ -14,6 +14,7 @@
             var hValue = (-90 + date.getHours() * 30) * Math.PI/180;
             var mValue=  (-90 + date.getMinutes() * 6) * Math.PI/180;
             var sValue = (-90 + date.getSeconds() * 6) * Math.PI/180;
+            var hMove = (30 * date.getMinutes() /60) * Math.PI/180
 
             var oC = document.getElementById("canvas");
             var oCt = oC.getContext("2d");
@@ -57,7 +58,7 @@
 
             oCt.beginPath();
             oCt.moveTo(oC.width/2 , oC.height/2);
-            oCt.arc(oC.width/2 , oC.height/2 , (oC.width/2)*10/20  , hValue  , hValue  , false );
+            oCt.arc(oC.width/2 , oC.height/2 , (oC.width/2)*10/20  , hValue + hMove  , hValue + hMove , false );
             oCt.closePath();
             oCt.lineWidth = 5;
             oCt.stroke();
