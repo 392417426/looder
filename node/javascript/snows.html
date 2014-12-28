@@ -93,31 +93,31 @@
             };
             i.prototype = {
                 createEl: function (a, b) {
-                    this.el = document.createElement("img");
-                    this.el.setAttribute
-                    ("src", b + "images/white-snowflake.png");
-                    this.el.style.position = "absolute";
-                    this.el.style.display = "block";
-                    this.el.style.zIndex = "99999";
-                    this.parent.appendChild(this.el)
-                },
-                move: function () {
-                    if (this.angle < this.minAngle || this.angle > this.maxAngle)
-                        this.angleDelta = -this.angleDelta;
-                    this.angle += this.angleDelta;
-                    this.left += this.speed * Math.cos(this.angle * Math.PI);
-                    this.top -= this.speed * Math.sin(this.angle * Math.PI);
-                    if (this.left < 0) this.left = this.maxLeft;
-                    else if (this.left > this.maxLeft) this.left = 0
-                },
-                draw: function () {
-                    this.el.style.top = Math.round(this.top) + "px";
-                    this.el.style.left = Math.round(this.left) + "px"
-                },
-                remove: function () {
-                    this.parent.removeChild(this.el);
-                    this.parent = this.el = null
-                }
+            this.el = document.createElement("img");
+            this.el.setAttribute
+            ("src", b + "images/white-snowflake.png");
+            this.el.style.position = "absolute";
+            this.el.style.display = "block";
+            this.el.style.zIndex = "99999";
+            this.parent.appendChild(this.el)
+            },
+            move: function () {
+                if (this.angle < this.minAngle || this.angle > this.maxAngle)
+                    this.angleDelta = -this.angleDelta;
+                this.angle += this.angleDelta;
+                this.left += this.speed * Math.cos(this.angle * Math.PI);
+                this.top -= this.speed * Math.sin(this.angle * Math.PI);
+                if (this.left < 0) this.left = this.maxLeft;
+                else if (this.left > this.maxLeft) this.left = 0
+            },
+            draw: function () {
+                this.el.style.top = Math.round(this.top) + "px";
+                this.el.style.left = Math.round(this.left) + "px"
+            },
+            remove: function () {
+                this.parent.removeChild(this.el);
+                this.parent = this.el = null
+            }
             }
         createSnow("", 40);
     </script>
