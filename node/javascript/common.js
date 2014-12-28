@@ -1,60 +1,132 @@
-function getStyle(obj, name)
-{
-    if(obj.currentStyle)
-    {
-        return obj.currentStyle[name];
-    }
-    else
-    {
-        return getComputedStyle(obj, false)[name];
-    }
-}
+/// <summary>
+/// 运动框架，支持匀速、缓冲，加速等运动
+/// </summary>
+/// <param name="obj"> 需要移动的对象 </param>
+/// <param name="json"> 参数 </param>
+/// <param name="options"> 自定义设置 </param>
+function startMove(obj, json, options) {
+    options = options || {};
+    options.time = options.time || 3000;
+    options.type = options.type || "linear";
 
-//startMove(oDiv, {width: 400, height: 400})
+    var count = parseInt(options.time / 30);
+    var n = 0;
 
-function startMove(obj, json, fnEnd)
-{
-    clearInterval(obj.timer);
-    obj.timer=setInterval(function (){
-        var bStop=true;		//假设：所有值都已经到了
+    var start = {};
+    var distance = {};
+    json = formatStyleName(json);
 
-        for(var attr in json)
+    for (var name in json) {
+        if (name == "opacity") {
+            start[name] = parseInt(100 * Math.round(getStyle(obj, "opacity")));
+        } else {
+            start[name] = parseInt(getStyle(obj, name));
+        }
+        //解决属性在CSS中未赋值的问题，像默认的 auto 等
+        if (isNaN(start[name]))
         {
-            var cur=0;
-
-            if(attr=='opacity')
-            {
-                cur=Math.round(parseFloat(getStyle(obj, attr))*100);
+            var initParams = {
+                'left': obj.offsetLeft,
+                'top': obj.offsetTop,
+                'width': obj.offsetWidth,
+                'height': obj.offsetHeight,
+                'margin': 0,
+                'marginLeft': 0,
+                'marginTop': 0,
+                'marginRight': 0,
+                'marginBottom': 0,
+                'padding': 0,
+                'paddingLeft': 0,
+                'paddingTop': 0,
+                'paddingRight': 0,
+                'paddingBottom': 0,
+                'borderWidth': 0,
+                'borderLeftWidth': 0,
+                'borderRightWidth': 0,
+                'borderTopWidth': 0,
+                'borderBottomWidth': 0,
+                'opacity': 100,
+                'zIndex': 0
             }
-            else
-            {
-                cur=parseInt(getStyle(obj, attr));
+            start[name] = initParams[name] || 0;  //当initParams中没有匹配的属性时，可以做错误处理，直接抛出异常
+        }
+        distance[name] = json[name] - start[name];
+    }
+
+    clearInterval(obj.timer);
+    obj.timer = setInterval(function () {
+        n++;
+        for (var name in json) {
+            switch (options.type) {
+                case "linear":
+                    var cur = start[name] + n * distance[name] / count;
+                    break;
+                case "buffer":
+                    var a = 1 - n / count;
+                    var cur = start[name] + distance[name] * (1 - a * a * a);
+                    break;
+                case "speed":
+                    var a = n / count;
+                    var cur = start[name] + distance[name] * a * a * a;
+                    break;
             }
-
-            var speed=(json[attr]-cur)/6;
-            speed=speed>0?Math.ceil(speed):Math.floor(speed);
-
-            if(cur!=json[attr])
-                bStop=false;
-
-            if(attr=='opacity')
-            {
-                obj.style.filter='alpha(opacity:'+(cur+speed)+')';
-                obj.style.opacity=(cur+speed)/100;
-            }
-            else
-            {
-                obj.style[attr]=cur+speed+'px';
+            switch(name){
+                case  "opacity" :
+                    obj.style.filter = "alpha(opacity:" + cur + ")";
+                    obj.style.opacity = cur / 100;
+                    break;
+                case "z-index" :
+                    obj.style.zIndex = cur;
+                    break;
+                 default :
+                     obj.style[name] = cur + "px";
+                    break;
             }
         }
-
-        if(bStop)
-        {
+        if (n == count) {
             clearInterval(obj.timer);
-
-            if(fnEnd)fnEnd();
+            options.end && options.end();
         }
     }, 30);
+}
+
+/// <summary>
+/// 格式化参数中的属性
+/// </summary>
+/// <param name="json"> </param>
+function formatStyleName(json) {
+    for (var name in json) {
+        var attr = transformStyleName(name);
+        if (attr != name) {
+            json[attr] = json[name];
+            delete json[name];
+        }
+    }
+    return json;
+}
+
+/// <summary>
+/// 将CSS属性转换成JS中的属性，即将类似 "margin-left" 的属性转换成 "marginLeft"
+/// </summary>
+/// <param name="name"> 属性名称 </param>
+function transformStyleName(name) {
+    if (name == "float") {
+        return obj.currentStyle ? "styleFloat" : "cssFloat";
+    } else if (name.indexOf("-") > -1) {
+        name = name.replace(/-(\w)/, function () {
+            return arguments[1].toUpperCase();
+        });
+    }
+    return name;
+}
+
+/// <summary>
+/// 取属性所对应的样式值
+/// </summary>
+/// <param name="name"> 属性名称 </param>
+function getStyle(obj, name) {
+    name = transformStyleName(name);
+    return obj.currentStyle ? obj.currentStyle[name] : getComputedStyle(obj, false)[name];
 }
 
 /*ajax({
