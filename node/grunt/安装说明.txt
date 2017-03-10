@@ -1,3 +1,0 @@
-1、新建文件夹grunt，cd grunt，运行命令：npm install -g grunt-cli
-2、把Gruntfile.js和package.json放在grunt里面，运行命令：npm install
-3、运行命令：默认的grunt或者grunt **
