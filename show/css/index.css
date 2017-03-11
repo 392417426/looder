@@ -1,0 +1,26 @@
+body{font-family:"Microsoft YaHei", "Microsoft JhengHei"}
+.container-fluid{max-width: 1920px;padding: 0;margin:0 auto;}
+.row{margin: 0  auto}
+.greyBg{background: #595757;}
+.whiteBg{background: #fff;font-size:20px;}
+.pt20{padding-top: 20px;}
+.head{padding-top:50px;padding-bottom: 10px;max-width: 40%}
+.name{font-size:40px;color:#fff;text-align: center}
+.profession{font-size:30px;color:#fff;text-align: center}
+.blue-tit{background:#00a0e9;line-height: 56px;font-size:30px;
+    color:#fff;font-weight: bold;margin-top: 50px;margin-bottom:25px;padding-left: 30px;}
+.text01{color:#fff;font-size:20px;padding-left:30px;}
+.white-tit{margin-top: 50px;margin-bottom:20px;padding-left:46px;line-height: 60px;border-bottom:2px solid #000;color:#000;font-size:30px;font-weight: bold}
+.grjj-tit,.gzjy-tit,.jy-tit,.zhxk-tit{background: url("../images/icon01.png") left center no-repeat;background-size:36px 36px; }
+.gzjy-tit{background-image: url("../images/icon02.png"); }
+.jy-tit{background-image: url("../images/icon03.png"); }
+.zhxk-tit{background-image: url("../images/icon04.png"); }
+.gzjy-time,.gzjy-company{font-weight: bold}
+.gzjy-profession{font-weight: bold;color:#00a0e9}
+.col-xs-12{padding-bottom: 10px;}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { .col-lg-4,.col-lg-8{padding:0 30px;}}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {  .col-lg-4,.col-lg-8{padding:0 30px;}}
