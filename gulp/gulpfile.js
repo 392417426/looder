@@ -13,26 +13,43 @@ const pngquant = require('imagemin-pngquant'); //png图片压缩插件
 const concat = require("gulp-concat"); //文件合并
 const watch = require("gulp-watch"); //监听
 
+const paths = {
+    dist: {
+        "js": "dist/js",
+        "css": "dist/css",
+        "image":"dist/images",
+        "html":"dist/html"
+    },
+    static:{
+        "js":"src/js/",
+        "css":"src/css/",
+        "image":"src/images/",
+        "html":"src/html",
+        "less":"src/less/",
+        "sass":"src/sass/"
+    }
+};
+
 gulp.task('jsLint', function () {
-    gulp.src(['src/js/*.js', '!src/js/*.min.js'])
+    gulp.src([paths.static.js + '*.js', '!'+ paths.static.js + '*.min.js'])
         .pipe(jshint())
         .pipe(jshint.reporter('default')); // 输出检查结果
 });
 
 //编译less
 gulp.task('less', function () {
-    gulp.src('src/less/*.less') //该任务针对的文件
+    gulp.src(paths.static.less + '*.less') //该任务针对的文件
         .pipe(less()) //该任务调用的模块
-        .pipe(gulp.dest('src/css')); //将会在src/css下生成index.css
+        .pipe(gulp.dest(paths.static.css)); //将会在src/css下生成index.css
 });
 
 //编译sass
 gulp.task('sass', function () {
-    return sass('src/sass/*.scss')
+    return sass(paths.static.sass + '*.scss')
         .on('error', function (err) {
             console.error('Error!', err.message);
         })
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest(paths.static.css));
 });
 
 //监听sass文件发生变化

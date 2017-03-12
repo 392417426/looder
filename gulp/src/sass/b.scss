@@ -1,0 +1,9 @@
+.a {
+  color: #ddd;
+  .b {
+    color: #eee;
+  }
+}
+.a .b {
+  color: #eee;
+}
