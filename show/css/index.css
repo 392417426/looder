@@ -4,7 +4,7 @@ body{font-family:"Microsoft YaHei", "Microsoft JhengHei"}
 .greyBg{background: #595757;}
 .whiteBg{background: #fff;font-size:20px;}
 .pt20{padding-top: 20px;}
-.head{padding-top:50px;padding-bottom: 10px;max-width: 40%}
+.head{margin-top:50px;margin-bottom: 10px;max-width: 40%}
 .name{font-size:40px;color:#fff;text-align: center}
 .profession{font-size:30px;color:#fff;text-align: center}
 .blue-tit{background:#00a0e9;line-height: 56px;font-size:30px;
