@@ -19,8 +19,11 @@ body{font-family:"Microsoft YaHei", "Microsoft JhengHei"}
 .gzjy-time,.gzjy-company{font-weight: bold}
 .gzjy-profession{font-weight: bold;color:#00a0e9}
 .col-xs-12{padding-bottom: 10px;}
-.zpzs-cont li{float:left;width: 25%;padding: 0 30px;list-style: none;margin-bottom: 30px;}
+.zpzs-cont{width: 100%}
+.zpzs-cont ul{overflow: hidden;margin:0;padding:0}
+.zpzs-cont li{float:left;width: 25%;padding: 0 2%;list-style: none;margin-bottom: 30px;}
 .zpzs-cont li img{width: 100%}
+.text02{word-break: break-all}
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
 @media (min-width: 992px) { .col-lg-4,.col-lg-8{padding:0 30px;}}
