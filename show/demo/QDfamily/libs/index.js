@@ -117,7 +117,7 @@ $("#tips_alert04 .tips_btnSure").on("click",function(){
 var cards = $(".lottery_card");
 cards.each(function(i){
     cards.eq(i).on("click",function(){
-        $.getScript('http://392417426.github.io/looder/show/demo/QDfamily/libs/json.js', function (result) {
+        $.getScript('libs/json.js', function (result) {
                 var result = $.parseJSON(result);
                 var priceId = 0;
                 var src = "images/lottery_card_face04.png";
