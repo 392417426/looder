@@ -117,12 +117,7 @@ $("#tips_alert04 .tips_btnSure").on("click",function(){
 var cards = $(".lottery_card");
 cards.each(function(i){
     cards.eq(i).on("click",function(){
-        $.ajax({
-            async: false,
-            url: 'http://392417426.github.io/looder/show/demo/QDfamily/json.json',
-            type: "get",
-            dataType: 'jsonp',
-            success: function (result) {
+        $.getScript('http://392417426.github.io/looder/show/demo/QDfamily/libs/json.js', function (result) {
                 var priceId = 0;
                 var src = "images/lottery_card_face04.png";
                 if(result.errcode == 200){
@@ -158,12 +153,6 @@ cards.each(function(i){
                         showPrice(8)
                     },800)
                 }
-            },
-            error: function (XMLHttpRequest) {
-                if (XMLHttpRequest.readyState == '0') {
-                    alert("网络异常");
-                }
-            }
         });
     })
 })
