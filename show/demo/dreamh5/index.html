@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="640">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=640,maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/index.css?v=3"/>
+    <script type="text/javascript" charset="UTF-8"  src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js "></script>
+    <title>朗乐福奇幻梦乐园</title>
+</head>
+<body>
+<div class="ms suihua"></div>
+<div style="background: #fff;width:100%;height:100%;position: absolute;left:0;top:0;z-index: 999;"
+     id="loading">
+    <img src="images/loading.gif" style="position: absolute;left:50%;margin-left: -140px;top:50%;margin-top: -105px;"/>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="share_tips" >
+    <div class="n_wrapper relative">
+        <img src="images/share_img01.png" class="share_img01" />
+        <img src="images/share_img02.png" class="share_img02" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="submit_box">
+    <div class="n_wrapper relative">
+        <img src="images/submit_box.png" class="submit_box" />
+        <input type="text" name="name" />
+        <input type="tel" name="phone" />
+        <input type="text" name="address" />
+        <div class="btnSubmit"></div>
+        <img src="images/submit_box_time.png" class="submit_box_time" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="submit_tips_box01">
+    <div class="n_wrapper relative">
+        <img src="images/submit_tips_box.png" class="submit_tips_box" />
+        <img src="images/submit_tips_text01.png" class="submit_tips_text01" />
+        <img src="images/p9_img03.png" class="submit_tips_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="submit_tips_box02">
+    <div class="n_wrapper relative">
+        <img src="images/submit_tips_box.png" class="submit_tips_box" />
+        <img src="images/submit_tips_text02.png" class="submit_tips_text02" />
+        <img src="images/submit_tips_btnSure.png" class="submit_tips_btnSure" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="scene_tips01">
+    <div class="n_wrapper relative">
+        <img src="images/scene_tips_box.png" class="scene_tips_box" />
+        <img src="images/scene_tips_text01.png" class="scene_tips_text01" />
+        <img src="images/scene_tips_btnBack.png" class="scene_tips_btnBack" />
+        <img src="images/scene_tips_btnStay.png" class="scene_tips_btnStay" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="scene_tips02">
+    <div class="n_wrapper relative">
+        <img src="images/scene_tips_box.png" class="scene_tips_box" />
+        <img src="images/scene_tips_text02.png" class="scene_tips_text02" />
+        <img src="images/scene_tips_btnBack.png" class="scene_tips_btnBack" />
+        <img src="images/scene_tips_btnStay.png" class="scene_tips_btnStay" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="scene_tips03">
+    <div class="n_wrapper relative">
+        <img src="images/scene_tips_box.png" class="scene_tips_box" />
+        <img src="images/scene_tips_text03.png" class="scene_tips_text03" />
+        <img src="images/scene_tips_btnBack.png" class="scene_tips_btnBack" />
+        <img src="images/scene_tips_btnStay.png" class="scene_tips_btnStay" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="surprised_tips01">
+    <div class="n_wrapper relative">
+        <img src="images/surprised_box.png" class="surprised_box" />
+        <img src="images/surprised_title01.png" class="surprised_title" />
+        <div class="surprised_text">美梦时代活动期间，客户（新老客户均可）凭活动短信到店并关注朗乐福官方微信到全国朗乐福品牌店均可免费获得朗乐福精美礼品一份（短信转发有效，赠品有限，送完即止，礼品为朗乐福水杯一个） </div>
+        <img src="images/p9_img03.png" class="surprised_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="surprised_tips02" >
+    <div class="n_wrapper relative">
+        <img src="images/surprised_box.png" class="surprised_box" />
+        <img src="images/surprised_title02.png" class="surprised_title" />
+        <div class="surprised_text">在2016年7月4日—2016年7月17日活动期间，朗乐福将会全国抽出260名幸运儿，中奖客户将会获得朗乐福赠送的“美梦成真”迪士尼门票一张。</div>
+        <img src="images/p9_img03.png" class="surprised_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="surprised_tips03">
+    <div class="n_wrapper relative">
+        <img src="images/surprised_box.png" class="surprised_box" />
+        <img src="images/surprised_title03.png" class="surprised_title" />
+        <div class="surprised_text">在2016年7月4日—2016年7月17日活动期间，全球发售独家套餐价，每套价格23500元，买断价13800元/套（型号：cb1001P-LC-2.9721/7.9721-L08套床架+cb贝尔吉型-A2084+1床垫+cbL系列-H工艺-F0086床品六件套   180*200/150*200。)</div>
+        <img src="images/p9_img03.png" class="surprised_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="surprised_tips04">
+    <div class="n_wrapper relative">
+        <img src="images/surprised_box.png" class="surprised_box" />
+        <img src="images/surprised_title04.png" class="surprised_title" />
+        <div class="surprised_text">在2016年7月4日—2016年7月17日活动期间，全球发售聚划算价格，每套价格13680元，买断价8980元/套（型号：GL020P+25/28-LCN-1.889/7.889-L22五星级标准床架+cb贝尔吉型-A2084+1床垫+ OBP1205-7.889仿皮床头柜(含玻璃)(柚色)*1个 180*200/150*200 ）。
+            (更换LBN箱体，直接加1000元/套)</div>
+        <img src="images/p9_img03.png" class="surprised_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="surprised_tips05">
+    <div class="n_wrapper relative">
+        <img src="images/surprised_box.png" class="surprised_box" />
+        <img src="images/surprised_title05.png" class="surprised_title" />
+        <div class="surprised_text">在2016年7月4日—2016年7月17日活动期间，全球发售独家买断床垫，每张价格7392元，买断价3680元/张（款式：cb罗蒙型-A2132/A2151床垫）。</div>
+        <img src="images/p9_img03.png" class="surprised_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="surprised_tips06">
+    <div class="n_wrapper relative">
+        <img src="images/surprised_box.png" class="surprised_box" />
+        <img src="images/surprised_title06.png" class="surprised_title" />
+        <div class="surprised_text">活动期间凡进店购买朗乐福、美梦思正价产品的客户可享受以下优惠：（以下优惠项目不能叠加使用）<br />
+            1.在店面购买成交金额满8000元以上（含8000元）后送迷你版迪士尼正版卡通公仔1只；<br />
+            2.在店面购买成交金额满12000元以上（含12000元）后送指定布号的空调被1张和迷你版迪士尼正版卡通公仔1只；<br />
+            3.在店面购买成交金额满12000元以上（含12000元）后可另加1500元即可换购朗乐福进口床品  三件套1套（不限布号，只允许H工艺）和迷你版迪士尼正版卡通公仔1只；<br />
+            4.在店面购买成交金额满15000元以上（含15000元）后送朗乐福进口床品三件套试用装1套和 迷你版迪士尼正版卡通公仔1只；
+        </div>
+        <img src="images/p9_img03.png" class="surprised_btnBack" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="lottery_tips01">
+    <div class="n_wrapper relative">
+        <img src="images/lottery_tips_box.png" class="lottery_tips_box"/>
+        <img src="images/lottery_tips_text01.png" class="lottery_tips_text01" />
+        <img src="images/submit_tips_btnSure.png" class="lottery_tips_btnSure" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="lottery_tips02">
+    <div class="n_wrapper relative">
+        <img src="images/lottery_tips_box.png" class="lottery_tips_box"/>
+        <img src="images/lottery_tips_text02.png" class="lottery_tips_text02" />
+        <img src="images/submit_tips_btnSure.png" class="lottery_tips_btnSure" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="lottery_tips03">
+    <div class="n_wrapper relative">
+        <img src="images/lottery_tips_box02.png" class="lottery_tips_box02"/>
+        <img src="images/lottery_tips_text03.png" class="lottery_tips_text03" />
+        <img src="images/submit_tips_btnSure.png" class="lottery_tips_btnSure lottery_tips_btnSure03" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="lottery_tips04">
+    <div class="n_wrapper relative">
+        <img src="images/lottery_tips_box02.png" class="lottery_tips_box02"/>
+        <img src="images/lottery_tips_text04.png" class="lottery_tips_text04" />
+        <img src="images/submit_tips_btnSure.png" class="lottery_tips_btnSure lottery_tips_btnSure03" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="lottery_tips05">
+    <div class="n_wrapper relative">
+        <img src="images/lottery_tips_box02.png" class="lottery_tips_box02"/>
+        <img src="images/lottery_tips_text05.png" class="lottery_tips_text05" />
+        <img src="images/submit_tips_btnSure.png" class="lottery_tips_btnSure lottery_tips_btnSure03" />
+    </div>
+</div>
+<div class="n_wrapper MaskBg module_box unShow" id="lottery_tips06">
+    <div class="n_wrapper relative">
+        <img src="images/lottery_tips_box.png" class="lottery_tips_box"/>
+        <img src="images/lottery_tips_text06.png" class="lottery_tips_text06" />
+        <img src="images/submit_tips_btnSure.png" class="lottery_tips_btnSure" />
+    </div>
+</div>
+<div class="swiper-container">
+    <div class=" swiper-wrapper">
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page1">
+                <div class="n_wrapper relative">
+                    <p class="book_bg"><img src="images/book_bg.png" /> </p>
+                    <p class="book_page"><img src="images/book_page.png" /> </p>
+                    <p class="book_cover_back">
+                        <img src="images/book_bg.png" />
+                    </p>
+                    <p class="book_cover">
+                        <img src="images/book_cover.png" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="n_wrapper ver hidden PageBg" id="Page2">
+                <div class="n_wrapper relative">
+                    <p class="p2_logo"><img src="images/p2_logo.png"/> </p>
+                    <p class="p2_logo2"><img src="images/p2_logo2.png"/> </p>
+                    <p class="p2_img01 ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s"><img src="images/p2_img01.png" /></p>
+                    <p class="p2_img02 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1s"><img src="images/p2_img02.png" /></p>
+                    <p class="arrow_up"><img src="images/arrow_up.png" width="20" height="20"/> </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page3">
+                <div class="n_wrapper relative">
+                    <p class="p3_img01"><img src="images/p3_img01.png"/></p>
+
+                    <p class="p3_img02"><img src="images/p3_img02.png"/></p>
+
+                    <p class="p3_img03"><img src="images/p3_img03.png"/></p>
+
+                    <p class="p3_img04"><img src="images/p3_img04.png"/></p>
+
+                    <p class="p3_img05"><img src="images/p3_img05.png"/></p>
+
+                    <p class="p3_img06"><img src="images/p3_img06.png"/></p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page4">
+                <div class="n_wrapper relative">
+                    <p class="p4_img01"><img src="images/p4_img01.png"/></p>
+                    <p class="p4_img02"><img src="images/p4_img02.png"/></p>
+                    <p class="p4_img03"><img src="images/p4_img03.png"/></p>
+                    <p class="p4_img04"><img src="images/p4_img04.png"/></p>
+                    <p class="p4_img05"><img src="images/p3_img06.png"/></p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page5">
+                <div class="n_wrapper relative">
+                    <p class="p5_img01"><img src="images/p5_img01.png"/></p>
+                    <p class="p5_img02"><img src="images/p5_img02.png"/></p>
+                    <p class="p5_img03"><img src="images/p5_img03.png"/></p>
+                    <p class="p5_img04"><img src="images/p3_img06.png"/></p>
+                    <p class="p5_img05"><img src="images/p5_img03.png"/></p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page7">
+                <div class="n_wrapper relative">
+                    <p class="p7_img01"><img src="images/p7_img01.png" /> </p>
+                    <p class="p7_img02"><img src="images/p7_img02.png" /> </p>
+                    <p class="p7_img03"><img src="images/p7_img03.png" /> </p>
+                    <p class="p7_img04"><img src="images/p7_img04.png" /> </p>
+                    <p class="p7_img05"><img src="images/p3_img06.png"/></p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page6">
+                <div class="n_wrapper relative">
+                    <p class="p6_img01"><img src="images/p6_img01.png"/> </p>
+                    <p class="p6_img02"><img src="images/p6_img02.png"/> </p>
+                    <p class="p6_img03"><img src="images/p6_img03.png"/> </p>
+                    <p class="p6_img04"><img src="images/p6_img04.png" /> </p>
+                    <p class="p6_img05"><img src="images/p3_img06.png"/></p>
+                    <div class="apple"></div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page8">
+                <div class="n_wrapper relative">
+                    <p class="p8_img01"><img src="images/p8_img01.png" /> </p>
+                    <p class="p8_img02"><img src="images/p8_img02.png" /> </p>
+                    <p class="p8_img03"><img src="images/p8_img03.png" /> </p>
+                    <p class="p8_img04"><img src="images/p8_img04.png" /> </p>
+                    <p class="p8_img05"><img src="images/p3_img06.png"/></p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page9">
+                <div class="n_wrapper relative">
+                    <p class="p9_img01"><img src="images/p9_img01.png" /> </p>
+                    <p class="p9_img02"><img src="images/p9_img02.png" /> </p>
+                    <p class="p9_img03"><img src="images/p9_img03.png" /> </p>
+                    <p class="p9_img04"><img src="images/p3_img06.png"/></p>
+                    <div class="p9_btn p9_btn01" data-alert="surprised_tips01"></div>
+                    <div class="p9_btn p9_btn02" data-alert="surprised_tips02"></div>
+                    <div class="p9_btn p9_btn03" data-alert="surprised_tips03"></div>
+                    <div class="p9_btn p9_btn04" data-alert="surprised_tips04"></div>
+                    <div class="p9_btn p9_btn05" data-alert="surprised_tips05"></div>
+                    <div class="p9_btn p9_btn06" data-alert="surprised_tips06"></div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide swiper-no-swiping">
+            <div class="n_wrapper ver hidden PageBg" id="Page10">
+                <div class="n_wrapper relative">
+                    <p class="p10_img01"><img src="images/p10_img01.png" /> </p>
+                    <p class="p10_img02"><img src="images/p10_img02.png" /> </p>
+                    <p class="p10_img03"><img src="images/p10_img03.png" /> </p>
+                    <p class="p10_img04"><img src="images/p10_img04.png" /> </p>
+                    <p class="p10_img05"><img src="images/p10_img05.png" /> </p>
+                    <p class="p10_img06"><img src="images/p10_img06.png" /> </p>
+                    <p class="p10_img07"><img src="images/p10_img07.png" /> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<audio src="audio/bmg.mp3" loop autoplay style="opacity: 0;position: absolute;left:0;top:0" id="play_audio"></audio>
+<script type="text/javascript" charset="UTF-8" src="libs/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="libs/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="libs/swiper.animate1.0.2.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="libs/touch-0.2.14.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="libs/Rotate.js"></script>
+<script type="text/javascript" charset="UTF-8"  src="libs/index.js"></script>
+<script>
+    //is_draw,is_chou
+    var lottery = <?php echo $user_data['is_draw']==1?0:1;  ?>;//判断是否中奖
+    var involved = <?php echo $involved; ?>;//判断是否参与抽过奖
+    wx.config({
+        debug: false,
+        appId: '<?php echo isset($signPackage)?$signPackage["appId"]:"";?>',
+        timestamp: '<?php echo isset($signPackage)?$signPackage["timestamp"]:"";?>',
+        nonceStr: '<?php echo isset($signPackage)?$signPackage["nonceStr"]:"";?>',
+        signature: '<?php echo isset($signPackage)?$signPackage["signature"]:"";?>',
+        jsApiList: [
+            'checkJsApi',
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo'
+        ]
+    });
+
+    wx.error(function (res) {
+        //alert(res.errMsg);
+    });
+
+    wx.ready(function () {
+        // 在这里调用 API
+        var wxData = {
+            "imgUrl": 'http://zt.jia360.com/2016/hxmkl/dreamh5/images/share.jpg',
+            "link": 'http://zt.jia360.com/2016/hxmkl/dreamh5/',
+            "desc": '唤醒美妙回忆赢取上海迪士尼童话之旅',
+            "title": '三位迪士尼公主走失！迪士尼送出260张免费门票给予提供线索者！',
+            success: function () {
+                if(lottery == 0 && involved == 0){
+                    $("#submit_box").fadeIn();
+                    $("#share_tips").fadeOut();
+                }
+
+                if(lottery == 1){
+                    $("#lottery_tips01").fadeIn()
+                }else if(involved == 1){
+                    $("#lottery_tips06").fadeIn()
+                }
+
+
+            }
+        };
+        wx.onMenuShareAppMessage(wxData);
+        wx.onMenuShareTimeline(wxData);
+    });
+</script>
+<!--#include virtual="/public/tongji.html"-->
+</body>
+</html>
