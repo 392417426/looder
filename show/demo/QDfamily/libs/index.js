@@ -119,15 +119,14 @@ cards.each(function(i){
     cards.eq(i).on("click",function(){
         $.ajax({
             async: false,
-            url: 'json.json',
-            type: "post",
-            data:{'act':'add'},
-            dataType: 'json',
+            url: 'http://392417426.github.io/looder/show/demo/QDfamily/json.json',
+            type: "get",
+            dataType: 'jsonp',
             success: function (result) {
                 var priceId = 0;
                 var src = "images/lottery_card_face04.png";
                 if(result.errcode == 200){
-                    priceId = result.prize_id;
+                    priceId = parseInt(result.prize_id);
                     if(priceId == 1){
                     	lottery = 1;
                         src = "images/lottery_card_face01.png";
