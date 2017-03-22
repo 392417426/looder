@@ -26,7 +26,7 @@
 
 }
 .swiper-slide{
-    background: url(../images/bg.png) center -108px no-repeat
+    background: url(../images/bg.png) center  no-repeat
 }
 
 .ms{position: fixed;top:19px;right:22px;z-index: 30;background:url(../images/ms1.png);height:50px;width:50px;}
@@ -182,13 +182,13 @@ input[name="address"]{margin-top: 57px;}
     100% {-webkit-transform:  rotateY(-180deg);z-index:10}
 }
 
-#Page2{background: url(../images/p2_bg.png) center -108px no-repeat}
+#Page2{background: #11142c url(../images/p2_bg.png) center  no-repeat}
 #Page2 .p2_logo{position: absolute;left:48px;top:98px}
 #Page2 .p2_logo2{position: absolute;left: 375px;top: 89px;}
 #Page2 .p2_img01{position: absolute;left:0px;top:182px}
 #Page2 .p2_img02{position: absolute;left:0px;top:606px}
 
-#Page3{background: url(../images/p3_bg.png) center -108px no-repeat}
+#Page3{background: url(../images/p3_bg.png) center  no-repeat}
 #Page3 .p3_img01{position: absolute;left:50%;margin-left: -232px;top:80px;}
 #Page3 .p3_img02{position: absolute;left:50%;margin-left: 31px;top: 265px;}
 #Page3 .p3_img03{position: absolute;left:50%;margin-left: -241px;top: 351px;}
