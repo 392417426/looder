@@ -24,7 +24,7 @@ const paths = {
         "js":"src/js/",
         "css":"src/css/",
         "image":"src/images/",
-        "html":"src/html",
+        "html":"src/html/",
         "less":"src/less/",
         "sass":"src/sass/"
     }
