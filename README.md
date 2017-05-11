@@ -8,20 +8,28 @@
 2. 不利于导航，前进、后台需要通过程序控制
 3. 首次加载会比较慢
 
-
-2、怎样将页面组件化?
-
-
-3、boostrap是什么？
+## 2、怎样将页面组件化?
 
 
-4、zepto是什么？
+## 3、boostrap是什么？
+* boostrap是一款偏向于移动设备的响应式ui框架。它通过媒体查询把页面进行栅格化，能够自适应于pc、平板电脑和手机。
+
+## 4、zeptojs是什么？
+* zeptojs是一款偏向于移动端、主要是针对webkit内核进行处理的js框架。
+它的语法跟jq类似，但它的体积要比jq要小很多，为移动设备提供了必要的触摸事件。
 
 
-5、gulp是什么？
 
+## 5、gulp是什么？
+* gulp是一个自动化构建项目流程的工具。
+gulp通过设置监听器，可以自动编译less等css预编译语言，压缩合并js、css、html等前端资源。
+#### 插件:
+1. js：gulp-jshint
+2. css：gulp-minify-css
+3. html：gulp-minify-html
+4. contat: gulp-concat
 
-6、webpack是什么？
+## 6、webpack是什么？
 
 
 7、less是什么?
