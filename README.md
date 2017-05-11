@@ -1,130 +1,129 @@
-ï»¿<article>
-    <section>
-        <h2>1ã€å¯¹å•é¡µé¢åº”ç”¨çš„äº†è§£</h2>
-        <p>ä¼˜ç‚¹ï¼š</p>
-        <p>1ã€ç”¨æˆ·ä¸éœ€è¦é‡æ–°åˆ·æ–°é¡µé¢ï¼Œé€šè¿‡ajaxèŽ·å–æ•°æ®ï¼Œæ¸²æŸ“é€Ÿåº¦å¾ˆå¿«ï¼Œç”¨æˆ·ä½“éªŒæ›´å¥½ã€‚</p>
-        <p></p>
-    </section>
-</article>
+## 1¡¢¶Ôµ¥Ò³ÃæÓ¦ÓÃµÄÁË½â
+#### ÓÅµã£º
+1. ÓÃ»§²»ÐèÒªÖØÐÂË¢ÐÂÒ³Ãæ£¬Í¨¹ýajax»ñÈ¡Êý¾Ý½øÐÐ¾Ö²¿äÖÈ¾£¬äÖÈ¾ËÙ¶ÈºÜ¿ì£¬ÓÃ»§ÌåÑé¸üºÃ¡£
+2. Ç°¶ËÓëºóÌ¨´úÂëÍêÈ«·ÖÀë£¬ÓÐÀûÓÚ·ÖÀëÇ°¶ËÓëºóÌ¨µÄ¹¤×÷£¬´úÂë¹ÜÀí¸ü¼Ó·½±ã
+3. ¼õÇá·þÎñÆ÷Ñ¹Á¦£¬·þÎñÆ÷²»ÓÃ¹ØÐÄÕ¹Ê¾Âß¼­ºÍÒ³ÃæºÏ³É
+#### È±µã£º
+1. ²»ÀûÓÚseo
+2. ²»ÀûÓÚµ¼º½£¬Ç°½ø¡¢ºóÌ¨ÐèÒªÍ¨¹ý³ÌÐò¿ØÖÆ
+3. Ê×´Î¼ÓÔØ»á±È½ÏÂý
 
 
+2¡¢ÔõÑù½«Ò³Ãæ×é¼þ»¯?
 
 
-2ã€æ€Žæ ·å°†é¡µé¢ç»„ä»¶åŒ–?
+3¡¢boostrapÊÇÊ²Ã´£¿
 
 
-3ã€boostrapæ˜¯ä»€ä¹ˆï¼Ÿ
+4¡¢zeptoÊÇÊ²Ã´£¿
 
 
-4ã€zeptoæ˜¯ä»€ä¹ˆï¼Ÿ
+5¡¢gulpÊÇÊ²Ã´£¿
 
 
-5ã€gulpæ˜¯ä»€ä¹ˆï¼Ÿ
+6¡¢webpackÊÇÊ²Ã´£¿
 
 
-6ã€webpackæ˜¯ä»€ä¹ˆï¼Ÿ
+7¡¢lessÊÇÊ²Ã´?
 
 
-7ã€lessæ˜¯ä»€ä¹ˆ?
+8¡¢h5ÓÐÊ²Ã´ÐÂµÄÌØÐÔ£¿
 
 
-8ã€h5æœ‰ä»€ä¹ˆæ–°çš„ç‰¹æ€§ï¼Ÿ
+9¡¢getÓëpostµÄÇø±ð£¿
 
 
-9ã€getä¸Žpostçš„åŒºåˆ«ï¼Ÿ
+10¡¢pc¿ª·¢¹ý³ÌÖÐÓÐÄÄÐ©¼æÈÝÐÔÎÊÌâ£¿ÈçºÎ½â¾ö£¿
 
 
-10ã€pcå¼€å‘è¿‡ç¨‹ä¸­æœ‰å“ªäº›å…¼å®¹æ€§é—®é¢˜ï¼Ÿå¦‚ä½•è§£å†³ï¼Ÿ
+11¡¢°²×¿ÓëiosÓÐÊ²Ã´¼æÈÝÐÔÎÊÌâ£¿
 
 
-11ã€å®‰å“ä¸Žiosæœ‰ä»€ä¹ˆå…¼å®¹æ€§é—®é¢˜ï¼Ÿ
+12¡¢vuejsÊÇÊ²Ã´£¿
 
 
-12ã€vuejsæ˜¯ä»€ä¹ˆï¼Ÿ
+13¡¢¶àÖÕ¶ËÉè±¸Òª¼æÈÝÄÄ¼¸ÖÖ·Ö±æÂÊ£¿
 
 
-13ã€å¤šç»ˆç«¯è®¾å¤‡è¦å…¼å®¹å“ªå‡ ç§åˆ†è¾¨çŽ‡ï¼Ÿ
+14¡¢Ó¦ÓÃ»º´æÊÇÊ²Ã´£¿
+Html5µÄÒ»¸öÖØÒªÌØÐÔ¾ÍÊÇÀëÏß´æ´¢£¬ËùÎ½µÄÀëÏß´æ´¢¾ÍÊÇ½«Ò»Ð©×ÊÔ´ÎÄ¼þ±£´æÔÚ±¾µØ£¬ÕâÑùºóÐøµÄÒ³ÃæÖØÐÂ¼ÓÔØ½«Ê¹ÓÃ±¾µØ×ÊÔ´ÎÄ¼þ£¬ÔÚÀëÏßÇé¿öÏÂ¿ÉÒÔ¼ÌÐø·ÃÎÊwebÓ¦ÓÃ£¬Í¬Ê±Í¨¹ýÒ»¶¨µÄÊÖ·¨£¨¸üÐÂÏà¹ØÎÄ¼þ»òÕßÊ¹ÓÃÏà¹ØAPI£©£¬¿ÉÒÔ¸üÐÂ¡¢É¾³ýÀëÏß´æ´¢µÈ²Ù×÷¡£
+Html5µÄÀëÏß´æ´¢Ê¹ÓÃÒ»¸ömanifestÎÄ¼þÀ´±êÃ÷ÄÄÐ©ÎÄ¼þÊÇÐèÒª±»´æ´¢µÄ£¬Ê¹ÓÃÈç
+À´ÒýÈëÒ»¸ömanifestÎÄ¼þ£¬Õâ¸öÎÄ¼þµÄÂ·¾¶¿ÉÒÔÊÇÏà¶ÔµÄ£¬Ò²¿ÉÒÔÊÇ¾ø¶ÔµÄ£¬Èç¹ûÄãµÄwebÓ¦ÓÃºÜ¶à£¬¶øÇÒÏ£ÍûÄÜ¼¯ÖÐ¹ÜÀímanifestÎÄ¼þ£¬ÄÇÃ´¾²Ì¬ÎÄ¼þ·þÎñÆ÷ÊÇ¸ö²»´íµÄÑ¡Ôñ¡£
+
+15¡¢localStorageÓësessionStorage cookieµÄÇø±ð?
 
 
-14ã€åº”ç”¨ç¼“å­˜æ˜¯ä»€ä¹ˆï¼Ÿ
-Html5çš„ä¸€ä¸ªé‡è¦ç‰¹æ€§å°±æ˜¯ç¦»çº¿å­˜å‚¨ï¼Œæ‰€è°“çš„ç¦»çº¿å­˜å‚¨å°±æ˜¯å°†ä¸€äº›èµ„æºæ–‡ä»¶ä¿å­˜åœ¨æœ¬åœ°ï¼Œè¿™æ ·åŽç»­çš„é¡µé¢é‡æ–°åŠ è½½å°†ä½¿ç”¨æœ¬åœ°èµ„æºæ–‡ä»¶ï¼Œåœ¨ç¦»çº¿æƒ…å†µä¸‹å¯ä»¥ç»§ç»­è®¿é—®webåº”ç”¨ï¼ŒåŒæ—¶é€šè¿‡ä¸€å®šçš„æ‰‹æ³•ï¼ˆæ›´æ–°ç›¸å…³æ–‡ä»¶æˆ–è€…ä½¿ç”¨ç›¸å…³APIï¼‰ï¼Œå¯ä»¥æ›´æ–°ã€åˆ é™¤ç¦»çº¿å­˜å‚¨ç­‰æ“ä½œã€‚
-Html5çš„ç¦»çº¿å­˜å‚¨ä½¿ç”¨ä¸€ä¸ªmanifestæ–‡ä»¶æ¥æ ‡æ˜Žå“ªäº›æ–‡ä»¶æ˜¯éœ€è¦è¢«å­˜å‚¨çš„ï¼Œä½¿ç”¨å¦‚
-æ¥å¼•å…¥ä¸€ä¸ªmanifestæ–‡ä»¶ï¼Œè¿™ä¸ªæ–‡ä»¶çš„è·¯å¾„å¯ä»¥æ˜¯ç›¸å¯¹çš„ï¼Œä¹Ÿå¯ä»¥æ˜¯ç»å¯¹çš„ï¼Œå¦‚æžœä½ çš„webåº”ç”¨å¾ˆå¤šï¼Œè€Œä¸”å¸Œæœ›èƒ½é›†ä¸­ç®¡ç†manifestæ–‡ä»¶ï¼Œé‚£ä¹ˆé™æ€æ–‡ä»¶æœåŠ¡å™¨æ˜¯ä¸ªä¸é”™çš„é€‰æ‹©ã€‚
-
-15ã€localStorageä¸ŽsessionStorage cookieçš„åŒºåˆ«?
+16¡¢ js¶ÔÏóÓÐÄÄÐ©£¿
 
 
-16ã€ jså¯¹è±¡æœ‰å“ªäº›ï¼Ÿ
+17¡¢Browser¶ÔÏóÓÐÄÄÐ©£¿
 
 
-17ã€Browserå¯¹è±¡æœ‰å“ªäº›ï¼Ÿ
+18¡¢Dom¶ÔÏóÓÐÄÄÐ©£¿
 
 
-18ã€Domå¯¹è±¡æœ‰å“ªäº›ï¼Ÿ
+19¡¢ÐÐÔªËØºÍ¿éÔªËØ·Ö±ðÓÐÄÄÐ©£¿ÓÐÊ²Ã´Çø±ð£¿
 
 
-19ã€è¡Œå…ƒç´ å’Œå—å…ƒç´ åˆ†åˆ«æœ‰å“ªäº›ï¼Ÿæœ‰ä»€ä¹ˆåŒºåˆ«ï¼Ÿ
+20¡¢link ºÍ@import µÄÇø±ðÊÇ£¿
 
 
-20ã€link å’Œ@import çš„åŒºåˆ«æ˜¯ï¼Ÿ
+21¡¢¶ÔhtmlÓïÒå»¯ÈçºÎÀí½â£¿
 
 
-21ã€å¯¹htmlè¯­ä¹‰åŒ–å¦‚ä½•ç†è§£ï¼Ÿ
+22¡¢remÊÇÊ²Ã´£¿ÔõÃ´Ê¹ÓÃ£¿
 
 
-22ã€remæ˜¯ä»€ä¹ˆï¼Ÿæ€Žä¹ˆä½¿ç”¨ï¼Ÿ
+23¡¢³£ÓÃä¯ÀÀÆ÷µÄÄÚºË·Ö±ðÊÇÊ²Ã´£¿
 
 
-23ã€å¸¸ç”¨æµè§ˆå™¨çš„å†…æ ¸åˆ†åˆ«æ˜¯ä»€ä¹ˆï¼Ÿ
+24¡¢CSSµÄºÐÄ£ÐÍ£¿
+
+25¡¢Ç°¶ËÒ³ÃæÓÐÄÄÈý²ã¹¹³É£¬·Ö±ðÊÇÊ²Ã´£¿×÷ÓÃÊÇÊ²Ã´£¿
+ÍøÒ³·Ö³ÉÈý¸ö²ã´Î£¬¼´£º½á¹¹²ã¡¢±íÊ¾²ã¡¢ÐÐÎª²ã¡£
+1¡¢ÍøÒ³µÄ½á¹¹²ã£¨structurallayer£©ÓÉHTML »òXHTML
+Ö®ÀàµÄ±ê¼ÇÓïÑÔ¸ºÔð´´½¨¡£±êÇ©£¬Ò²¾ÍÊÇÄÇÐ©³öÏÖÔÚ¼âÀ¨ºÅÀïµÄµ¥´Ê£¬¶ÔÍøÒ³ÄÚÈÝµÄÓïÒåº¬Òå×ö³öÕâÐ©±êÇ©²»°üº¬ÈÎºÎ¹ØÓÚÈçºÎÏÔÊ¾ÓÐ¹ØÄÚÈÝµÄÐÅÏ¢¡£ÀýÈç£¬P±êÇ©±í´ïÁËÕâÑùÒ»ÖÖÓïÒå£º"ÕâÊÇÒ»¸öÎÄ±¾¶Î¡£"
+2¡¢ÍøÒ³µÄ±íÊ¾²ã£¨presentationlayer£©ÓÉCSS ¸ºÔð´´½¨¡£CSS¶Ô"ÈçºÎÏÔÊ¾ÓÐ¹ØÄÚÈÝ"µÄÎÊÌâ×ö³öÁË»Ø´ð¡£
+3¡¢ÍøÒ³µÄÐÐÎª²ã£¨behaviorlayer£©¸ºÔð»Ø´ð"ÄÚÈÝÓ¦¸ÃÈçºÎ¶ÔÊÂ¼þ×ö³ö·´Ó¦"ÕâÒ»ÎÊÌâ¡£ÕâÊÇJavascript ÓïÑÔºÍDOM Ö÷Ô×µÄÁìÓò¡£
 
 
-24ã€CSSçš„ç›’æ¨¡åž‹ï¼Ÿ
+26¡¢htmlÖÐformÀïaction·½·¨µÄgetºÍpostÓÐÊ²Ã´Çø±ð£¿
+1¡¢GetÊÇÓÃÀ´´Ó·þÎñÆ÷ÉÏ»ñµÃÊý¾Ý£¬¶øPostÊÇÓÃÀ´Ïò·þÎñÆ÷ÉÏ´«µÝÊý¾Ý¡£
+2¡¢Get½«±íµ¥ÖÐÊý¾ÝµÄ°´ÕÕvariable=valueµÄÐÎÊ½£¬Ìí¼Óµ½actionËùÖ¸ÏòµÄURLºóÃæ£¬²¢ÇÒÁ½ÕßÊ¹ÓÃ"?"Á¬½Ó£¬¶ø¸÷¸ö±äÁ¿Ö®¼äÊ¹ÓÃ"&"Á¬½Ó¡£PostÊÇ½«±íµ¥ÖÐµÄÊý¾Ý·ÅÔÚformµÄÊý¾ÝÌåÖÐ£¬°´ÕÕ±äÁ¿ºÍÖµÏà¶ÔÓ¦µÄ·½Ê½£¬´«µÝµ½actionËùÖ¸ÏòURL¡£
+3¡¢GetÊÇ²»°²È«µÄ£¬ÒòÎªÔÚ´«Êä¹ý³Ì£¬Êý¾Ý±»·ÅÔÚÇëÇóµÄURLÖÐ£¬¶øÈç½ñÏÖÓÐµÄºÜ¶à·þÎñÆ÷¡¢´úÀí·þÎñÆ÷»òÕßÓÃ»§´úÀí¶¼»á½«ÇëÇóURL¼ÇÂ¼µ½ÈÕÖ¾ÎÄ¼þÖÐ£¬È»ºó·ÅÔÚÄ³¸öµØ·½£¬ÕâÑù¾Í¿ÉÄÜ»áÓÐÒ»Ð©ÒþË½µÄÐÅÏ¢±»µÚÈý·½¿´µ½¡£ÁíÍâ£¬ÓÃ»§Ò²¿ÉÒÔÔÚä¯ÀÀÆ÷ÉÏÖ±½Ó¿´µ½Ìá½»µÄÊý¾Ý£¬Ò»Ð©ÏµÍ³ÄÚ²¿ÏûÏ¢½«»áÒ»Í¬ÏÔÊ¾ÔÚÓÃ»§ÃæÇ°¡£PostµÄËùÓÐ²Ù×÷¶ÔÓÃ»§À´Ëµ¶¼ÊÇ²»¿É¼ûµÄ¡£
+4¡¢Get´«ÊäµÄÊý¾ÝÁ¿Ð¡£¬ÕâÖ÷ÒªÊÇÒòÎªÊÜURL³¤¶ÈÏÞÖÆ¡£¶øPost¿ÉÒÔ´«Êä´óÁ¿µÄÊý¾Ý£¬ËùÒÔÔÚÉÏ´«ÎÄ¼þÖ»ÄÜÊ¹ÓÃPost£¨µ±È»»¹ÓÐÒ»¸öÔ­Òò£¬½«ÔÚºóÃæµÄÌáµ½£©¡£
+5¡¢GetÏÞÖÆForm±íµ¥µÄÊý¾Ý¼¯µÄÖµ±ØÐëÎªASCII×Ö·û¡£¶øPostÖ§³ÖÕû¸öISO10646×Ö·û¼¯¡£
+6¡¢GetÊÇFormµÄÄ¬ÈÏ·½·¨¡£
 
-25ã€å‰ç«¯é¡µé¢æœ‰å“ªä¸‰å±‚æž„æˆï¼Œåˆ†åˆ«æ˜¯ä»€ä¹ˆï¼Ÿä½œç”¨æ˜¯ä»€ä¹ˆï¼Ÿ
-ç½‘é¡µåˆ†æˆä¸‰ä¸ªå±‚æ¬¡ï¼Œå³ï¼šç»“æž„å±‚ã€è¡¨ç¤ºå±‚ã€è¡Œä¸ºå±‚ã€‚
-1ã€ç½‘é¡µçš„ç»“æž„å±‚ï¼ˆstructurallayerï¼‰ç”±HTML æˆ–XHTML
-ä¹‹ç±»çš„æ ‡è®°è¯­è¨€è´Ÿè´£åˆ›å»ºã€‚æ ‡ç­¾ï¼Œä¹Ÿå°±æ˜¯é‚£äº›å‡ºçŽ°åœ¨å°–æ‹¬å·é‡Œçš„å•è¯ï¼Œå¯¹ç½‘é¡µå†…å®¹çš„è¯­ä¹‰å«ä¹‰åšå‡ºè¿™äº›æ ‡ç­¾ä¸åŒ…å«ä»»ä½•å…³äºŽå¦‚ä½•æ˜¾ç¤ºæœ‰å…³å†…å®¹çš„ä¿¡æ¯ã€‚ä¾‹å¦‚ï¼ŒPæ ‡ç­¾è¡¨è¾¾äº†è¿™æ ·ä¸€ç§è¯­ä¹‰ï¼š"è¿™æ˜¯ä¸€ä¸ªæ–‡æœ¬æ®µã€‚"
-2ã€ç½‘é¡µçš„è¡¨ç¤ºå±‚ï¼ˆpresentationlayerï¼‰ç”±CSS è´Ÿè´£åˆ›å»ºã€‚CSSå¯¹"å¦‚ä½•æ˜¾ç¤ºæœ‰å…³å†…å®¹"çš„é—®é¢˜åšå‡ºäº†å›žç­”ã€‚
-3ã€ç½‘é¡µçš„è¡Œä¸ºå±‚ï¼ˆbehaviorlayerï¼‰è´Ÿè´£å›žç­”"å†…å®¹åº”è¯¥å¦‚ä½•å¯¹äº‹ä»¶åšå‡ºååº”"è¿™ä¸€é—®é¢˜ã€‚è¿™æ˜¯Javascript è¯­è¨€å’ŒDOM ä¸»å®°çš„é¢†åŸŸã€‚
+27¡¢htmlÔªËØµÄid¸úclassÊ²Ã´Çø±ð
+idºÍclassÊÇÍøÒ³ÖÐÁ½¸öÍ¨ÓÃÊôÐÔ£¬ËûÃÇÐ­Í¬¹¤×÷Ê¹Õû¸öÒ³Ãæ·á¸»¶à²Ê£¬µ±ÎÒÃÇÎªÒ»¸öÔªËØ¶¨ÒåÑùÊ½Ê±£¬¶þÕß¶¼¿ÉÓÃ£¬µ«ÓÐÇø±ð£¿
+1¡¢ÔÚcssÑùÊ½±íÖÐÊéÐ´Ê±£¬idÑ¡Ôñ·ûÇ°×ºÓ¦¼Ó"#"£¬classÑ¡Ôñ·ûÇ°×ºÓ¦¼Ó"."
+2¡¢idÊôÐÔÔÚÒ»¸öÒ³ÃæÖÐÊéÐ´Ê±Ö»ÄÜÊ¹ÓÃÒ»´Î£¬¶øclass¿ÉÒÔ·´¸´Ê¹ÓÃ
+3¡¢id×÷ÎªÔªËØ±êÇ©ÓÃÓÚÇø·Ö²»Í¬½á¹¹ºÍÄÚÈÝ£¬¶øclass×÷ÎªÒ»¸öÑùÊ½£¬¿ÉÒÔÓ¦ÓÃµ½ÈÎºÎ½á¹¹ºÍÄÚÈÝµ±ÖÐÈ¥
+4¡¢²¼¾ÖÉÏµÄÒ»°ãÔ­Ôò£ºidÏÈÈ·¶¨½á¹¹ºÍÄÚÈÝÔÙÎªËü¶¨ÒåÑùÊ½¡£¶øclassÕýºÃÏà·´£¬ÊÇÏÈ¶¨ÒåÑùÊ½£¬È»ºóÔÚÒ³ÃæÖÐ¸ù¾Ý²»Í¬ÐèÇó°ÑÑùÊ½Ó¦ÓÃµ½²»Í¬½á¹¹ºÍÄÚÈÝÉÏ
+5¡¢Ä¿Ç°ä¯ÀÀÆ÷¶¼ÔÊÐíÍ¬Ò»¸öÒ³Ãæ³öÏÖ¶à¸öÏàÍ¬ÊôÐÔÖµµÄid£¬Ò»°ãÇé¿öÄÜÕý³£ÏÔÊ¾£¬²»¹ýµ±javascriptÍ¨¹ýidÀ´¿ØÖÆÔªËØÊ±¾Í»á³ö´í
+6¡¢ÔÚÊµ¼ÊÓ¦ÓÃÖÐ£¬class³£±»ÓÃµ½ÎÄ×Ö°æ¿éºÍÒ³ÃæÐÞÊÎÉÏ£¬¶øid¶à±»ÓÃÔÚºêÎ°²¼¾ÖºÍÉè¼Æ°üº¬¿é£¬»ò°üº¬¿òµÄÑùÊ½¡£
 
-
-26ã€htmlä¸­formé‡Œactionæ–¹æ³•çš„getå’Œpostæœ‰ä»€ä¹ˆåŒºåˆ«ï¼Ÿ
-1ã€Getæ˜¯ç”¨æ¥ä»ŽæœåŠ¡å™¨ä¸ŠèŽ·å¾—æ•°æ®ï¼Œè€ŒPostæ˜¯ç”¨æ¥å‘æœåŠ¡å™¨ä¸Šä¼ é€’æ•°æ®ã€‚
-2ã€Getå°†è¡¨å•ä¸­æ•°æ®çš„æŒ‰ç…§variable=valueçš„å½¢å¼ï¼Œæ·»åŠ åˆ°actionæ‰€æŒ‡å‘çš„URLåŽé¢ï¼Œå¹¶ä¸”ä¸¤è€…ä½¿ç”¨"?"è¿žæŽ¥ï¼Œè€Œå„ä¸ªå˜é‡ä¹‹é—´ä½¿ç”¨"&"è¿žæŽ¥ã€‚Postæ˜¯å°†è¡¨å•ä¸­çš„æ•°æ®æ”¾åœ¨formçš„æ•°æ®ä½“ä¸­ï¼ŒæŒ‰ç…§å˜é‡å’Œå€¼ç›¸å¯¹åº”çš„æ–¹å¼ï¼Œä¼ é€’åˆ°actionæ‰€æŒ‡å‘URLã€‚
-3ã€Getæ˜¯ä¸å®‰å…¨çš„ï¼Œå› ä¸ºåœ¨ä¼ è¾“è¿‡ç¨‹ï¼Œæ•°æ®è¢«æ”¾åœ¨è¯·æ±‚çš„URLä¸­ï¼Œè€Œå¦‚ä»ŠçŽ°æœ‰çš„å¾ˆå¤šæœåŠ¡å™¨ã€ä»£ç†æœåŠ¡å™¨æˆ–è€…ç”¨æˆ·ä»£ç†éƒ½ä¼šå°†è¯·æ±‚URLè®°å½•åˆ°æ—¥å¿—æ–‡ä»¶ä¸­ï¼Œç„¶åŽæ”¾åœ¨æŸä¸ªåœ°æ–¹ï¼Œè¿™æ ·å°±å¯èƒ½ä¼šæœ‰ä¸€äº›éšç§çš„ä¿¡æ¯è¢«ç¬¬ä¸‰æ–¹çœ‹åˆ°ã€‚å¦å¤–ï¼Œç”¨æˆ·ä¹Ÿå¯ä»¥åœ¨æµè§ˆå™¨ä¸Šç›´æŽ¥çœ‹åˆ°æäº¤çš„æ•°æ®ï¼Œä¸€äº›ç³»ç»Ÿå†…éƒ¨æ¶ˆæ¯å°†ä¼šä¸€åŒæ˜¾ç¤ºåœ¨ç”¨æˆ·é¢å‰ã€‚Postçš„æ‰€æœ‰æ“ä½œå¯¹ç”¨æˆ·æ¥è¯´éƒ½æ˜¯ä¸å¯è§çš„ã€‚
-4ã€Getä¼ è¾“çš„æ•°æ®é‡å°ï¼Œè¿™ä¸»è¦æ˜¯å› ä¸ºå—URLé•¿åº¦é™åˆ¶ã€‚è€ŒPostå¯ä»¥ä¼ è¾“å¤§é‡çš„æ•°æ®ï¼Œæ‰€ä»¥åœ¨ä¸Šä¼ æ–‡ä»¶åªèƒ½ä½¿ç”¨Postï¼ˆå½“ç„¶è¿˜æœ‰ä¸€ä¸ªåŽŸå› ï¼Œå°†åœ¨åŽé¢çš„æåˆ°ï¼‰ã€‚
-5ã€Geté™åˆ¶Formè¡¨å•çš„æ•°æ®é›†çš„å€¼å¿…é¡»ä¸ºASCIIå­—ç¬¦ã€‚è€ŒPostæ”¯æŒæ•´ä¸ªISO10646å­—ç¬¦é›†ã€‚
-6ã€Getæ˜¯Formçš„é»˜è®¤æ–¹æ³•ã€‚
-
-27ã€htmlå…ƒç´ çš„idè·Ÿclassä»€ä¹ˆåŒºåˆ«
-idå’Œclassæ˜¯ç½‘é¡µä¸­ä¸¤ä¸ªé€šç”¨å±žæ€§ï¼Œä»–ä»¬ååŒå·¥ä½œä½¿æ•´ä¸ªé¡µé¢ä¸°å¯Œå¤šå½©ï¼Œå½“æˆ‘ä»¬ä¸ºä¸€ä¸ªå…ƒç´ å®šä¹‰æ ·å¼æ—¶ï¼ŒäºŒè€…éƒ½å¯ç”¨ï¼Œä½†æœ‰åŒºåˆ«ï¼Ÿ
-1ã€åœ¨cssæ ·å¼è¡¨ä¸­ä¹¦å†™æ—¶ï¼Œidé€‰æ‹©ç¬¦å‰ç¼€åº”åŠ "#"ï¼Œclassé€‰æ‹©ç¬¦å‰ç¼€åº”åŠ "."
-2ã€idå±žæ€§åœ¨ä¸€ä¸ªé¡µé¢ä¸­ä¹¦å†™æ—¶åªèƒ½ä½¿ç”¨ä¸€æ¬¡ï¼Œè€Œclasså¯ä»¥åå¤ä½¿ç”¨
-3ã€idä½œä¸ºå…ƒç´ æ ‡ç­¾ç”¨äºŽåŒºåˆ†ä¸åŒç»“æž„å’Œå†…å®¹ï¼Œè€Œclassä½œä¸ºä¸€ä¸ªæ ·å¼ï¼Œå¯ä»¥åº”ç”¨åˆ°ä»»ä½•ç»“æž„å’Œå†…å®¹å½“ä¸­åŽ»
-4ã€å¸ƒå±€ä¸Šçš„ä¸€èˆ¬åŽŸåˆ™ï¼šidå…ˆç¡®å®šç»“æž„å’Œå†…å®¹å†ä¸ºå®ƒå®šä¹‰æ ·å¼ã€‚è€Œclassæ­£å¥½ç›¸åï¼Œæ˜¯å…ˆå®šä¹‰æ ·å¼ï¼Œç„¶åŽåœ¨é¡µé¢ä¸­æ ¹æ®ä¸åŒéœ€æ±‚æŠŠæ ·å¼åº”ç”¨åˆ°ä¸åŒç»“æž„å’Œå†…å®¹ä¸Š
-5ã€ç›®å‰æµè§ˆå™¨éƒ½å…è®¸åŒä¸€ä¸ªé¡µé¢å‡ºçŽ°å¤šä¸ªç›¸åŒå±žæ€§å€¼çš„idï¼Œä¸€èˆ¬æƒ…å†µèƒ½æ­£å¸¸æ˜¾ç¤ºï¼Œä¸è¿‡å½“javascripté€šè¿‡idæ¥æŽ§åˆ¶å…ƒç´ æ—¶å°±ä¼šå‡ºé”™
-6ã€åœ¨å®žé™…åº”ç”¨ä¸­ï¼Œclasså¸¸è¢«ç”¨åˆ°æ–‡å­—ç‰ˆå—å’Œé¡µé¢ä¿®é¥°ä¸Šï¼Œè€Œidå¤šè¢«ç”¨åœ¨å®ä¼Ÿå¸ƒå±€å’Œè®¾è®¡åŒ…å«å—ï¼Œæˆ–åŒ…å«æ¡†çš„æ ·å¼ã€‚
-
-27ã€Ajaxæ˜¯ä»€ä¹ˆï¼Ÿ
-Ajaxä¸æ˜¯ä¸€ä¸ªæŠ€æœ¯ï¼Œå®ƒå®žé™…ä¸Šæ˜¯å‡ ç§æŠ€æœ¯ï¼Œæ¯ç§æŠ€æœ¯éƒ½æœ‰å…¶ç‹¬ç‰¹è¿™å¤„ï¼Œåˆåœ¨ä¸€èµ·å°±æˆäº†ä¸€ä¸ªåŠŸèƒ½å¼ºå¤§çš„æ–°æŠ€æœ¯ã€‚AjaxåŒ…æ‹¬ï¼š
-1ã€XHTMLå’ŒCSS
-2ã€ä½¿ç”¨æ–‡æ¡£å¯¹è±¡æ¨¡åž‹(Document Object Model)ä½œåŠ¨æ€æ˜¾ç¤ºå’Œäº¤äº’
-3ã€ä½¿ç”¨XMLå’ŒXSLTåšæ•°æ®äº¤äº’å’Œæ“ä½œ
-4ã€ä½¿ç”¨XMLHttpRequestè¿›è¡Œå¼‚æ­¥æ•°æ®æŽ¥æ”¶
-5ã€ä½¿ç”¨JavaScriptå°†å®ƒä»¬ç»‘å®šåœ¨ä¸€èµ·
+27¡¢AjaxÊÇÊ²Ã´£¿
+Ajax²»ÊÇÒ»¸ö¼¼Êõ£¬ËüÊµ¼ÊÉÏÊÇ¼¸ÖÖ¼¼Êõ£¬Ã¿ÖÖ¼¼Êõ¶¼ÓÐÆä¶ÀÌØÕâ´¦£¬ºÏÔÚÒ»Æð¾Í³ÉÁËÒ»¸ö¹¦ÄÜÇ¿´óµÄÐÂ¼¼Êõ¡£Ajax°üÀ¨£º
+1¡¢XHTMLºÍCSS
+2¡¢Ê¹ÓÃÎÄµµ¶ÔÏóÄ£ÐÍ(Document Object Model)×÷¶¯Ì¬ÏÔÊ¾ºÍ½»»¥
+3¡¢Ê¹ÓÃXMLºÍXSLT×öÊý¾Ý½»»¥ºÍ²Ù×÷
+4¡¢Ê¹ÓÃXMLHttpRequest½øÐÐÒì²½Êý¾Ý½ÓÊÕ
+5¡¢Ê¹ÓÃJavaScript½«ËüÃÇ°ó¶¨ÔÚÒ»Æð
 
 
-28ã€CSS display:noneå’Œvisibility:hiddençš„åŒºåˆ«
-visibility:hiddenéšè—ï¼Œä½†åœ¨æµè§ˆæ—¶ä¿ç•™ä½ç½®
-display:noneè§†ä¸ºä¸å­˜åœ¨ï¼Œä¸”ä¸åŠ è½½
+28¡¢CSS display:noneºÍvisibility:hiddenµÄÇø±ð
+visibility:hiddenÒþ²Ø£¬µ«ÔÚä¯ÀÀÊ±±£ÁôÎ»ÖÃ
+display:noneÊÓÎª²»´æÔÚ£¬ÇÒ²»¼ÓÔØ
 
-29ã€nullå’Œundefinedçš„åŒºåˆ«ï¼Ÿ
-
-
-30ã€JSON çš„äº†è§£ï¼Ÿ
+29¡¢nullºÍundefinedµÄÇø±ð£¿
 
 
-31ã€nodejsæ˜¯ä»€ä¹ˆï¼Ÿ
+30¡¢JSON µÄÁË½â£¿
 
 
-32ã€HTTPçŠ¶æ€ç æœ‰å“ªäº›ï¼Ÿ
+31¡¢nodejsÊÇÊ²Ã´£¿
+
+
+32¡¢HTTP×´Ì¬ÂëÓÐÄÄÐ©£¿
