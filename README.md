@@ -30,7 +30,7 @@ gulp通过设置监听器，可以自动编译less等css预编译语言，压缩合并js、css、html等前端
 4. contat: gulp-concat
 
 ## 6、webpack是什么？
-
+* webpack是一个前端资源打包工具。可以通过配置loader来对css、js、image、字体、模板等资源进行打包
 
 7、less是什么?
 
