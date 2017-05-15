@@ -60,6 +60,7 @@ Html5的离线存储使用一个manifest文件来标明哪些文件是需要被存储的，使用如
 来引入一个manifest文件，这个文件的路径可以是相对的，也可以是绝对的，如果你的web应用很多，而且希望能集中管理manifest文件，那么静态文件服务器是个不错的选择。
 
 ## 15、localStorage与sessionStorage cookie的区别?
+*
 
 
 ## 16、 js对象有哪些？
@@ -141,7 +142,7 @@ Ajax不是一个技术，它实际上是几种技术，每种技术都有其独特这处，合在一起就成了一个
 
 
 ## 28、CSS display:none和visibility:hidden的区别
-visibility:hidden隐藏，但在浏览时保留位置
+* visibility:hidden隐藏，但在浏览时保留位置
 display:none视为不存在，且不加载
 
 ## 29、null和undefined的区别？
@@ -149,7 +150,7 @@ display:none视为不存在，且不加载
 不存在的对象的占位符，而undefinded的类型是undefined
 
 ## 30、JSON 的了解？
-json是一种轻量级的数据交换格式。它是以键值对保存js对象，它的本质是一个字符串。
+* json是一种轻量级的数据交换格式。它是以键值对保存js对象，它的本质是一个字符串。
 JSON.parse(）将字符串转换成js对象
 JSON.stringify() 将js对象转化成字符串
 
