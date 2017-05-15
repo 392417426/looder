@@ -18,11 +18,9 @@
 * zeptojsÊÇÒ»¿îÆ«ÏòÓÚÒÆ¶¯¶Ë¡¢Ö÷ÒªÊÇÕë¶ÔwebkitÄÚºË½øÐÐ´¦ÀíµÄjs¿ò¼Ü¡£
 ËüµÄÓï·¨¸újqÀàËÆ£¬µ«ËüµÄÌå»ýÒª±ÈjqÒªÐ¡ºÜ¶à£¬ÎªÒÆ¶¯Éè±¸Ìá¹©ÁË±ØÒªµÄ´¥ÃþÊÂ¼þ¡£
 
-
-
 ## 5¡¢gulpÊÇÊ²Ã´£¿
 * gulpÊÇÒ»¸ö×Ô¶¯»¯¹¹½¨ÏîÄ¿Á÷³ÌµÄ¹¤¾ß¡£
-gulpÍ¨¹ýÉèÖÃ¼àÌýÆ÷£¬¿ÉÒÔ×Ô¶¯±àÒëlessµÈcssÔ¤±àÒëÓïÑÔ£¬Ñ¹ËõºÏ²¢js¡¢css¡¢htmlµÈÇ°¶Ë×ÊÔ´¡£
+gulpÍ¨¹ýÉèÖÃ¼àÌýÆ÷£¬¿ÉÒÔ×Ô¶¯±àÒëlessµÈcssÔ¤±àÒëÓïÑÔ£¬¿ÉÒÔ¶Ôjs¡¢css¡¢htmlµÈÎÄ¼þ½øÐÐÑ¹ËõºÏ²¢µÈ´¦Àí¡£
 #### ²å¼þ:
 1. js£ºgulp-jshint
 2. css£ºgulp-minify-css
@@ -30,72 +28,93 @@ gulpÍ¨¹ýÉèÖÃ¼àÌýÆ÷£¬¿ÉÒÔ×Ô¶¯±àÒëlessµÈcssÔ¤±àÒëÓïÑÔ£¬Ñ¹ËõºÏ²¢js¡¢css¡¢htmlµÈÇ°¶Ë
 4. contat: gulp-concat
 
 ## 6¡¢webpackÊÇÊ²Ã´£¿
-* webpackÊÇÒ»¸öÇ°¶Ë×ÊÔ´´ò°ü¹¤¾ß¡£¿ÉÒÔÍ¨¹ýÅäÖÃloaderÀ´¶Ôcss¡¢js¡¢image¡¢×ÖÌå¡¢Ä£°åµÈ×ÊÔ´½øÐÐ´ò°ü
+* webpackÊÇÒ»¸öÄ£¿é´ò°ü¹¤¾ß¡£ËüÄÜ°Ñjs¡¢css¡¢Í¼Æ¬¡¢×ÖÌåµÈ×÷ÎªÄ£¿é½øÐÐÊ¹ÓÃºÍ´¦Àí¡£
+Ê×ÏÈÍ¨¹ýnodejs°²×°²å¼þ£¬È»ºóÔÚÅäÖÃÎÄ¼þÀïÃæÅäÖÃloader
 
-7¡¢lessÊÇÊ²Ã´?
+## 7¡¢lessÊÇÊ²Ã´?
+* lessÊÇÒ»ÃÅcssÔ¤´¦ÀíÓïÑÔ£¬ËüÄÜ¹»½«css½á¹¹»¯£¬Ìá¹©±äÁ¿¡¢»ìºÏÒÔ¼°º¯ÊýµÈ¹¦ÄÜ£¬ÈÃcss´úÂë¸üÈÝÒ×Î¬»¤¡£
 
-
-8¡¢h5ÓÐÊ²Ã´ÐÂµÄÌØÐÔ£¿
-
-
-9¡¢getÓëpostµÄÇø±ð£¿
+## 8¡¢h5ÓÐÊ²Ã´ÐÂµÄÌØÐÔ£¿
 
 
-10¡¢pc¿ª·¢¹ý³ÌÖÐÓÐÄÄÐ©¼æÈÝÐÔÎÊÌâ£¿ÈçºÎ½â¾ö£¿
+## 9¡¢getÓëpostµÄÇø±ð£¿
+* getÍ¨¹ýurl´«µÝÊý¾Ý£¬Êý¾ÝÁ¿Ò»°ã²»³¬¹ý1kb£¬¶øpostÊÇ×÷ÎªhttpÏûÏ¢µÄÊµÌåÄÚÈÝ´«ËÍµ½·þÎñÆ÷ÉÏ¡£
+getÊÇ°²È«ÐÔ±È½ÏµÍ£¬post°²È«ÐÔ±È½Ï¸ß
+getÎªÁË·ÀÖ¹ÂÒÂëÐèÒª¶ÔÊý¾Ý½øÐÐencodeURIComponent±àÂë
+
+## 10¡¢pc¿ª·¢¹ý³ÌÖÐÓÐÄÄÐ©¼æÈÝÐÔÎÊÌâ£¿ÈçºÎ½â¾ö£¿
 
 
-11¡¢°²×¿ÓëiosÓÐÊ²Ã´¼æÈÝÐÔÎÊÌâ£¿
+## 11¡¢°²×¿ÓëiosÓÐÊ²Ã´¼æÈÝÐÔÎÊÌâ£¿
 
 
-12¡¢vuejsÊÇÊ²Ã´£¿
+## 12¡¢vuejsÊÇÊ²Ã´£¿
 
 
-13¡¢¶àÖÕ¶ËÉè±¸Òª¼æÈÝÄÄ¼¸ÖÖ·Ö±æÂÊ£¿
+## 13¡¢¶àÖÕ¶ËÉè±¸Òª¼æÈÝÄÄ¼¸ÖÖ·Ö±æÂÊ£¿
 
 
-14¡¢Ó¦ÓÃ»º´æÊÇÊ²Ã´£¿
+## 14¡¢Ó¦ÓÃ»º´æÊÇÊ²Ã´£¿
 Html5µÄÒ»¸öÖØÒªÌØÐÔ¾ÍÊÇÀëÏß´æ´¢£¬ËùÎ½µÄÀëÏß´æ´¢¾ÍÊÇ½«Ò»Ð©×ÊÔ´ÎÄ¼þ±£´æÔÚ±¾µØ£¬ÕâÑùºóÐøµÄÒ³ÃæÖØÐÂ¼ÓÔØ½«Ê¹ÓÃ±¾µØ×ÊÔ´ÎÄ¼þ£¬ÔÚÀëÏßÇé¿öÏÂ¿ÉÒÔ¼ÌÐø·ÃÎÊwebÓ¦ÓÃ£¬Í¬Ê±Í¨¹ýÒ»¶¨µÄÊÖ·¨£¨¸üÐÂÏà¹ØÎÄ¼þ»òÕßÊ¹ÓÃÏà¹ØAPI£©£¬¿ÉÒÔ¸üÐÂ¡¢É¾³ýÀëÏß´æ´¢µÈ²Ù×÷¡£
 Html5µÄÀëÏß´æ´¢Ê¹ÓÃÒ»¸ömanifestÎÄ¼þÀ´±êÃ÷ÄÄÐ©ÎÄ¼þÊÇÐèÒª±»´æ´¢µÄ£¬Ê¹ÓÃÈç
 À´ÒýÈëÒ»¸ömanifestÎÄ¼þ£¬Õâ¸öÎÄ¼þµÄÂ·¾¶¿ÉÒÔÊÇÏà¶ÔµÄ£¬Ò²¿ÉÒÔÊÇ¾ø¶ÔµÄ£¬Èç¹ûÄãµÄwebÓ¦ÓÃºÜ¶à£¬¶øÇÒÏ£ÍûÄÜ¼¯ÖÐ¹ÜÀímanifestÎÄ¼þ£¬ÄÇÃ´¾²Ì¬ÎÄ¼þ·þÎñÆ÷ÊÇ¸ö²»´íµÄÑ¡Ôñ¡£
 
-15¡¢localStorageÓësessionStorage cookieµÄÇø±ð?
+## 15¡¢localStorageÓësessionStorage cookieµÄÇø±ð?
 
 
-16¡¢ js¶ÔÏóÓÐÄÄÐ©£¿
+## 16¡¢ js¶ÔÏóÓÐÄÄÐ©£¿
+* Object¡¢Function¡¢Array¡¢String¡¢ Boolean¡¢Number¡¢Date¡¢RegExp¡¢Error¡¢EvalError¡¢RangeError¡¢ReferenceError
+¡¢SyntaxError¡¢TypeError¡¢URIError
+
+## 17¡¢Browser¶ÔÏóÓÐÄÄÐ©£¿
+* Window:±íÊ¾ä¯ÀÀÆ÷´ò¿ªµÄ´°¿Ú<br />
+Navigator£º±íÊ¾°üº¬ÓÐ¹Øä¯ÀÀÆ÷µÄÐÅÏ¢ <br />
+Screen£º°üº¬ÓÐ¹Ø¿Í»§¶ËÏÔÊ¾ÆÁÄ»µÄÐÅÏ¢ <br />
+History£ºä¯ÀÀÆ÷ÀúÊ·¼ÍÂ¼<br />
+Location£º°üº¬µ±Ç°urlµÄÐÅÏ¢<br />
+window ·½·¨£ºalert¡¢open¡¢close<br />
+history ·½·¨£ºback¡¢forwards¡¢go<br />
+location ·½·¨£ºassign¡¢replace¡¢reload
+
+## 18¡¢Dom¶ÔÏóÓÐÄÄÐ©£¿
+* document£ºÃ¿¸öÔØÈëä¯ÀÀÆ÷µÄhtmlÎÄµµ¶¼»á³ÉÎªdocument¶ÔÏó<br />
+element£ºhtmlÔªËØ<br />
+Attribute£ºhtmlÊôÐÔ<br />
+Event:´ú±íÊÂ¼þµÄ×´Ì¬
+
+## 19¡¢ÐÐÔªËØºÍ¿éÔªËØ·Ö±ðÓÐÄÄÐ©£¿ÓÐÊ²Ã´Çø±ð£¿
+ÐÐÔªËØ£º a¡¢span¡¢label¡¢i¡¢b¡¢input¡¢select¡¢code¡¢img <br />
+¿éÔªËØ£ºdiv¡¢p¡¢address¡¢dl¡¢dd¡¢dt¡¢from¡¢h1¡¢h2¡¢ol¡¢ul¡¢li¡¢td¡¢tr¡¢th¡¢table<br />
+#### Çø±ð£º
+1. ¿éÔªËØ¿ÉÒÔ°üº¬ÐÐÔªËØ£¬¶øÐÐÔªËØ²»ÄÜ°üº¬¿éÔªËØ£»
+2. ÐÐÄÚÔªËØÉèÖÃwidthÎÞÐ§£¬heightÎÞÐ§(¿ÉÒÔÉèÖÃline-height)£¬marginÉÏÏÂÎÞÐ§£¬paddingÉÏÏÂÎÞÐ§
+3¡¢ÐÐÔªËØ»áÔÚÍ¬Ò»ÐÐË®Æ½ÅÅÁÐ
+4¡¢ÐÐÔªËØ»á¸÷Õ¼¾ÝÒ»ÐÐ£¬´¹Ö±·½ÏòÅÅÁÐ
+
+## 20¡¢link ºÍ@import µÄÇø±ðÊÇ£¿
+1. linkÒýÓÃCSSÊ±£¬ÔÚÒ³ÃæÔØÈëÊ±Í¬Ê±¼ÓÔØ£»@importÐèÒªÒ³ÃæÍêÈ«ÔØÈëÒÔºó¼ÓÔØ¡£
+2. ink¿ÉÒÔÍ¨¹ýjs¸Ä±äÑùÊ½£»¶ø@import²»Ö§³Ö¡£
+
+## 21¡¢¶ÔhtmlÓïÒå»¯ÈçºÎÀí½â£¿
 
 
-17¡¢Browser¶ÔÏóÓÐÄÄÐ©£¿
+## 22¡¢remÊÇÊ²Ã´£¿ÔõÃ´Ê¹ÓÃ£¿
 
 
-18¡¢Dom¶ÔÏóÓÐÄÄÐ©£¿
+## 23¡¢³£ÓÃä¯ÀÀÆ÷µÄÄÚºË·Ö±ðÊÇÊ²Ã´£¿
 
 
-19¡¢ÐÐÔªËØºÍ¿éÔªËØ·Ö±ðÓÐÄÄÐ©£¿ÓÐÊ²Ã´Çø±ð£¿
+## 24¡¢CSSµÄºÐÄ£ÐÍ£¿
+* ÄÚÈÝ(content)¡¢Ìî³ä(padding)¡¢±ß¿ò(border)¡¢±ß½ç(margin)
 
-
-20¡¢link ºÍ@import µÄÇø±ðÊÇ£¿
-
-
-21¡¢¶ÔhtmlÓïÒå»¯ÈçºÎÀí½â£¿
-
-
-22¡¢remÊÇÊ²Ã´£¿ÔõÃ´Ê¹ÓÃ£¿
-
-
-23¡¢³£ÓÃä¯ÀÀÆ÷µÄÄÚºË·Ö±ðÊÇÊ²Ã´£¿
-
-
-24¡¢CSSµÄºÐÄ£ÐÍ£¿
-
-25¡¢Ç°¶ËÒ³ÃæÓÐÄÄÈý²ã¹¹³É£¬·Ö±ðÊÇÊ²Ã´£¿×÷ÓÃÊÇÊ²Ã´£¿
+## 25¡¢Ç°¶ËÒ³ÃæÓÐÄÄÈý²ã¹¹³É£¬·Ö±ðÊÇÊ²Ã´£¿×÷ÓÃÊÇÊ²Ã´£¿
 ÍøÒ³·Ö³ÉÈý¸ö²ã´Î£¬¼´£º½á¹¹²ã¡¢±íÊ¾²ã¡¢ÐÐÎª²ã¡£
 1¡¢ÍøÒ³µÄ½á¹¹²ã£¨structurallayer£©ÓÉHTML »òXHTML
 Ö®ÀàµÄ±ê¼ÇÓïÑÔ¸ºÔð´´½¨¡£±êÇ©£¬Ò²¾ÍÊÇÄÇÐ©³öÏÖÔÚ¼âÀ¨ºÅÀïµÄµ¥´Ê£¬¶ÔÍøÒ³ÄÚÈÝµÄÓïÒåº¬Òå×ö³öÕâÐ©±êÇ©²»°üº¬ÈÎºÎ¹ØÓÚÈçºÎÏÔÊ¾ÓÐ¹ØÄÚÈÝµÄÐÅÏ¢¡£ÀýÈç£¬P±êÇ©±í´ïÁËÕâÑùÒ»ÖÖÓïÒå£º"ÕâÊÇÒ»¸öÎÄ±¾¶Î¡£"
 2¡¢ÍøÒ³µÄ±íÊ¾²ã£¨presentationlayer£©ÓÉCSS ¸ºÔð´´½¨¡£CSS¶Ô"ÈçºÎÏÔÊ¾ÓÐ¹ØÄÚÈÝ"µÄÎÊÌâ×ö³öÁË»Ø´ð¡£
 3¡¢ÍøÒ³µÄÐÐÎª²ã£¨behaviorlayer£©¸ºÔð»Ø´ð"ÄÚÈÝÓ¦¸ÃÈçºÎ¶ÔÊÂ¼þ×ö³ö·´Ó¦"ÕâÒ»ÎÊÌâ¡£ÕâÊÇJavascript ÓïÑÔºÍDOM Ö÷Ô×µÄÁìÓò¡£
 
-
-26¡¢htmlÖÐformÀïaction·½·¨µÄgetºÍpostÓÐÊ²Ã´Çø±ð£¿
+## 26¡¢htmlÖÐformÀïaction·½·¨µÄgetºÍpostÓÐÊ²Ã´Çø±ð£¿
 1¡¢GetÊÇÓÃÀ´´Ó·þÎñÆ÷ÉÏ»ñµÃÊý¾Ý£¬¶øPostÊÇÓÃÀ´Ïò·þÎñÆ÷ÉÏ´«µÝÊý¾Ý¡£
 2¡¢Get½«±íµ¥ÖÐÊý¾ÝµÄ°´ÕÕvariable=valueµÄÐÎÊ½£¬Ìí¼Óµ½actionËùÖ¸ÏòµÄURLºóÃæ£¬²¢ÇÒÁ½ÕßÊ¹ÓÃ"?"Á¬½Ó£¬¶ø¸÷¸ö±äÁ¿Ö®¼äÊ¹ÓÃ"&"Á¬½Ó¡£PostÊÇ½«±íµ¥ÖÐµÄÊý¾Ý·ÅÔÚformµÄÊý¾ÝÌåÖÐ£¬°´ÕÕ±äÁ¿ºÍÖµÏà¶ÔÓ¦µÄ·½Ê½£¬´«µÝµ½actionËùÖ¸ÏòURL¡£
 3¡¢GetÊÇ²»°²È«µÄ£¬ÒòÎªÔÚ´«Êä¹ý³Ì£¬Êý¾Ý±»·ÅÔÚÇëÇóµÄURLÖÐ£¬¶øÈç½ñÏÖÓÐµÄºÜ¶à·þÎñÆ÷¡¢´úÀí·þÎñÆ÷»òÕßÓÃ»§´úÀí¶¼»á½«ÇëÇóURL¼ÇÂ¼µ½ÈÕÖ¾ÎÄ¼þÖÐ£¬È»ºó·ÅÔÚÄ³¸öµØ·½£¬ÕâÑù¾Í¿ÉÄÜ»áÓÐÒ»Ð©ÒþË½µÄÐÅÏ¢±»µÚÈý·½¿´µ½¡£ÁíÍâ£¬ÓÃ»§Ò²¿ÉÒÔÔÚä¯ÀÀÆ÷ÉÏÖ±½Ó¿´µ½Ìá½»µÄÊý¾Ý£¬Ò»Ð©ÏµÍ³ÄÚ²¿ÏûÏ¢½«»áÒ»Í¬ÏÔÊ¾ÔÚÓÃ»§ÃæÇ°¡£PostµÄËùÓÐ²Ù×÷¶ÔÓÃ»§À´Ëµ¶¼ÊÇ²»¿É¼ûµÄ¡£
@@ -103,7 +122,7 @@ Html5µÄÀëÏß´æ´¢Ê¹ÓÃÒ»¸ömanifestÎÄ¼þÀ´±êÃ÷ÄÄÐ©ÎÄ¼þÊÇÐèÒª±»´æ´¢µÄ£¬Ê¹ÓÃÈç
 5¡¢GetÏÞÖÆForm±íµ¥µÄÊý¾Ý¼¯µÄÖµ±ØÐëÎªASCII×Ö·û¡£¶øPostÖ§³ÖÕû¸öISO10646×Ö·û¼¯¡£
 6¡¢GetÊÇFormµÄÄ¬ÈÏ·½·¨¡£
 
-27¡¢htmlÔªËØµÄid¸úclassÊ²Ã´Çø±ð
+## 27¡¢htmlÔªËØµÄid¸úclassÊ²Ã´Çø±ð
 idºÍclassÊÇÍøÒ³ÖÐÁ½¸öÍ¨ÓÃÊôÐÔ£¬ËûÃÇÐ­Í¬¹¤×÷Ê¹Õû¸öÒ³Ãæ·á¸»¶à²Ê£¬µ±ÎÒÃÇÎªÒ»¸öÔªËØ¶¨ÒåÑùÊ½Ê±£¬¶þÕß¶¼¿ÉÓÃ£¬µ«ÓÐÇø±ð£¿
 1¡¢ÔÚcssÑùÊ½±íÖÐÊéÐ´Ê±£¬idÑ¡Ôñ·ûÇ°×ºÓ¦¼Ó"#"£¬classÑ¡Ôñ·ûÇ°×ºÓ¦¼Ó"."
 2¡¢idÊôÐÔÔÚÒ»¸öÒ³ÃæÖÐÊéÐ´Ê±Ö»ÄÜÊ¹ÓÃÒ»´Î£¬¶øclass¿ÉÒÔ·´¸´Ê¹ÓÃ
@@ -112,7 +131,7 @@ idºÍclassÊÇÍøÒ³ÖÐÁ½¸öÍ¨ÓÃÊôÐÔ£¬ËûÃÇÐ­Í¬¹¤×÷Ê¹Õû¸öÒ³Ãæ·á¸»¶à²Ê£¬µ±ÎÒÃÇÎªÒ»¸öÔªËØ¶
 5¡¢Ä¿Ç°ä¯ÀÀÆ÷¶¼ÔÊÐíÍ¬Ò»¸öÒ³Ãæ³öÏÖ¶à¸öÏàÍ¬ÊôÐÔÖµµÄid£¬Ò»°ãÇé¿öÄÜÕý³£ÏÔÊ¾£¬²»¹ýµ±javascriptÍ¨¹ýidÀ´¿ØÖÆÔªËØÊ±¾Í»á³ö´í
 6¡¢ÔÚÊµ¼ÊÓ¦ÓÃÖÐ£¬class³£±»ÓÃµ½ÎÄ×Ö°æ¿éºÍÒ³ÃæÐÞÊÎÉÏ£¬¶øid¶à±»ÓÃÔÚºêÎ°²¼¾ÖºÍÉè¼Æ°üº¬¿é£¬»ò°üº¬¿òµÄÑùÊ½¡£
 
-27¡¢AjaxÊÇÊ²Ã´£¿
+## 27¡¢AjaxÊÇÊ²Ã´£¿
 Ajax²»ÊÇÒ»¸ö¼¼Êõ£¬ËüÊµ¼ÊÉÏÊÇ¼¸ÖÖ¼¼Êõ£¬Ã¿ÖÖ¼¼Êõ¶¼ÓÐÆä¶ÀÌØÕâ´¦£¬ºÏÔÚÒ»Æð¾Í³ÉÁËÒ»¸ö¹¦ÄÜÇ¿´óµÄÐÂ¼¼Êõ¡£Ajax°üÀ¨£º
 1¡¢XHTMLºÍCSS
 2¡¢Ê¹ÓÃÎÄµµ¶ÔÏóÄ£ÐÍ(Document Object Model)×÷¶¯Ì¬ÏÔÊ¾ºÍ½»»¥
@@ -121,17 +140,20 @@ Ajax²»ÊÇÒ»¸ö¼¼Êõ£¬ËüÊµ¼ÊÉÏÊÇ¼¸ÖÖ¼¼Êõ£¬Ã¿ÖÖ¼¼Êõ¶¼ÓÐÆä¶ÀÌØÕâ´¦£¬ºÏÔÚÒ»Æð¾Í³ÉÁËÒ»¸ö
 5¡¢Ê¹ÓÃJavaScript½«ËüÃÇ°ó¶¨ÔÚÒ»Æð
 
 
-28¡¢CSS display:noneºÍvisibility:hiddenµÄÇø±ð
+## 28¡¢CSS display:noneºÍvisibility:hiddenµÄÇø±ð
 visibility:hiddenÒþ²Ø£¬µ«ÔÚä¯ÀÀÊ±±£ÁôÎ»ÖÃ
 display:noneÊÓÎª²»´æÔÚ£¬ÇÒ²»¼ÓÔØ
 
-29¡¢nullºÍundefinedµÄÇø±ð£¿
+## 29¡¢nullºÍundefinedµÄÇø±ð£¿
+* null±íÊ¾Ò»¸öÉÐÎ´´æÔÚµÄ¶ÔÏó£»undefined±íÊ¾Ò»¸ö¶ÔÏó´´½¨ÁËµ«Ã»ÓÐ³õÊ¼»¯¡£nullµÄÀàÐÍÊÇobject£¬ÊÇÒ»¸ö
+²»´æÔÚµÄ¶ÔÏóµÄÕ¼Î»·û£¬¶øundefindedµÄÀàÐÍÊÇundefined
+
+## 30¡¢JSON µÄÁË½â£¿
+jsonÊÇÒ»ÖÖÇáÁ¿¼¶µÄÊý¾Ý½»»»¸ñÊ½¡£ËüÊÇÒÔ¼üÖµ¶Ô±£´æjs¶ÔÏó£¬ËüµÄ±¾ÖÊÊÇÒ»¸ö×Ö·û´®¡£
+JSON.parse(£©½«×Ö·û´®×ª»»³Éjs¶ÔÏó
+JSON.stringify() ½«js¶ÔÏó×ª»¯³É×Ö·û´®
+
+## 31¡¢nodejsÊÇÊ²Ã´£¿
 
 
-30¡¢JSON µÄÁË½â£¿
-
-
-31¡¢nodejsÊÇÊ²Ã´£¿
-
-
-32¡¢HTTP×´Ì¬ÂëÓÐÄÄÐ©£¿
+## 32¡¢HTTP×´Ì¬ÂëÓÐÄÄÐ©£¿
