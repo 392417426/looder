@@ -29,13 +29,18 @@ gulp通过设置监听器，可以自动编译less等css预编译语言，可以对js、css、html等文件进
 
 ## 6、webpack是什么？
 * webpack是一个模块打包工具。它能把js、css、图片、字体等作为模块进行使用和处理。
-首先通过nodejs安装插件，然后在配置文件里面配置loader
 
 ## 7、less是什么?
 * less是一门css预处理语言，它能够将css结构化，提供变量、混合以及函数等功能，让css代码更容易维护。
 
 ## 8、h5有什么新的特性？
-
+1. 新增了header、article、section、footer等具有语义化的标签，让代码更加方便阅读
+2. 新增了多媒体标签video、audio
+3. 新增了画布canvas
+4. 地理定位、拖放、表单属性
+5. web存储 localStorage和sessionStorage
+6. 应用程序缓存
+7. web workers
 
 ## 9、get与post的区别？
 * get通过url传递数据，数据量一般不超过1kb，而post是作为http消息的实体内容传送到服务器上。
@@ -43,16 +48,19 @@ get是安全性比较低，post安全性比较高
 get为了防止乱码需要对数据进行encodeURIComponent编码
 
 ## 10、pc开发过程中有哪些兼容性问题？如何解决？
-
+1. ie7下li垂直排列，每列之间会有3个像素 解决方法：li设置vertical-align:top
+2. ie7下display:inline-block;解决方法：display:block;\*display:inline;\*zoom:1;
+3. 图片与父元素之间有3个像素空白 解决方法：vertical-align:middle
+4. css透明度 ie需要用到滤镜
 
 ## 11、安卓与ios有什么兼容性问题？
-
+*
 
 ## 12、vuejs是什么？
-
+*
 
 ## 13、多终端设备要兼容哪几种分辨率？
-
+*
 
 ## 14、应用缓存是什么？
 Html5的一个重要特性就是离线存储，所谓的离线存储就是将一些资源文件保存在本地，这样后续的页面重新加载将使用本地资源文件，在离线情况下可以继续访问web应用，同时通过一定的手法（更新相关文件或者使用相关API），可以更新、删除离线存储等操作。
@@ -84,7 +92,7 @@ Attribute：html属性<br />
 Event:代表事件的状态
 
 ## 19、行元素和块元素分别有哪些？有什么区别？
-行元素： a、span、label、i、b、input、select、code、img <br />
+* 行元素： a、span、label、i、b、input、select、code、img <br />
 块元素：div、p、address、dl、dd、dt、from、h1、h2、ol、ul、li、td、tr、th、table<br />
 #### 区别：
 1. 块元素可以包含行元素，而行元素不能包含块元素；
@@ -97,13 +105,19 @@ Event:代表事件的状态
 2. ink可以通过js改变样式；而@import不支持。
 
 ## 21、对html语义化如何理解？
-
+1. 能够清楚地展示代码结构，便于阅读
+2. 有利于seo，有利于爬虫抓取更多有效的信息
+3. 有利于各种设备解析代码结构
+4. 便于团队开发与维护
 
 ## 22、rem是什么？怎么使用？
-
+* rem是指相对于根元素的字体大小的单位。屏幕的宽度 / 设计图的宽度 * 40
 
 ## 23、常用浏览器的内核分别是什么？
-
+1. ie内核
+2. webkit
+3. Gecko（firefox）
+4. Presto（opera）
 
 ## 24、CSS的盒模型？
 * 内容(content)、填充(padding)、边框(border)、边界(margin)
@@ -140,21 +154,23 @@ Ajax不是一个技术，它实际上是几种技术，每种技术都有其独特这处，合在一起就成了一个
 4、使用XMLHttpRequest进行异步数据接收
 5、使用JavaScript将它们绑定在一起
 
-
 ## 28、CSS display:none和visibility:hidden的区别
-* visibility:hidden隐藏，但在浏览时保留位置
-display:none视为不存在，且不加载
+* visibility:hidden隐藏，但在浏览时保留位置；display:none视为不存在，且不加载
 
 ## 29、null和undefined的区别？
-* null表示一个尚未存在的对象；undefined表示一个对象创建了但没有初始化。null的类型是object，是一个
-不存在的对象的占位符，而undefinded的类型是undefined
+1. null表示一个尚未存在的对象；undefined表示一个对象创建了但没有初始化。
+2. null的类型是object，是一个不存在的对象的占位符，而undefinded的类型是undefined
 
 ## 30、JSON 的了解？
 * json是一种轻量级的数据交换格式。它是以键值对保存js对象，它的本质是一个字符串。
-JSON.parse(）将字符串转换成js对象
-JSON.stringify() 将js对象转化成字符串
+1. JSON.parse(）将字符串转换成js对象
+2. JSON.stringify() 将js对象转化成字符串
 
 ## 31、nodejs是什么？
 
 
 ## 32、HTTP状态码有哪些？
+
+
+## 33、js数据类型：
+* null、undefinded、number、boolean、string、object
