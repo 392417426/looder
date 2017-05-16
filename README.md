@@ -54,7 +54,7 @@ get为了防止乱码需要对数据进行encodeURIComponent编码
 4. css透明度 ie需要用到滤镜
 
 ## 11、安卓与ios有什么兼容性问题？
-*
+1.
 
 ## 12、vuejs是什么？
 *
