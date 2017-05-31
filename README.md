@@ -129,7 +129,7 @@ gulp通过设置监听器，可以自动编译less等css预编译语言，可以对js、css、html等文件进
 1. ie内核
 2. webkit
 3. Gecko（firefox）
-4. Presto（opera）
+4. blink（opera）
 
 ## 24、CSS的盒模型？
 * 内容(content)、填充(padding)、边框(border)、边界(margin)
