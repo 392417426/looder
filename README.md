@@ -35,8 +35,8 @@
 1. 新增了具有语义化的标签，例如header、article、section、footer等，
 2. 新增了两个多媒体标签video、audio
 3. 新增了绘图功能：canvas、svg
-4、新增一些表单属性，例如requeire、autofocus
-5、新增一些api. 地理定位、拖拽、localStorage和sessionStorage、应用缓存、web workers
+4. 新增一些表单属性，例如requeire、autofocus
+5. 新增一些api. 地理定位、拖拽、localStorage和sessionStorage、应用缓存、web workers
 
 ## 9、get与post的区别？
 1. get通过url传递数据，数据量一般不超过1kb，而post是作为http消息的实体内容传送到服务器上。
