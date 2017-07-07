@@ -206,14 +206,13 @@ zepto»ñÈ¡ÔªËØµÄ¿í¶ÈºÍ¸ß¶ÈÊÇ¸ù¾ÝºÐ×ÓÄ£ÐÍÀ´»ñÈ¡µÄ£¬¶øjQuery»áºöÂÔºÐÄ£ÐÍ£¬Ê¼ÖÕ·µ»ØÄ
 ## 42¡¢ÊµÀýÓë¶ÔÏó£¿
 * ÊµÀýÒ»°ãÊÇÖ¸Ä³Ò»¸ö¹¹Ôìº¯Êý´´½¨³öÀ´µÄ¶ÔÏó¡£ÊµÀý¾ÍÊÇ¶ÔÏó£¬¶ÔÏóÊÇÒ»¸ö·º³Æ
 
+## 43¡¢xhtmlÓëhtmlµÄÇø±ð£¿
+* XHTML ÔªËØ±ØÐë±»ÕýÈ·µØÇ¶Ì×¡£XHTML ÔªËØ±ØÐë±»¹Ø±Õ¡£±êÇ©Ãû±ØÐëÓÃÐ¡Ð´×ÖÄ¸¡£XHTML ÎÄµµ±ØÐëÓµÓÐ¸ùÔªËØ¡£
+
 1. Object º¯ÊýÊÇFunctionµÄÒ»¸öÊµÀý
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ð×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ð×Ô Object.prototype
 3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êý
 
-´Ó±ÏÒµµ½ÏÖÔÚ£¬ÓÐ3ÄêÇ°¶Ë¿ª·¢¾­Ñé¡£×î½üÎÒ²ÎÓëµÄÏîÄ¿ÊÇÌÚÑ¶¼Ò¾Ó¡£Õâ¸öÏîÄ¿Ð¡×éÓÐ8¸öÈË£¬4¸öÇ°¶Ë£¬4¸öºóÌ¨¡£
-ÔÚÕâ¸öÏîÄ¿ÖÐ£¬ÎÒÖ÷Òª¸ºÔðÆ½Ì¨µÄpc¶ËºÍÒÆ¶¯¶ËµÄÒ³ÃæÖÆ×÷£¬»¹ÓÐÒ»Ð©Î¢ÐÅÉÏµÄÍÆ¹ã»î¶¯£¬
-ÓÃµ½µÄ¼¼ÊõÓÐh5¡¢css3¡¢less¡¢jquery¡¢gulp¡¢swiperµÈ¡£
-ÒÔÇ°ÎÒÔÚ±±¾©ÖÐ¿Æ»ãÁªÕâ¼ä¹«Ë¾£¬Ö÷Òª×öÕþ¸®ÍøÕ¾ÒÔ¼°Ò»Ð©ÆóÒµµÄÃÅ»§ÍøÕ¾¡£
 
 
 
