@@ -44,8 +44,8 @@ function init() {
         }
         ,
         {
-            position: [ 0, 0, -512 ],
-            rotation: [ 0, -90, 0 ]
+            position: [ 0, 0, 0 ],
+            rotation: [ 0, Math.PI, 0 ]
         }
     ];
 

@@ -5,22 +5,26 @@ const less = require('gulp-less'); //编译less
 const sass = require('gulp-ruby-sass'); //编译sass 需要ruby环境并在ruby下安装sass
 const autoprefixer = require('gulp-autoprefixer');//自动添加css3前缀
 const minify = require('gulp-minify-css');//压缩css
-const uglify = require('gulp-uglify');  //加载js压缩
+const uglify = require('gulp-uglify');  //压缩js
 const htmlmini = require('gulp-minify-html'); //压缩html
 const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');//图片压缩插件
 const pngquant = require('imagemin-pngquant'); //png图片压缩插件
 const concat = require("gulp-concat"); //文件合并
 const watch = require("gulp-watch"); //监听
+const connect = require('gulp-connect'); //本地服务器
+const htmlreplace = require('gulp-html-replace'); //脚本和css注入
+const inject = require('gulp-inject'); //脚本和css注入
+const path = require("path");
 
 const paths = {
-    dist: {
+    build: {
         "js": "dist/js",
         "css": "dist/css",
         "image":"dist/images",
         "html":"dist/html"
     },
-    static:{
+    dev:{
         "js":"src/js/",
         "css":"src/css/",
         "image":"src/images/",
@@ -30,7 +34,7 @@ const paths = {
     }
 };
 
-gulp.task('jsLint', function () {
+/*gulp.task('jsLint', function () {
     gulp.src([paths.static.js + '*.js', '!'+ paths.static.js + '*.min.js'])
         .pipe(jshint())
         .pipe(jshint.reporter('default')); // 输出检查结果
@@ -135,8 +139,48 @@ gulp.task('autoCss3', function() {
             }))
             .pipe(gulp.dest(paths.static.css))
     }
-);
+);*/
 
-gulp.task('default', ['less']);
+gulp.task('connect', function() {
+    connect.server({
+        root: 'src',
+        livereload: true
+    });
+});
+
+/*gulp.task('htmlreplace', function () {
+    gulp.src('src/html/!*.html')
+        .pipe(htmlreplace({
+            'css': 'src/css/a.css',
+            'js': 'src/js/test.js'
+        })) .pipe(gulp.dest('src')).pipe(connect.reload());
+});*/
+
+gulp.task('reload', function () {
+    gulp.src('src/*.html').pipe(connect.reload());
+});
+
+gulp.task('htmlreplace', function () {
+  /*  var json = [
+        {html:'src/html/index.html',css:['src/a.css'],js:['js/test.js']},
+        {html:'src/html/index2.html',css:['src/b.css'],js:['js/test.js']}
+    ]*/
+    gulp.src('./src/html/index.html')
+        .pipe(inject(gulp.src(['./src/js/test.js','./src/js/test2.js'], {read: false}), {relative: true}))
+        .pipe(gulp.dest('./src'));
+  /*  for(var i = 0; i < json.length; i++){
+        gulp.src(json[i].html)
+            .pipe(inject(gulp.src(json[i].js, {read: false}), {relative: true}))
+            .pipe(gulp.dest('src'));
+    }*/
+});
+
+
+
+gulp.task('watch', function () {
+    gulp.watch(['src/html/*.html','src/*.html'], ['htmlreplace','reload']);
+});
+
+gulp.task('default', ['connect', 'watch']);
 
 
