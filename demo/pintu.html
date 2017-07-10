@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="640">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=640,maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/global.css"/>
+    <title></title>
+</head>
+<body>
+<div class="picBox"></div>
+<input type="button" value="dian" />
+<style>
+    .picBox {
+        width: 378px;
+        height: 378px;
+        position: absolute;
+        top: 33px;
+        left: 98px;
+    }
+    img{
+        position: absolute;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+    }
+</style>
+<script src="js/pintu.js"></script>
+<script>
+    var o = new PinTu('.picBox', {
+        positions: [[0, 0], [126, 0], [252, 0], [0, 126], [126, 126], [252, 126]],
+        imgSrcs: [
+            ['images/pintu/img1-1.png',0],
+            ['images/pintu/img1-2.png',1],
+            ['images/pintu/img1-3.png',2],
+            ['images/pintu/img1-4.png',3],
+            ['images/pintu/img1-5.png',4],
+            ['images/pintu/img1-6.png',5]
+
+        ],
+        success: function () {
+           console.log('success')
+        }
+    })
+
+    o.init();
+    setTimeout(function(){
+        o.randomPos()
+    },1000)
+
+    document.querySelector('input').addEventListener('click',function(){
+        o.options.imgSrcs = [
+            ['images/pintu/img2-1.png',0],
+            ['images/pintu/img2-2.png',1],
+            ['images/pintu/img2-3.png',2],
+            ['images/pintu/img2-4.png',3],
+            ['images/pintu/img2-5.png',4],
+            ['images/pintu/img2-6.png',5]
+        ]
+        o.init();
+        setTimeout(function(){
+            o.randomPos()
+        },1000)
+    },false)
+
+
+</script>
+
+</body>
+</html>

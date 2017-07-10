@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/ani.css"/>
+   <script>
+       var designWidth = 640;
+       var winWidth = window.innerWidth > designWidth ? designWidth : window.innerWidth;
+       document.querySelector('html').style.fontSize = winWidth / designWidth * 100 + 'px';
+   </script>
+    <style>
+        .blue{
+            width: 100%;
+            height:100px;
+            background: blue;;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="ms suihua"></div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" id="page1" >
+            <div class="blue ani" swiper-animate-effect="puffIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"></div>
+        </div>
+        <div class="swiper-slide" id="page2"  style="background: black">
+        </div>
+    </div>
+</div>
+<script src="js/swiper-3.3.1.min.js" ></script>
+<script src="js/swiper.animate1.0.2.min.js" ></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction : 'vertical',
+        onInit: function(swiper){
+            swiperAnimateCache(swiper);
+            swiperAnimate(swiper);
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper);
+        }
+    })
+
+</script>
+
+</body>
+</html>
