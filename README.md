@@ -211,7 +211,7 @@ zepto»ñÈ¡ÔªËØµÄ¿í¶ÈºÍ¸ß¶ÈÊÇ¸ù¾ÝºÐ×ÓÄ£ÐÍÀ´»ñÈ¡µÄ£¬¶øjQuery»áºöÂÔºÐÄ£ÐÍ£¬Ê¼ÖÕ·µ»ØÄ
 
 1. Object º¯ÊýÊÇFunctionµÄÒ»¸öÊµÀý
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ð×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ð×Ô Object.prototype
-3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êý
+3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êý ²âÊÔ
 
 
 
