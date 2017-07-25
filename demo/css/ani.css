@@ -164,3 +164,26 @@
         -webkit-transform:perspective(800px) rotateX(0deg) scale3d(1,1,1)
     }
 }
+
+.scaleRotate{
+    animation: scaleRotate linear 2.5s  1 forwards;
+    -webkit-animation: scaleRotate linear 2.5s 1 forwards;
+}
+
+@keyframes scaleRotate{
+    0%{transform: rotate(0deg) scale(1,1); }
+    15%{transform: rotate(0deg) scale(1.2,1.2);}
+    30%{transform: rotate(0deg) scale(1.05,1.05);}
+    45%{transform: rotate(0deg) scale(1.2,1.12);}
+    80%{transform: rotate(360deg) scale(1.2,1.2); }
+    100%{transform: rotate(360deg) scale(1,1); }
+}
+
+@-webkit-keyframes scaleRotate{
+    0%{-webkit-transform: rotate(0deg) scale(1,1); }
+    15%{-webkit-transform: rotate(0deg) scale(1.2,1.2);}
+    30%{-webkit-transform: rotate(0deg) scale(1.05,1.05);}
+    45%{-webkit-transform: rotate(0deg) scale(1.2,1.12);}
+    80%{-webkit-transform: rotate(360deg) scale(1.2,1.2); }
+    100%{-webkit-transform: rotate(360deg) scale(1,1); }
+}
