@@ -15,5 +15,13 @@ module.exports = merge(baseWebpackConfig, {
             inject: true
         }),
         new ExtractTextPlugin('style.[hash:5].css')
-    ]
+    ],
+    devServer: {
+        port: 7777,
+        host: 'localhost',
+        historyApiFallback: true,
+        noInfo: false,
+        stats: 'minimal',
+        publicPath: '/'
+    }
 })

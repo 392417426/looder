@@ -21,6 +21,9 @@ const webpackConfig = merge(baseWebpackConfig, {
         chunkFilename: 'js/[name].[chunkhash:5].js'
     },
     plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        }),
         new CleanWebpackPlugin(['dist'],{
             "root":"",
             "verbose": true,

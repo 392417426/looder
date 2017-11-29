@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.prod.config.js",
-    "dev": "webpack-dev-server --hotOnly --devtool eval --progress --colors --open --config webpack.dev.config.js"
+    "build": "webpack --config config/webpack.prod.config.js",
+    "dev": "webpack-dev-server --hotOnly --devtool eval --progress --colors --open --config config/webpack.dev.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -42,9 +42,12 @@
     "webpack-merge": "^4.1.0"
   },
   "browserslist": [
+    "> 1%",
     "iOS >= 8",
-    "Chrome >= 20",
-    "Firefox >= 20",
-    "Android >= 2.3"
-  ]
+    "Android >= 3",
+    "ie >= 8"
+  ],
+  "dependencies": {
+    "antd-mobile": "^2.0.3"
+  }
 }
