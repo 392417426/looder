@@ -212,3 +212,5 @@ zepto»ñÈ¡ÔªËØµÄ¿í¶ÈºÍ¸ß¶ÈÊÇ¸ù¾İºĞ×ÓÄ£ĞÍÀ´»ñÈ¡µÄ£¬¶øjQuery»áºöÂÔºĞÄ£ĞÍ£¬Ê¼ÖÕ·µ»ØÄ
 1. Object º¯ÊıÊÇFunctionµÄÒ»¸öÊµÀı
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ğ×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ğ×Ô Object.prototype
 3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êı
+
+º¯Êı¿ÂÀï»¯¡¢js½ÚÁ÷ºÍ·À¶¶¡¢toFixedµÄbug¡¢localStorageºÍsessionstorage indexDB Ó¦ÓÃ»º´æ  audioºÍvideo promise async¡¢await fullScreen
