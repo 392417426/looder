@@ -1,219 +1,214 @@
-## 1隆垄露脭碌楼脪鲁脙忙脫娄脫脙碌脛脕脣陆芒
-#### 脫脜碌茫拢潞
-1. 脫脙禄搂虏禄脨猫脪陋脰脴脨脗脣垄脨脗脪鲁脙忙拢卢脥篓鹿媒脪矛虏陆禄帽脠隆脢媒戮脻陆酶脨脨戮脰虏驴盲脰脠戮拢卢脫脙禄搂脤氓脩茅赂眉潞脙隆拢
-2. 脟掳露脣脫毛潞贸脤篓麓煤脗毛脥锚脠芦路脰脌毛拢卢脫脨脌没脫脷路脰脌毛脟掳露脣脫毛潞贸脤篓碌脛鹿陇脳梅拢卢麓煤脗毛鹿脺脌铆赂眉录脫路陆卤茫
-3. 录玫脟谩路镁脦帽脝梅脩鹿脕娄拢卢路镁脦帽脝梅虏禄脫脙鹿脴脨脛脮鹿脢戮脗脽录颅潞脥脪鲁脙忙潞脧鲁脡
-#### 脠卤碌茫拢潞
-1. 虏禄脌没脫脷seo
-2. 虏禄脌没脫脷碌录潞陆拢卢脟掳陆酶隆垄潞贸脥脣脨猫脪陋脥篓鹿媒鲁脤脨貌驴脴脰脝
-3. 脢脳麓脦录脫脭脴禄谩卤脠陆脧脗媒
+## 1、对单页面应用的了解
+#### 优点：
+1. 用户不需要重新刷新页面，通过异步获取数据进行局部渲染，用户体验更好。
+2. 前端与后台代码完全分离，有利于分离前端与后台的工作，代码管理更加方便
+3. 减轻服务器压力，服务器不用关心展示逻辑和页面合成
+#### 缺点：
+1. 不利于seo
+2. 不利于导航，前进、后退需要通过程序控制
+3. 首次加载会比较慢
 
-## 2隆垄脭玫脩霉陆芦脪鲁脙忙脳茅录镁禄炉?
-* 脪禄赂枚脪鲁脙忙戮脥脢脟脪禄赂枚脛拢掳忙拢卢脪禄赂枚脮没脤氓碌脛脢脫脥录拢卢脪鲁脙忙脰脨碌脛脙驴赂枚脌赂脛驴戮脥脢脟赂梅赂枚脛拢驴茅拢卢脙驴赂枚脛拢驴茅脰脨驴脡脛脺脥卢脢卤掳眉潞卢html麓煤脗毛隆垄脩霉脢陆潞脥陆脜卤戮隆拢驴脡脪脭脣碌拢卢
-脪禄赂枚脪鲁脙忙脢脟脥篓鹿媒虏禄脥卢碌脛脛拢驴茅脳茅脳掳脝冒脌麓碌脛
+## 2、怎样将页面组件化?
+* 一个页面就是一个模版，一个整体的视图，页面中的每个栏目就是各个模块，每个模块中可能同时包含html代码、样式和脚本。可以说，
+一个页面是通过不同的模块组装起来的
 
-## 3隆垄boostrap脢脟脢虏脙麓拢驴
-* boostrap脢脟脪禄驴卯脝芦脧貌脫脷脪脝露炉脡猫卤赂碌脛脧矛脫娄脢陆ui驴貌录脺隆拢
+## 3、boostrap是什么？
+* boostrap是一款偏向于移动设备的响应式ui框架。
 
-## 4隆垄zeptojs脢脟脢虏脙麓拢驴zeptojs赂煤jq碌脛脟酶卤冒脢脟脢虏脙麓拢驴
-* zeptojs脢脟脪禄驴卯脝芦脧貌脫脷脪脝露炉露脣隆垄脰梅脪陋脢脟脮毛露脭webkit脛脷潞脣陆酶脨脨麓娄脌铆碌脛js驴貌录脺隆拢
-脣眉碌脛脫茂路篓赂煤jq脌脿脣脝拢卢碌芦脣眉碌脛脤氓禄媒脪陋卤脠jq脪陋脨隆潞脺露脿拢卢脦陋脪脝露炉脡猫卤赂脤谩鹿漏脕脣卤脴脪陋碌脛麓楼脙镁脢脗录镁隆拢
-* zepto脣眉虏禄录忙脠脻ie拢卢脣眉脝芦脧貌脫脷脪脝露炉脫娄脫脙驴陋路垄隆拢脣眉碌脛脢脗录镁脦炉脥脨禄煤脰脝脢脟掳麓露脫脕脨脰麓脨脨拢卢露酶jq脢脟掳麓脮脮脩隆脭帽路没陆酶脨脨脝楼脜盲碌脛隆拢
-zepto禄帽脠隆脭陋脣脴碌脛驴铆露脠潞脥赂脽露脠脢脟赂霉戮脻潞脨脳脫脛拢脨脥脌麓禄帽脠隆碌脛拢卢露酶jQuery禄谩潞枚脗脭潞脨脛拢脨脥拢卢脢录脰脮路碌禄脴脛脷脠脻脟酶脫貌碌脛驴铆/赂脽
+## 4、zeptojs是什么？zeptojs跟jq的区别是什么？
+* zeptojs是一款偏向于移动端、主要是针对webkit内核进行处理的js框架。
+它的语法跟jq类似，但它的体积要比jq要小很多，为移动设备提供了必要的触摸事件。
+* zepto它不兼容ie，它偏向于移动应用开发。它的事件委托机制是按队列执行，而jq是按照选择符进行匹配的。
+zepto获取元素的宽度和高度是根据盒子模型来获取的，而jQuery会忽略盒模型，始终返回内容区域的宽/高
 
-## 5隆垄gulp脢脟脢虏脙麓拢驴
-* gulp脢脟脪禄赂枚脳脭露炉禄炉鹿鹿陆篓脧卯脛驴脕梅鲁脤碌脛鹿陇戮脽拢卢脣眉脛脺鹿禄脳脭露炉禄炉掳茂脰煤脦脪脙脟脥锚鲁脡脧卯脛驴鹿媒鲁脤脰脨碌脛麓贸脕驴脰脴赂麓鹿陇脳梅拢卢脦陋驴陋路垄麓酶脌麓卤茫脌没隆拢
-脥篓鹿媒npm掳虏脳掳虏氓录镁拢卢脠禄潞贸脭脷脜盲脰脙脦脛录镁脰脨脨脗陆篓脪禄赂枚脠脦脦帽拢卢脡猫脰脙脪陋麓娄脌铆碌脛脦脛录镁脌麓脭麓拢卢碌梅脫脙赂脙虏氓录镁拢卢脳卯潞贸脡猫脰脙麓娄脌铆潞贸碌脛脦脛录镁脗路戮露
-#### 虏氓录镁:
-1. js拢潞gulp-jshint
-2. css拢潞gulp-minify-css
-3. html拢潞gulp-minify-html
+## 5、gulp是什么？
+* gulp是一个自动化构建项目流程的工具，它能够自动化帮助我们完成项目过程中的大量重复工作，为开发带来便利。
+通过npm安装插件，然后在配置文件中新建一个任务，设置要处理的文件来源，调用该插件，最后设置处理后的文件路径
+#### 插件:
+1. js：gulp-jshint
+2. css：gulp-minify-css
+3. html：gulp-minify-html
 4. contat: gulp-concat
 
-## 6隆垄webpack脢脟脢虏脙麓拢驴
-* webpack脢脟脪禄赂枚脛拢驴茅麓貌掳眉鹿陇戮脽隆拢脣眉脛脺掳脩js隆垄css隆垄脥录脝卢隆垄脳脰脤氓碌脠脳梅脦陋脛拢驴茅陆酶脨脨脢鹿脫脙潞脥麓娄脌铆隆拢
+## 6、webpack是什么？
+* webpack是一个模块打包工具。它能把js、css、图片、字体等作为模块进行使用和处理。
 
-## 8隆垄h5脫脨脢虏脙麓脨脗碌脛脤脴脨脭拢驴
-1. 脨脗脭枚脕脣戮脽脫脨脫茂脪氓禄炉碌脛卤锚脟漏拢卢脌媒脠莽header隆垄article隆垄section隆垄footer碌脠拢卢
-2. 脨脗脭枚脕脣脕陆赂枚露脿脙陆脤氓卤锚脟漏video隆垄audio
-3. 脨脗脭枚脕脣禄忙脥录鹿娄脛脺拢潞canvas隆垄svg
-4. 脨脗脭枚脪禄脨漏卤铆碌楼脢么脨脭拢卢脌媒脠莽requeire隆垄autofocus
-5. 脨脗脭枚脪禄脨漏api. 碌脴脌铆露篓脦禄隆垄脥脧脳搂隆垄localStorage潞脥sessionStorage隆垄脫娄脫脙禄潞麓忙隆垄web workers
+## 8、h5有什么新的特性？
+1. 新增了具有语义化的标签，例如header、article、section、footer等，
+2. 新增了两个多媒体标签video、audio
+3. 新增了绘图功能：canvas、svg
+4. 新增一些表单属性，例如requeire、autofocus
+5. 新增一些api. 地理定位、拖拽、localStorage和sessionStorage、应用缓存、web workers
 
-## 9隆垄get脫毛post碌脛脟酶卤冒拢驴
-1. get脥篓鹿媒url麓芦碌脻脢媒戮脻拢卢脢媒戮脻脕驴脪禄掳茫虏禄鲁卢鹿媒1kb拢卢露酶post脢脟脳梅脦陋http脧没脧垄碌脛脢碌脤氓脛脷脠脻麓芦脣脥碌陆路镁脦帽脝梅脡脧隆拢
-2. get脢脟掳虏脠芦脨脭卤脠陆脧碌脥拢卢post掳虏脠芦脨脭卤脠陆脧赂脽
-3. get脦陋脕脣路脌脰鹿脗脪脗毛脨猫脪陋露脭脢媒戮脻陆酶脨脨encodeURIComponent卤脿脗毛
+## 9、get与post的区别？
+1. get通过url传递数据，数据量一般不超过1kb，而post是作为http消息的实体内容传送到服务器上。
+2. get是安全性比较低，post安全性比较高
+3. get为了防止乱码需要对数据进行encodeURIComponent编码
 
-## 10隆垄pc驴陋路垄鹿媒鲁脤脰脨脫脨脛脛脨漏录忙脠脻脨脭脦脢脤芒拢驴脠莽潞脦陆芒戮枚拢驴
-1. ie7脧脗li麓鹿脰卤脜脜脕脨拢卢脙驴脕脨脰庐录盲禄谩脫脨3赂枚脧帽脣脴 陆芒戮枚路陆路篓拢潞li脡猫脰脙vertical-align:top
-2. ie7脧脗display:inline-block;陆芒戮枚路陆路篓拢潞display:block;\*display:inline;\*zoom:1;
-3. 脥录脝卢脫毛赂赂脭陋脣脴脰庐录盲脫脨3赂枚脧帽脣脴驴脮掳脳 陆芒戮枚路陆路篓拢潞vertical-align:middle
-4. css脥赂脙梅露脠 ie脨猫脪陋脫脙碌陆脗脣戮碌
+## 10、pc开发过程中有哪些兼容性问题？如何解决？
+1. ie7下li垂直排列，每列之间会有3个像素 解决方法：li设置vertical-align:top
+2. ie7下display:inline-block;解决方法：display:block;\*display:inline;\*zoom:1;
+3. 图片与父元素之间有3个像素空白 解决方法：vertical-align:middle
+4. css透明度 ie需要用到滤镜
 
-## 11隆垄掳虏脳驴脫毛ios脫脨脢虏脙麓录忙脠脻脨脭脦脢脤芒拢驴
-1. 掳虏脳驴脢脰禄煤css3露炉禄颅禄谩卤脠陆脧驴篓拢卢脨猫脪陋脳枚鲁脡3d脨搂鹿没碌脛露炉禄颅脝么露炉gpu盲脰脠戮
-2. 碌茫禄梅脪鲁脙忙脭陋脣脴赂脽脕脕拢卢脡猫脰脙-webkit-tap-highlight-color:rgba(0,0,0,0)
-3. 脢盲脠毛驴貌鹿脤露篓脭脷脪鲁脙忙碌脳虏驴拢卢脢盲脠毛脢卤脨隆录眉脜脤碌虏脳隆脢盲脠毛驴貌拢卢驴脡脪脭脥篓鹿媒戮酶露脭露篓脦禄录脫脡脧js脢碌脧脰
-4. 脪么脝碌潞脥脢脫脝碌虏禄脛脺脳脭露炉虏楼路脜拢卢脨猫脪陋脡猫脰脙脪鲁脙忙麓楼脙镁脢脗录镁脌麓麓楼路垄
+## 11、安卓与ios有什么兼容性问题？
+1. 安卓手机css3动画会比较卡，需要做成3d效果的动画启动gpu渲染
+2. 点击页面元素高亮，设置-webkit-tap-highlight-color:rgba(0,0,0,0)
+3. 输入框固定在页面底部，输入时小键盘挡住输入框，可以通过绝对定位加上js实现
+4. 音频和视频不能自动播放，需要设置页面触摸事件来触发
 
-## 12隆垄vuejs碌脛脌铆陆芒拢驴
-* vuejs脢脟脪禄赂枚鹿鹿陆篓脫脙禄搂陆莽脙忙碌脛陆楼陆酶脢陆驴貌录脺隆拢脣眉碌脛脤氓禄媒潞脺脨隆拢卢脨脭脛脺潞脺赂脽隆拢脣眉脰禄鹿脴脨脛脢脫脥录拢卢脛脺鹿禄脟谩脪脳赂煤脝盲脣没驴貌录脺禄矛潞脧驴陋路垄隆拢脣眉脰梅脪陋脳梅脫脙脫脷碌楼脪鲁脙忙脫娄脫脙碌脛隆拢
+## 12、vuejs的理解？
+* vuejs是一个构建用户界面的渐进式框架。它的体积很小，性能很高。它只关心视图，能够轻易跟其他框架混合开发。它主要作用于单页面应用的。
 
-## 13隆垄露脿脰脮露脣脡猫卤赂脪陋录忙脠脻脛脛录赂脰脰路脰卤忙脗脢拢驴
-* 脢脰禄煤拢潞驴铆露脠脨隆脫脷768px 脝陆掳氓拢潞768px碌陆980px pc拢潞980px脪脭脡脧
+## 13、多终端设备要兼容哪几种分辨率？
+* 手机：宽度小于768px 平板：768px到980px pc：980px以上
 
-## 14隆垄脫娄脫脙禄潞麓忙脢脟脢虏脙麓拢驴
-* 脫娄脫脙禄潞麓忙脳梅脫脙脢脟驴脡脪脭脭脷脙禄脫脨脥酶脗莽碌脛脟茅驴枚脧脗拢卢脮媒鲁拢碌脛路脙脦脢脪鲁脙忙隆拢脣眉脥篓鹿媒脭脷驴脥禄搂露脣禄潞麓忙戮虏脤卢脦脛录镁拢卢脮芒脩霉碌脛禄掳脙驴麓脦麓貌驴陋脪鲁脙忙戮脥驴脡脪脭露脕脠隆禄潞麓忙脌茂脙忙碌脛脛脷脠脻拢卢
-录玫脟谩路镁脦帽脝梅碌脛脩鹿脕娄拢卢脤谩赂脽脪鲁脙忙录脫脭脴脣脵露脠隆拢脣眉脪禄掳茫脢脟赂煤localStorage脪禄脝冒脫脙碌脛拢卢 脨脗陆篓脪禄赂枚minifest脦脛录镁拢卢脥篓鹿媒脭脷脥路虏驴脡猫脰脙manifest脦脛录镁脗路戮露拢卢脭脷manifest脡脧脡猫脰脙脪陋禄潞麓忙碌脛脦脛录镁隆拢
-脠莽鹿没脨猫脪陋赂眉脨脗脦脛录镁碌脛禄掳拢卢脰禄脨猫脪陋赂脛卤盲脦脛录镁碌脛掳忙卤戮潞脜录麓驴脡隆拢
+## 14、应用缓存是什么？
+* 应用缓存作用是可以在没有网络的情况下，正常的访问页面。它通过在客户端缓存静态文件，这样的话每次打开页面就可以读取缓存里面的内容，
+减轻服务器的压力，提高页面加载速度。它一般是跟localStorage一起用的， 新建一个minifest文件，通过在头部设置manifest文件路径，在manifest上设置要缓存的文件。
+如果需要更新文件的话，只需要改变文件的版本号即可。
 
-## 15隆垄localStorage脫毛sessionStorage cookie碌脛脟酶卤冒?
-#### 鹿虏脥卢碌茫拢潞
-* 露录脢脟卤拢麓忙脭脷驴脥禄搂露脣拢卢脟脪脥卢脭麓
+## 15、localStorage与sessionStorage cookie的区别?
+#### 共同点：
+* 都是保存在客户端，且同源
 
-#### 脟酶卤冒拢潞
-1. cookie脢媒戮脻脢录脰脮脭脷脥卢脭麓碌脛http脟毛脟贸脰脨脨炉麓酶拢篓录麓脢鹿虏禄脨猫脪陋拢漏拢卢录麓cookie脭脷盲炉脌脌脝梅潞脥路镁脦帽脝梅录盲脌麓禄脴麓芦碌脻隆拢露酶sessionStorage潞脥localStorage虏禄禄谩脳脭露炉掳脩脢媒戮脻路垄赂酶路镁脦帽脝梅拢卢陆枚脭脷卤戮碌脴卤拢麓忙隆拢
-2. 麓忙麓垄麓贸脨隆脧脼脰脝脪虏虏禄脥卢拢卢cookie脢媒戮脻虏禄脛脺鲁卢鹿媒4k隆拢露酶sessionStorage潞脥localStorage驴脡脪脭麓茂碌陆5M
-3. 脢媒戮脻脫脨脨搂脝脷虏禄脥卢拢卢sessionStorage拢潞陆枚脭脷碌卤脟掳盲炉脌脌脝梅麓掳驴脷鹿脴卤脮脟掳脫脨脨搂拢卢localStorage拢潞脢录脰脮脫脨脨搂拢卢麓掳驴脷禄貌盲炉脌脌脝梅鹿脴卤脮脪虏脪禄脰卤卤拢麓忙拢卢cookie脰禄脭脷脡猫脰脙碌脛cookie鹿媒脝脷脢卤录盲脰庐脟掳脪禄脰卤脫脨脨搂拢卢录麓脢鹿麓掳驴脷禄貌盲炉脌脌脝梅鹿脴卤脮隆拢
-4. 脳梅脫脙脫貌虏禄脥卢拢卢sessionStorage陆枚脧脼脫脷碌卤脟掳麓掳驴脷拢禄localStorage脫毛cookie脭脷脣霉脫脨脥卢脭麓麓掳驴脷脰脨露录脢脟鹿虏脧铆碌脛
+#### 区别：
+1. cookie数据始终在同源的http请求中携带（即使不需要），即cookie在浏览器和服务器间来回传递。而sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存。
+2. 存储大小限制也不同，cookie数据不能超过4k。而sessionStorage和localStorage可以达到5M
+3. 数据有效期不同，sessionStorage：仅在当前浏览器窗口关闭前有效，localStorage：始终有效，窗口或浏览器关闭也一直保存，cookie只在设置的cookie过期时间之前一直有效，即使窗口或浏览器关闭。
+4. 作用域不同，sessionStorage仅限于当前窗口；localStorage与cookie在所有同源窗口中都是共享的
 
-## 16隆垄 js露脭脧贸脫脨脛脛脨漏拢驴
-* Object隆垄Function隆垄Array隆垄String隆垄 Boolean隆垄Number隆垄Date隆垄RegExp隆垄Error隆垄EvalError隆垄RangeError隆垄ReferenceError
-隆垄SyntaxError隆垄TypeError隆垄URIError
+## 16、 js对象有哪些？
+* Object、Function、Array、String、 Boolean、Number、Date、RegExp、Error、EvalError、RangeError、ReferenceError
+、SyntaxError、TypeError、URIError
 
-## 17隆垄Browser露脭脧贸脫脨脛脛脨漏拢驴
-1. Window:卤铆脢戮盲炉脌脌脝梅麓貌驴陋碌脛麓掳驴脷
-2. Navigator拢潞卤铆脢戮掳眉潞卢脫脨鹿脴盲炉脌脌脝梅碌脛脨脜脧垄
-3. Screen拢潞掳眉潞卢脫脨鹿脴驴脥禄搂露脣脧脭脢戮脝脕脛禄碌脛脨脜脧垄
-4. History拢潞盲炉脌脌脝梅脌煤脢路录脥脗录
-5. Location拢潞掳眉潞卢碌卤脟掳url碌脛脨脜脧垄
+## 17、Browser对象有哪些？
+1. Window:表示浏览器打开的窗口
+2. Navigator：表示包含有关浏览器的信息
+3. Screen：包含有关客户端显示屏幕的信息
+4. History：浏览器历史纪录
+5. Location：包含当前url的信息
 
-#### 路陆路篓
-1. window 路陆路篓拢潞alert隆垄open隆垄close
-2. history 路陆路篓拢潞back隆垄forwards隆垄go
-3. location 路陆路篓拢潞assign隆垄replace隆垄reload
+#### 方法
+1. window 方法：alert、open、close
+2. history 方法：back、forwards、go
+3. location 方法：assign、replace、reload
 
-## 18隆垄Dom露脭脧贸脫脨脛脛脨漏拢驴
-1. document拢潞脙驴赂枚脭脴脠毛盲炉脌脌脝梅碌脛html脦脛碌碌露录禄谩鲁脡脦陋document露脭脧贸
-2. element拢潞html脭陋脣脴
-3. Attribute拢潞html脢么脨脭
-4. Event:麓煤卤铆脢脗录镁碌脛脳麓脤卢
+## 18、Dom对象有哪些？
+1. document：每个载入浏览器的html文档都会成为document对象
+2. element：html元素
+3. Attribute：html属性
+4. Event:代表事件的状态
 
-## 19隆垄脨脨脭陋脣脴驴茅脭陋脣脴潞脥驴脮脭陋脣脴路脰卤冒脫脨脛脛脨漏拢驴脫脨脢虏脙麓脟酶卤冒拢驴
-1. 脨脨脭陋脣脴拢潞 a隆垄span隆垄label隆垄i隆垄b隆垄input隆垄select隆垄code隆垄img
-2. 驴茅脭陋脣脴拢潞div隆垄p隆垄address隆垄dl隆垄dd隆垄dt隆垄from隆垄h1隆垄h2隆垄ol隆垄ul隆垄li隆垄td隆垄tr隆垄th隆垄table
-3. 驴脮脭陋脣脴拢潞link隆垄meta隆垄br隆垄hr隆垄area隆垄source
-#### 脟酶卤冒拢潞
-1. 驴茅脭陋脣脴驴脡脪脭掳眉潞卢脨脨脭陋脣脴拢卢露酶脨脨脭陋脣脴虏禄脛脺掳眉潞卢驴茅脭陋脣脴拢禄
-2. 脨脨脛脷脭陋脣脴脡猫脰脙width脦脼脨搂拢卢height脦脼脨搂(驴脡脪脭脡猫脰脙line-height)拢卢margin脡脧脧脗脦脼脨搂拢卢padding脡脧脧脗脦脼脨搂
-3. 脨脨脭陋脣脴禄谩脭脷脥卢脪禄脨脨脣庐脝陆脜脜脕脨
-4. 脨脨脭陋脣脴禄谩赂梅脮录戮脻脪禄脨脨拢卢麓鹿脰卤路陆脧貌脜脜脕脨
-5. 脙禄脫脨脛脷脠脻碌脛 HTML 脛脷脠脻卤禄鲁脝脦陋驴脮脭陋脣脴隆拢驴脮脭陋脣脴脢脟脭脷驴陋脢录卤锚脟漏脰脨鹿脴卤脮碌脛隆拢
+## 19、行元素块元素和空元素分别有哪些？有什么区别？
+1. 行元素： a、span、label、i、b、input、select、code、img
+2. 块元素：div、p、address、dl、dd、dt、from、h1、h2、ol、ul、li、td、tr、th、table
+3. 空元素：link、meta、br、hr、area、source
+#### 区别：
+1. 块元素可以包含行元素，而行元素不能包含块元素；
+2. 行内元素设置width无效，height无效(可以设置line-height)，margin上下无效，padding上下无效
+3. 行元素会在同一行水平排列
+4. 行元素会各占据一行，垂直方向排列
+5. 没有内容的 HTML 内容被称为空元素。空元素是在开始标签中关闭的。
 
-## 20隆垄link 潞脥@import 碌脛脟酶卤冒脢脟拢驴
-1. link脪媒脫脙CSS脢卤拢卢脭脷脪鲁脙忙脭脴脠毛脢卤脥卢脢卤录脫脭脴拢禄@import脨猫脪陋脪鲁脙忙脥锚脠芦脭脴脠毛脪脭潞贸录脫脭脴隆拢
-2. ink驴脡脪脭脥篓鹿媒js赂脛卤盲脩霉脢陆拢禄露酶@import虏禄脰搂鲁脰隆拢
+## 20、link 和@import 的区别是？
+1. link引用CSS时，在页面载入时同时加载；@import需要页面完全载入以后加载。
+2. ink可以通过js改变样式；而@import不支持。
 
-## 21隆垄露脭html脫茂脪氓禄炉脠莽潞脦脌铆陆芒拢驴
-1. 脛脺鹿禄脟氓鲁镁碌脴脮鹿脢戮麓煤脗毛陆谩鹿鹿拢卢卤茫脫脷脭脛露脕
-2. 脫脨脌没脫脷seo拢卢脫脨脌没脫脷脜脌鲁忙脳楼脠隆赂眉露脿脫脨脨搂碌脛脨脜脧垄
-3. 脫脨脌没脫脷赂梅脰脰脡猫卤赂陆芒脦枚麓煤脗毛陆谩鹿鹿
-4. 卤茫脫脷脥脜露脫驴陋路垄脫毛脦卢禄陇
+## 21、对html语义化如何理解？
+1. 能够清楚地展示代码结构，便于阅读
+2. 有利于seo，有利于爬虫抓取更多有效的信息
+3. 有利于各种设备解析代码结构
+4. 便于团队开发与维护
 
-## 22隆垄rem脢脟脢虏脙麓拢驴脭玫脙麓脢鹿脫脙拢驴
-* rem脢脟脰赂脧脿露脭脫脷赂霉脭陋脣脴碌脛脳脰脤氓麓贸脨隆碌脛碌楼脦禄隆拢脝脕脛禄碌脛驴铆露脠 / 脡猫录脝脥录碌脛驴铆露脠 * 40
+## 22、rem是什么？怎么使用？
+* rem是指相对于根元素的字体大小的单位。屏幕的宽度 / 设计图的宽度 * 40
 
-## 23隆垄鲁拢脫脙盲炉脌脌脝梅碌脛脛脷潞脣路脰卤冒脢脟脢虏脙麓拢驴
-1. Trident拢篓ie拢漏
+## 23、常用浏览器的内核分别是什么？
+1. Trident（ie）
 2. webkit
-3. Gecko拢篓firefox拢漏
-4. blink拢篓opera拢漏
+3. Gecko（firefox）
+4. blink（opera）
 
-## 24隆垄卤锚脳录碌脛CSS潞脨脳脫脛拢脨脥拢驴脫毛碌脥掳忙卤戮IE碌脛潞脨脳脫脛拢脨脥脫脨脢虏脙麓虏禄脥卢碌脛拢驴
-* 脛脷脠脻(content)隆垄脛脷卤脽戮脿(padding)隆垄卤脽驴貌(border)隆垄脥芒卤脽戮脿(margin) 卤锚脳录碌脛潞脨脳脫脛拢脨脥脌茂脛脷脠脻碌脛驴铆露脠碌脠脫脷content碌脛驴铆露脠拢卢碌脥掳忙卤戮碌脛ie脌茂脛脷脠脻碌脛驴铆露脠碌脠脫脷content+padding+border
+## 24、标准的CSS盒子模型？与低版本IE的盒子模型有什么不同的？
+* 内容(content)、内边距(padding)、边框(border)、外边距(margin) 标准的盒子模型里内容的宽度等于content的宽度，低版本的ie里内容的宽度等于content+padding+border
 
-## 25隆垄脟掳露脣脪鲁脙忙脫脨脛脛脠媒虏茫鹿鹿鲁脡拢卢路脰卤冒脢脟脢虏脙麓拢驴脳梅脫脙脢脟脢虏脙麓拢驴
-* 脥酶脪鲁路脰鲁脡脠媒赂枚虏茫麓脦拢卢录麓拢潞陆谩鹿鹿虏茫隆垄卤铆脢戮虏茫隆垄脨脨脦陋虏茫隆拢
-1. 脥酶脪鲁碌脛陆谩鹿鹿虏茫拢篓html禄貌xhtml拢漏
-2. 脥酶脪鲁碌脛卤铆脢戮虏茫拢篓css拢漏
-3. 脥酶脪鲁碌脛脨脨脦陋虏茫拢篓js拢漏
+## 25、前端页面有哪三层构成，分别是什么？作用是什么？
+* 网页分成三个层次，即：结构层、表示层、行为层。
+1. 网页的结构层（html或xhtml）
+2. 网页的表示层（css）
+3. 网页的行为层（js）
 
-## 26隆垄html脰脨form脌茂action 路陆路篓碌脛get潞脥post脫脨脢虏脙麓脟酶卤冒拢驴
-1. Get脢脟脫脙脌麓麓脫路镁脦帽脝梅脡脧禄帽碌脙脢媒戮脻拢卢露酶Post脢脟脫脙脌麓脧貌路镁脦帽脝梅脡脧麓芦碌脻脢媒戮脻隆拢
-2. Get陆芦卤铆碌楼脰脨脢媒戮脻碌脛掳麓脮脮variable=value碌脛脨脦脢陆拢卢脤铆录脫碌陆action脣霉脰赂脧貌碌脛URL潞贸脙忙拢卢虏垄脟脪脕陆脮脽脢鹿脫脙"?"脕卢陆脫拢卢露酶赂梅赂枚卤盲脕驴脰庐录盲脢鹿脫脙"&"脕卢陆脫隆拢Post脢脟陆芦卤铆碌楼脰脨碌脛脢媒戮脻路脜脭脷form碌脛脢媒戮脻脤氓脰脨拢卢掳麓脮脮卤盲脕驴潞脥脰碌脧脿露脭脫娄碌脛路陆脢陆拢卢麓芦碌脻碌陆action脣霉脰赂脧貌URL隆拢
-3. Get脢脟虏禄掳虏脠芦碌脛拢卢脪貌脦陋脭脷麓芦脢盲鹿媒鲁脤拢卢脢媒戮脻卤禄路脜脭脷脟毛脟贸碌脛URL脰脨拢卢露酶脠莽陆帽脧脰脫脨碌脛潞脺露脿路镁脦帽脝梅隆垄麓煤脌铆路镁脦帽脝梅禄貌脮脽脫脙禄搂麓煤脌铆露录禄谩陆芦脟毛脟贸URL录脟脗录碌陆脠脮脰戮脦脛录镁脰脨拢卢脠禄潞贸路脜脭脷脛鲁赂枚碌脴路陆拢卢脮芒脩霉戮脥驴脡脛脺禄谩脫脨脪禄脨漏脪镁脣陆碌脛脨脜脧垄卤禄碌脷脠媒路陆驴麓碌陆隆拢脕铆脥芒拢卢脫脙禄搂脪虏驴脡脪脭脭脷盲炉脌脌脝梅脡脧脰卤陆脫驴麓碌陆脤谩陆禄碌脛脢媒戮脻拢卢脪禄脨漏脧碌脥鲁脛脷虏驴脧没脧垄陆芦禄谩脪禄脥卢脧脭脢戮脭脷脫脙禄搂脙忙脟掳隆拢Post碌脛脣霉脫脨虏脵脳梅露脭脫脙禄搂脌麓脣碌露录脢脟虏禄驴脡录没碌脛隆拢
-4. Get麓芦脢盲碌脛脢媒戮脻脕驴脨隆拢卢脮芒脰梅脪陋脢脟脪貌脦陋脢脺URL鲁陇露脠脧脼脰脝隆拢露酶Post驴脡脪脭麓芦脢盲麓贸脕驴碌脛脢媒戮脻拢卢脣霉脪脭脭脷脡脧麓芦脦脛录镁脰禄脛脺脢鹿脫脙Post拢篓碌卤脠禄禄鹿脫脨脪禄赂枚脭颅脪貌拢卢陆芦脭脷潞贸脙忙碌脛脤谩碌陆拢漏隆拢
-5. Get脧脼脰脝Form卤铆碌楼碌脛脢媒戮脻录炉碌脛脰碌卤脴脨毛脦陋ASCII脳脰路没隆拢露酶Post脰搂鲁脰脮没赂枚ISO10646脳脰路没录炉隆拢
-6. Get脢脟Form碌脛脛卢脠脧路陆路篓隆拢
+## 26、html中form里action 方法的get和post有什么区别？
+1. Get是用来从服务器上获得数据，而Post是用来向服务器上传递数据。
+2. Get将表单中数据的按照variable=value的形式，添加到action所指向的URL后面，并且两者使用"?"连接，而各个变量之间使用"&"连接。Post是将表单中的数据放在form的数据体中，按照变量和值相对应的方式，传递到action所指向URL。
+3. Get是不安全的，因为在传输过程，数据被放在请求的URL中，而如今现有的很多服务器、代理服务器或者用户代理都会将请求URL记录到日志文件中，然后放在某个地方，这样就可能会有一些隐私的信息被第三方看到。另外，用户也可以在浏览器上直接看到提交的数据，一些系统内部消息将会一同显示在用户面前。Post的所有操作对用户来说都是不可见的。
+4. Get传输的数据量小，这主要是因为受URL长度限制。而Post可以传输大量的数据，所以在上传文件只能使用Post（当然还有一个原因，将在后面的提到）。
+5. Get限制Form表单的数据集的值必须为ASCII字符。而Post支持整个ISO10646字符集。
+6. Get是Form的默认方法。
 
-## 27隆垄html脭陋脣脴碌脛id赂煤class脢虏脙麓脟酶卤冒
-1. 脭脷css脩霉脢陆卤铆脰脨脢茅脨麓脢卤拢卢id脩隆脭帽路没脟掳脳潞脫娄录脫"#"拢卢class脩隆脭帽路没脟掳脳潞脫娄录脫"."
-2. id脢么脨脭脭脷脪禄赂枚脪鲁脙忙脰脨脢茅脨麓脢卤脰禄脛脺脢鹿脫脙脪禄麓脦拢卢露酶class驴脡脪脭路麓赂麓脢鹿脫脙
-3. id脳梅脦陋脭陋脣脴卤锚脟漏脫脙脫脷脟酶路脰虏禄脥卢陆谩鹿鹿潞脥脛脷脠脻拢卢露酶class脳梅脦陋脪禄赂枚脩霉脢陆拢卢驴脡脪脭脫娄脫脙碌陆脠脦潞脦陆谩鹿鹿潞脥脛脷脠脻碌卤脰脨脠楼
-4. 脛驴脟掳盲炉脌脌脝梅露录脭脢脨铆脥卢脪禄赂枚脪鲁脙忙鲁枚脧脰露脿赂枚脧脿脥卢脢么脨脭脰碌碌脛id拢卢脪禄掳茫脟茅驴枚脛脺脮媒鲁拢脧脭脢戮拢卢虏禄鹿媒碌卤javascript脥篓鹿媒id脌麓驴脴脰脝脭陋脣脴脢卤戮脥禄谩鲁枚麓铆
+## 27、html元素的id跟class什么区别
+1. 在css样式表中书写时，id选择符前缀应加"#"，class选择符前缀应加"."
+2. id属性在一个页面中书写时只能使用一次，而class可以反复使用
+3. id作为元素标签用于区分不同结构和内容，而class作为一个样式，可以应用到任何结构和内容当中去
+4. 目前浏览器都允许同一个页面出现多个相同属性值的id，一般情况能正常显示，不过当javascript通过id来控制元素时就会出错
 
-## 28隆垄CSS display:none潞脥visibility:hidden碌脛脟酶卤冒
-* visibility:hidden脪镁虏脴拢卢碌芦脭脷盲炉脌脌脢卤卤拢脕么脦禄脰脙拢禄display:none脢脫脦陋虏禄麓忙脭脷拢卢脟脪虏禄录脫脭脴
+## 28、CSS display:none和visibility:hidden的区别
+* visibility:hidden隐藏，但在浏览时保留位置；display:none视为不存在，且不加载
 
-## 29隆垄null潞脥undefined碌脛脟酶卤冒拢驴
-1. null卤铆脢戮脪禄赂枚脡脨脦麓麓忙脭脷碌脛露脭脧贸拢禄undefined卤铆脢戮脪禄赂枚露脭脧贸麓麓陆篓脕脣碌芦脙禄脫脨鲁玫脢录禄炉隆拢
-2. null碌脛脌脿脨脥脢脟object拢卢脢脟脪禄赂枚虏禄麓忙脭脷碌脛露脭脧贸碌脛脮录脦禄路没拢卢露酶undefinded碌脛脌脿脨脥脢脟undefined
+## 29、null和undefined的区别？
+1. null表示一个尚未存在的对象；undefined表示一个对象创建了但没有初始化。
+2. null的类型是object，是一个不存在的对象的占位符，而undefinded的类型是undefined
 
-## 30隆垄JSON 碌脛脕脣陆芒拢驴
-* json脢脟脪禄脰脰脟谩脕驴录露碌脛脢媒戮脻陆禄禄禄赂帽脢陆隆拢脣眉脢脟脪脭录眉脰碌露脭卤拢麓忙js露脭脧贸拢卢脣眉碌脛卤戮脰脢脢脟脪禄赂枚脳脰路没麓庐隆拢
-1. JSON.parse(拢漏陆芦脳脰路没麓庐脳陋禄禄鲁脡js露脭脧贸
-2. JSON.stringify() 陆芦js露脭脧贸脳陋禄炉鲁脡脳脰路没麓庐
+## 30、JSON 的了解？
+* json是一种轻量级的数据交换格式。它是以键值对保存js对象，它的本质是一个字符串。
+1. JSON.parse(）将字符串转换成js对象
+2. JSON.stringify() 将js对象转化成字符串
 
-## 31隆垄js脢媒戮脻脌脿脨脥拢潞
-* null隆垄undefinded隆垄number隆垄boolean隆垄string隆垄object
+## 31、js数据类型：
+* null、undefinded、number、boolean、string、object
 
-## 32隆垄HTML碌脛Doctype潞脥脩脧赂帽脛拢脢陆脫毛禄矛脭脫脛拢脢陆拢驴
-* 赂忙脣脽盲炉脌脌脝梅脪脭脭玫脙麓碌脛脦脛碌碌脌脿脨脥脌麓陆芒脦枚脦脛碌碌 脭脷卤锚脳录脛拢脢陆脰脨拢卢盲炉脌脌脝梅脪脭脝盲脰搂鲁脰碌脛脳卯赂脽卤锚脳录鲁脢脧脰脪鲁脙忙隆拢脭脷禄矛脭脫脛拢脢陆脰脨拢卢脪鲁脙忙脪脭脪禄脰脰卤脠陆脧驴铆脣脡碌脛脧貌潞贸录忙脠脻碌脛路陆脢陆脧脭脢戮隆拢
+## 32、HTML的Doctype和严格模式与混杂模式？
+* 告诉浏览器以怎么的文档类型来解析文档 在标准模式中，浏览器以其支持的最高标准呈现页面。在混杂模式中，页面以一种比较宽松的向后兼容的方式显示。
 
-## 33隆垄<script>隆垄<script async>潞脥<script defer>碌脛脟酶卤冒拢驴
-1. <script> 碌卤盲炉脌脌脝梅脫枚碌陆 script 卤锚脟漏脢卤拢卢脦脛碌碌碌脛陆芒脦枚陆芦脥拢脰鹿拢卢虏垄脕垄录麓脧脗脭脴虏垄脰麓脨脨陆脜卤戮拢卢陆脜卤戮脰麓脨脨脥锚卤脧潞贸陆芦录脤脨酶陆芒脦枚脦脛碌碌隆拢
-2. <script async>碌卤盲炉脌脌脝梅脫枚碌陆 script 卤锚脟漏脢卤拢卢脦脛碌碌碌脛陆芒脦枚虏禄禄谩脥拢脰鹿拢卢脝盲脣没脧脽鲁脤陆芦脧脗脭脴陆脜卤戮拢卢陆脜卤戮脧脗脭脴脥锚鲁脡潞贸驴陋脢录脰麓脨脨陆脜卤戮拢卢陆脜卤戮脰麓脨脨碌脛鹿媒鲁脤脰脨脦脛碌碌陆芦脥拢脰鹿陆芒脦枚拢卢脰卤碌陆陆脜卤戮脰麓脨脨脥锚卤脧隆拢
-3. <script defer>碌卤盲炉脌脌脝梅脫枚碌陆 script 卤锚脟漏脢卤拢卢脦脛碌碌碌脛陆芒脦枚虏禄禄谩脥拢脰鹿拢卢脝盲脣没脧脽鲁脤陆芦脧脗脭脴陆脜卤戮拢卢麓媒碌陆脦脛碌碌陆芒脦枚脥锚鲁脡拢卢陆脜卤戮虏脜禄谩脰麓脨脨隆拢
+## 33、<script>、<script async>和<script defer>的区别？
+1. <script> 当浏览器遇到 script 标签时，文档的解析将停止，并立即下载并执行脚本，脚本执行完毕后将继续解析文档。
+2. <script async>当浏览器遇到 script 标签时，文档的解析不会停止，其他线程将下载脚本，脚本下载完成后开始执行脚本，脚本执行的过程中文档将停止解析，直到脚本执行完毕。
+3. <script defer>当浏览器遇到 script 标签时，文档的解析不会停止，其他线程将下载脚本，待到文档解析完成，脚本才会执行。
 
-## 34隆垄this碌脛脌铆陆芒
-* this脭脷潞炉脢媒脛脷虏驴拢卢卤铆脢戮碌梅脫脙赂脙潞炉脢媒碌脛露脭脧贸隆拢
+## 34、this的理解
+* this在函数内部，表示调用该函数的对象。
 
-## 35隆垄脠莽潞脦脳枚脧矛脫娄脢陆脪鲁脙忙拢驴
-* 脢脳脧脠脭脷脦脛碌碌碌脛脥路虏驴meta脡猫脰脙name脢么脨脭脦陋viewport拢卢陆没脰鹿脫脙禄搂脣玫路脜拢卢脠禄潞贸脥篓鹿媒脙陆脤氓虏茅脩炉拢卢掳脩脪鲁脙忙陆酶脨脨脮陇赂帽禄炉隆拢
+## 35、如何做响应式页面？
+* 首先在文档的头部meta设置name属性为viewport，禁止用户缩放，然后通过媒体查询，把页面进行栅格化。
 
-## 36隆垄$(this)潞脥this碌脛脟酶卤冒拢驴
-** $(this)麓煤卤铆碌脛脢脟脪禄赂枚jquery露脭脧贸拢卢脣眉驴脡脪脭脢鹿脫脙jqeury脰脨路芒脳掳碌脛路陆路篓拢卢this麓煤卤铆碌脛脢脟脪禄赂枚html露脭脧贸
+## 36、$(this)和this的区别？
+** $(this)代表的是一个jquery对象，它可以使用jqeury中封装的方法，this代表的是一个html对象
 
-## 37隆垄css麓鹿脰卤脣庐脝陆戮脫脰脨拢驴
+## 37、css垂直水平居中？
 * display: flex;justify-content:center;align-items:center;
 
-## 38隆垄脭颅脨脥潞脥脭颅脨脥脕卢
-* 脭颅脨脥拢潞脦脪脙脟麓麓陆篓脪禄赂枚潞炉脢媒拢卢潞炉脢媒禄谩麓酶脫脨脪禄赂枚prototype脢么脨脭拢卢脮芒赂枚脢么脨脭禄谩脰赂脧貌脪禄赂枚露脭脧贸拢卢驴脡脪脭脠脙脤脴露篓碌脛脢碌脌媒鹿虏脧铆脣眉脣霉掳眉潞卢碌脛脢么脨脭潞脥路陆路篓隆拢
-脭颅脨脥脕麓拢潞
+## 38、原型和原型连
+* 原型：我们创建一个函数，函数会带有一个prototype属性，这个属性会指向一个对象，可以让特定的实例共享它所包含的属性和方法。
+原型链：
 
 
-## 39隆垄脟鲁驴陆卤麓潞脥脡卯驴陆卤麓脫脨脢虏脙麓脟酶卤冒拢驴
-* 脠莽鹿没驴陆卤麓碌脛脢卤潞貌拢卢掳脩脢媒戮脻脣霉脫脨碌脛脪媒脫脙鹿脴脧碌露录驴陆卤麓脪禄路脻拢卢脛脟脙麓脮芒陆脨脳枚脡卯驴陆卤麓拢禄脠莽鹿没驴陆卤麓碌脛脢卤潞貌拢卢脰禄掳脩脢媒戮脻碌脛脢么脨脭驴陆卤麓脪禄路脻拢卢脛脟脙麓脮芒陆脨脳枚脟鲁驴陆卤麓
+## 39、浅拷贝和深拷贝有什么区别？
+* 如果拷贝的时候，把数据所有的引用关系都拷贝一份，那么这叫做深拷贝；如果拷贝的时候，只把数据的属性拷贝一份，那么这叫做浅拷贝
 
 
-## 40隆垄break脫毛continue碌脛脟酶卤冒拢驴
-*  break脤酶鲁枚脩颅禄路拢禄continue脣眉脢脟脰脨露脧卤戮麓脦脩颅禄路拢卢录脤脨酶脧脗脪禄脗脰脩颅禄路
+## 40、break与continue的区别？
+*  break跳出循环；continue它是中断本次循环，继续下一轮循环
 
-## 41隆垄javascript脙忙脧貌露脭脧贸碌脛脤脴脨脭拢驴
-* 鲁茅脧贸脨脭隆垄路芒脳掳脨脭隆垄录脤鲁脨脨脭
+## 41、javascript面向对象的特性？
+* 抽象性、封装性、继承性
 
-## 42隆垄脢碌脌媒脫毛露脭脧贸拢驴
-* 脢碌脌媒脪禄掳茫脢脟脰赂脛鲁脪禄赂枚鹿鹿脭矛潞炉脢媒麓麓陆篓鲁枚脌麓碌脛露脭脧贸隆拢脢碌脌媒戮脥脢脟露脭脧贸拢卢露脭脧贸脢脟脪禄赂枚路潞鲁脝
+## 42、实例与对象？
+* 实例一般是指某一个构造函数创建出来的对象。实例就是对象，对象是一个泛称
 
-## 43隆垄xhtml脫毛html碌脛脟酶卤冒拢驴
-* XHTML 脭陋脣脴卤脴脨毛卤禄脮媒脠路碌脴脟露脤脳隆拢XHTML 脭陋脣脴卤脴脨毛卤禄鹿脴卤脮隆拢卤锚脟漏脙没卤脴脨毛脫脙脨隆脨麓脳脰脛赂隆拢XHTML 脦脛碌碌卤脴脨毛脫碌脫脨赂霉脭陋脣脴隆拢
+## 43、xhtml与html的区别？
+* XHTML 元素必须被正确地嵌套。XHTML 元素必须被关闭。标签名必须用小写字母。XHTML 文档必须拥有根元素。
 
-1. Object 潞炉脢媒脢脟Function碌脛脪禄赂枚脢碌脌媒
-2. Object 脳梅脦陋露脭脧贸脢脟录脤鲁脨脳脭Function.prototype碌脛拢卢脫脰Function.prototype 录脤鲁脨脳脭 Object.prototype
-3. Function 脢脟脳脭录潞碌脛鹿鹿脭矛潞炉脢媒 虏芒脢脭
-
-
-
-
-
+1. Object 函数是Function的一个实例
+2. Object 作为对象是继承自Function.prototype的，又Function.prototype 继承自 Object.prototype
+3. Function 是自己的构造函数
