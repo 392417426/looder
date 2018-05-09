@@ -209,6 +209,12 @@ zepto»ñÈ¡ÔªËØµÄ¿í¶ÈºÍ¸ß¶ÈÊÇ¸ù¾ÝºÐ×ÓÄ£ÐÍÀ´»ñÈ¡µÄ£¬¶øjQuery»áºöÂÔºÐÄ£ÐÍ£¬Ê¼ÖÕ·µ»ØÄ
 ## 43¡¢xhtmlÓëhtmlµÄÇø±ð£¿
 * XHTML ÔªËØ±ØÐë±»ÕýÈ·µØÇ¶Ì×¡£XHTML ÔªËØ±ØÐë±»¹Ø±Õ¡£±êÇ©Ãû±ØÐëÓÃÐ¡Ð´×ÖÄ¸¡£XHTML ÎÄµµ±ØÐëÓµÓÐ¸ùÔªËØ¡£
 
+## 44¡¢js±à³Ì·½Ê½ÓÐÄÄ¼¸ÖÖ£¿
+* ¹¹Ôìº¯Êý´´½¨¶ÔÏó¡¢¶ÔÏó×ÖÃæÁ¿·½Ê½´´½¨¶ÔÏó¡¢Ô­ÐÍ·½Ê½¡¢¹¤³§·½Ê½´´½¨¶ÔÏó
+
+## 45¡¢js¶ÔÏóµÄ¼Ì³Ð·½Ê½
+* Ô­ÐÍÁ´¼Ì³Ð¡¢¹¹Ôìº¯Êý¼Ì³Ð¡¢×éºÏ¼Ì³Ð¡¡
+
 1. Object º¯ÊýÊÇFunctionµÄÒ»¸öÊµÀý
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ð×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ð×Ô Object.prototype
 3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êý
