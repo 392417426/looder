@@ -215,6 +215,24 @@ zepto»ñÈ¡ÔªËØµÄ¿í¶ÈºÍ¸ß¶ÈÊÇ¸ù¾ÝºÐ×ÓÄ£ÐÍÀ´»ñÈ¡µÄ£¬¶øjQuery»áºöÂÔºÐÄ£ÐÍ£¬Ê¼ÖÕ·µ»ØÄ
 ## 45¡¢js¶ÔÏóµÄ¼Ì³Ð·½Ê½
 * Ô­ÐÍÁ´¼Ì³Ð¡¢¹¹Ôìº¯Êý¼Ì³Ð¡¢×éºÏ¼Ì³Ð¡¡
 
+¶þ²æÊ÷ÊÇn(n>=0)¸ö½áµãµÄÓÐÏÞ¼¯ºÏ£¬¸Ã¼¯ºÏ»òÕßÎª¿Õ¼¯ºÏ£¬»òÕßÓÐÒ»¸ö¸ù½áµãºÍÁ½¿Å»¥²»Ïà½»µÄ¡¢·Ö±ð³ÆÎª¸ù½áµãµÄ×ó×ÓÊ÷ºÍÓÒ×ÓÊ÷×é³É
+ÔÚ¶þ²æÊ÷µÄµÚi²ãÉÏ×î¶àÓÐ2^(i-1)¸ö½áµã
+Éî¶ÈÎªkµÄ¶þ²æÊ÷×î¶àÓÐ2^k - 1¸ö½áµã
+¶ÔÈÎºÎÒ»¸ö¶þ²æÊ÷£¬Èç¹ûÆäÖÕµã½áµãÊýÎªn0£¬¶ÈÎª2µÄ½ÚµãÎªn2£¬Ôòn0=n2+1
+
+Ç°Ðò±éÀú
+Èô¶þ²æÊ÷Îª¿Õ£¬Ôò¿Õ²Ù×÷·µ»Ø£¬·ñÔòÏÈ·ÃÎÊ¸ù½áµã£¬È»ºóÇ°Ðò±éÀú×ó×ÓÊ÷£¬ÔÙÇ°Ðò±éÀú¸ù×ÓÊ÷¡£
+
+ÖÐÐò±éÀú
+Èô¶þ²æÊ÷Îª¿Õ£¬Ôò¿Õ²Ù×÷·µ»Ø£¬·ñÔò´Ó¸ù½áµã¿ªÊ¼£¨×¢Òâ²¢²»ÊÇÏÈ·ÃÎÊ¸ù½áµã£©ÖÐÐò±éÀú¸ù½áµãµÄ×ó×ÓÊ÷£¬È»ºóÊÇ·ÃÎÊ¸ù½áµã£¬×îºóÖÐÐò±éÀúÓÒ×ÓÊ÷
+
+ºóÐò±éÀú
+Èô¶þ²æÊ÷Îª¿Õ£¬Ôò¿Õ²Ù×÷·µ»Ø£¬·ñÔò´Ó×óµ½ÓÒÏÈÒ¶×Óºó½áµãµÄ·½Ê½±éÀú·ÃÎÊ×óÓÒ×ÓÊ÷£¬×îºóÊÇ·ÃÎÊ¸ù½áµã¡£
+
+²ãÐò±éÀú
+Èô¶þ²æÊ÷Îª¿Õ£¬Ôò¿Õ²Ù×÷·µ»Ø£¬·ñÔò´ÓÊ÷µÄµÚÒ»²ã£¬Ò²¾ÍÊÇ¸ù½áµã¿ªÊ¼·ÃÎÊ£¬´ÓÉÏ¶øÏÂÖð²ã±éÀú£¬ÔÚÍ¬Ò»²ãÖÐ£¬°´´Ó×óµ½ÓÒµÄË³Ðò¶Ô½áµã×é¸ö·ÃÎÊ
+
+
 1. Object º¯ÊýÊÇFunctionµÄÒ»¸öÊµÀý
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ð×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ð×Ô Object.prototype
 3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êý
