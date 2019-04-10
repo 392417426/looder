@@ -213,7 +213,23 @@ zepto»ñÈ¡ÔªËØµÄ¿í¶ÈºÍ¸ß¶ÈÊÇ¸ù¾ÝºÐ×ÓÄ£ÐÍÀ´»ñÈ¡µÄ£¬¶øjQuery»áºöÂÔºÐÄ£ÐÍ£¬Ê¼ÖÕ·µ»ØÄ
 * ¹¹Ôìº¯Êý´´½¨¶ÔÏó¡¢¶ÔÏó×ÖÃæÁ¿·½Ê½´´½¨¶ÔÏó¡¢Ô­ÐÍ·½Ê½¡¢¹¤³§·½Ê½´´½¨¶ÔÏó
 
 ## 45¡¢js¶ÔÏóµÄ¼Ì³Ð·½Ê½
-* Ô­ÐÍÁ´¼Ì³Ð¡¢¹¹Ôìº¯Êý¼Ì³Ð¡¢×éºÏ¼Ì³Ð¡¡
+* Ô­ÐÍÁ´¼Ì³Ð¡¢¹¹Ôìº¯Êý¼Ì³Ð¡¢×éºÏ¼Ì³Ð
+
+## 46¡¢jsÃæÏò¶ÔÏóµÄÌØÐÔÊÇÊ²Ã´
+* ¼Ì³Ð¡¢·â×°¡¢¶àÌ¬
+
+## 47¡¢vue×é¼þµÄÉúÃüÖÜÆÚ
+1.beforeCreate ¡ª¡ª »ìãç³õ¿ª£¬Íê³ÉÊµÀý³õÊ¼»¯
+2.created ¡ª¡ª ÊµÀý´´½¨Íê±Ï£¬Íê³É data ÊôÐÔµÄ³õÊ¼»¯£¬ÄÜ¹»½øÐÐ·ÃÎÊ£¬µ«Î´¹ÒÔØÖÁDOM
+3.beforeMount ¡ª¡ª ±àÒëtemplate£¬µ«ÊÇ²¢Î´°ó¶¨dataÖÁÊÓÍ¼
+4.mounted ¡ª¡ª Íê³Édata°ó¶¨ÖÁÊÓÍ¼£¬²¢Íê³É¹ÒÔØDOM²Ù×÷
+5.beforeUpdate ¡ª¡ª ÔÚDOM¸üÐÂÖ®Ç°£¬¿ÉÒÔ·ÃÎÊÏÖÓÐDOM
+6.updated ¡ª¡ª DOM¸üÐÂÍê±Ï
+7.beforeDestory ¡ª¡ª ¹³×Óº¯ÊýÔÚÊµÀýÏú»ÙÖ®Ç°µ÷ÓÃ¡£ÔÚÕâÒ»²½£¬ÊµÀýÈÔÈ»ÍêÈ«¿ÉÓÃ£¬ÇåÀí¶¨Ê±Æ÷µÈ·ÀÖ¹ÄÚ´æÒç³öµÄ²Ù×÷ÔÚ´ËÍê³É£¬
+8.destroyed ¡ª¡ª ¹³×Óº¯ÊýÔÚVue ÊµÀýÏú»Ùºóµ÷ÓÃ¡£µ÷ÓÃºó£¬Vue ÊµÀýÖ¸Ê¾µÄËùÓÐ¶«Î÷¶¼»á½â°ó¶¨£¬ËùÓÐµÄÊÂ¼þ¼àÌýÆ÷»á±»ÒÆ³ý£¬ËùÓÐµÄ×ÓÊµÀýÒ²»á±»Ïú»Ù¡£
+
+## 48¡¢vuejs computeºÍmethodsµÄÇø±ð
+compute»á»º´æÇ°Ò»´Î¼ÆËã½á¹ûµÄ£¬methods»áÃ¿´ÎÖ´ÐÐ·½·¨
 
 ¶þ²æÊ÷ÊÇn(n>=0)¸ö½áµãµÄÓÐÏÞ¼¯ºÏ£¬¸Ã¼¯ºÏ»òÕßÎª¿Õ¼¯ºÏ£¬»òÕßÓÐÒ»¸ö¸ù½áµãºÍÁ½¿Å»¥²»Ïà½»µÄ¡¢·Ö±ð³ÆÎª¸ù½áµãµÄ×ó×ÓÊ÷ºÍÓÒ×ÓÊ÷×é³É
 ÔÚ¶þ²æÊ÷µÄµÚi²ãÉÏ×î¶àÓÐ2^(i-1)¸ö½áµã
