@@ -252,5 +252,3 @@ compute会缓存前一次计算结果的，methods会每次执行方法
 1. Object 函数是Function的一个实例
 2. Object 作为对象是继承自Function.prototype的，又Function.prototype 继承自 Object.prototype
 3. Function 是自己的构造函数
-
-函数柯里化、js节流和防抖、toFixed的bug、localStorage和sessionstorage indexDB 应用缓存  audio和video promise async、await fullScreen
