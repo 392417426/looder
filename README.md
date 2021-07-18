@@ -9,22 +9,22 @@
 meta标签提供了 HTML 文档的元数据。元数据不会显示在客户端，但是会被浏览器解析
 
 ## 介紹一下flex布局 属性有哪些
-flex布局是一种弹性布局，通过改变父元素的display属性，让父元素成为一个flex容器，从而可以自由操作父元素里面的项目排序
-flex-direction用于控制项目排列方向与顺序 row（横向排列） row-reverse（横向反向排列）column（纵向排列） column-reverse（纵向反向排列）
-flex-wrap用于控制项目是否换行 nowrap（不换行）wrap（换行）
-justify-content用于控制项目在横轴的对齐方式 flex-start（左对齐）center （居中）flex-end（右对齐）space-between（左右两端对齐）space-around（项目之间间距为左右两侧项目到容器间距的2倍）space-evenly（项目之间间距与项目与容器间距相等）
-align-items用于控制项目在纵轴排列方式
-align-content用于控制多行项目的对齐方式 
-order用于决定项目排序，数值越小，项目排列越靠前 默认0
-flex-grow用于决定项目在有剩余空间的情况下是否放大 默认0 默认不放大
-flex-shrink用于决定项目在空间不足时是否缩小 默认项目都是1，即空间不足时大家一起等比缩小
-flex-basis用于设置项目宽度
-align-self用于让个别项目拥有与其它项目不同的对齐方式
+* flex布局是一种弹性布局，通过改变父元素的display属性，让父元素成为一个flex容器，从而可以自由操作父元素里面的项目排序
+* flex-direction用于控制项目排列方向与顺序 row（横向排列） row-reverse（横向反向排列）column（纵向排列） column-reverse（纵向反向排列）
+* flex-wrap用于控制项目是否换行 nowrap（不换行）wrap（换行）
+* justify-content用于控制项目在横轴的对齐方式 flex-start（左对齐）center （居中）flex-end（右对齐）space-between（左右两端对齐）space-around（项目之间间距为左右两侧项目到容器间距的2倍）space-evenly（项目之间间距与项目与容器间距相等）
+* align-items用于控制项目在纵轴排列方式
+* align-content用于控制多行项目的对齐方式 
+* order用于决定项目排序，数值越小，项目排列越靠前 默认0
+* flex-grow用于决定项目在有剩余空间的情况下是否放大 默认0 默认不放大
+* flex-shrink用于决定项目在空间不足时是否缩小 默认项目都是1，即空间不足时大家一起等比缩小
+* flex-basis用于设置项目宽度
+* align-self用于让个别项目拥有与其它项目不同的对齐方式
 
 ## px、em、rem的区别
-px：绝对单位
-em：相对于父元素的字体大小，一般是以body字体大小为基准
-rem：相对于html字体大小的单位
+* px：绝对单位
+* em：相对于父元素的字体大小，一般是以body字体大小为基准
+* rem：相对于html字体大小的单位
 
 ## 行元素块元素和空元素分别有哪些？有什么区别？
 1. 行元素： a、span、label、i、b、input、select、code、img
