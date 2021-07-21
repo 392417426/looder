@@ -1,4 +1,4 @@
-## h5有什么新的特性？
+ ## h5有什么新的特性？
 1. 新增了具有语义化的标签，例如header、article、section、footer等，
 2. 新增了两个多媒体标签video、audio
 3. 新增了绘图功能：canvas、svg
@@ -7,6 +7,9 @@
 
 ## meta标签的理解
 meta标签提供了 HTML 文档的元数据。元数据不会显示在客户端，但是会被浏览器解析
+
+## src和href的区别
+src用于替换的元素 href用来建立标签与外部资源之间的关系
 
 ## 介紹一下flex布局 属性有哪些
 * flex布局是一种弹性布局，通过改变父元素的display属性，让父元素成为一个flex容器，从而可以自由操作父元素里面的项目排序
@@ -234,9 +237,10 @@ XHTML 元素必须被正确地嵌套。XHTML 元素必须被关闭。标签名必须用小写字母。XHTML 文
 * 相同点： call、apply、bind都是改变this指向的方法
 * 区别：call可以传多个参数，apply只能传一个参数，bind可以传多个参数,不会立马执行函数，apply和call会立马执行函数
 
-## 闭包的作用和副作用
-* 作用：可以读取函数内部的变量 让这些变量的值始终保持在内存中
+## 闭包的作用和副作用 应用场景
+* 作用：可以读取函数内部的变量 避免污染全局变量
 * 副作用：由于闭包会把变量保存在内存里面，容易导致内存溢出
+* 应用场景：防抖函数、节流函数
 
 ## 回调地狱的理解以及解决方式
 异步回调里面不断嵌套异步请求
@@ -244,6 +248,20 @@ generator或者async和await
 
 ## 类数组转化成数组的必备条件是啥？
 必须具备长度length属性
+
+## es6特性
+局部变量let命令 常量const命令 、变量的解构赋值、拓展字符串、数组、对象、正则、函数的一些方法、新增了symbol数据类型、新增了set、map数据结构、新增了promise、prosx、reflect、Generator、class api
+
+## 跨域是什么？如何解决跨域问题？
+发起请求所在的域跟请求资源所在的域不一样，那就是跨域，它是浏览器的同源策略造成的。jsonp、cors、postmessage、websocket
+
+## http和https的区别 
+http是超文本传输协议，信息是明文传输，https则是具有安全性的ssl加密传输协议
+https它是需要申请ca证书的，http不需要申请证书的
+
+## http缓存
+强缓存：cache-control（max-age）、expires 文件资源的过期时间没有失效，浏览器会直接读取缓存里面的文件
+协商缓存：last-modified/if-Modified-since、etag/if-none-match 第一次请求的时候服务器会返回last-modified（etag），第二次请求的时候浏览器会在请求的头部加上if-modified-since（if-none-match），服务器接收到if-modified-since（if-none-match），然后进行匹配
 
 ## vuejs的理解？
 vuejs是一个构建用户界面的渐进式框架。它的体积很小，性能很高。它只关心视图，能够轻易跟其他框架混合开发。
@@ -269,6 +287,31 @@ data对应的值是一个对象，对象是引用类型，所以修改data的值会导致其它相同的组件受到
 
 ## vuejs v-for和v-if哪个先执行？为啥不建议放在一起使用？
 v-for比-if先执行 只要数组发生变化，每次都需要遍历整个数组，会造成性能上的浪费
+
+## Vue动态组件、异步组件
+Component标签通过is来切换组件
+异步组件是把组件打包到另外一个文件里面，当需要用到的时候按需加载
+
+## Vuejs组件通讯
+父组件通过属性来传递数据给子组件，子组件通过emit方法定义一个事件返回数据给父组件，父组件监听事件接收返回的数据，还可以通过全局状态进行通讯 创建一个新的vue实例 然后在vue的原型上新增一个属性，这个属性跟新创建的实力关联起来，然后在组件里面使用这个属性使用来定义事件，这样其它组件都可以通过这个属性监听到定义事件
+
+## Vue2和vue3的区别 
+响应式原理发生了改变，vue2是通过defineproperty来拦截数据的，3是通过proxy代理来拦截数据的
+3新增了composition api，解决了2组件使用多个mixins出现命名空间冲突的问题
+能够更友好的支持typescipt
+打包代码时候，可以不用全部打包vue框架了
+
+## Vuejs key的作用
+数组顺序发生改变的时候，vue不会移动列表里的元素匹配数组顺序的，它是就地更新元素的
+
+## 响应式原理
+响应式原理是采用观察者模式。主要是通过Observer数据的观察者，dep数据更新的发布者，Watcher数据更新的订阅者三个类实现的。当创建vue实例的时候，通过defineProperty来定义data里面的字段和拦截数据，get数据的时候收集订阅者，set数据的时候发布更新，通知watcher，订阅的数据改变时执行相应的回调函数
+
+## 虚拟dom是什么？
+一个dom树结构以js对象表示出来
+
+## web性能优化
+
 
 1. Object 函数是Function的一个实例
 2. Object 作为对象是继承自Function.prototype的，又Function.prototype 继承自 Object.prototype
