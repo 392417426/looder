@@ -1,5 +1,5 @@
 var arr = [];
-for(var i = 0;i < 10000;i++){
+for(var i = 0;i < 1000000;i++){
     arr.push(Math.floor(Math.random() * 100000000))
 }
 //冒泡排序
@@ -20,51 +20,23 @@ function sort1(arr){
 }
 
 //冒泡排序优化
-function sort2(arr){
-
-    var flag = true;
-    for(var i = 0;i < arr.length && flag;i++){
-        flag = true;
-        for(var j = arr.length - 1;j >= i;j--){
-            var temp1 = arr[j];
-            var temp2 = arr[j+1];
-            if(temp1 > temp2){
-                arr[j] = temp2;
-                arr[j+1] = temp1;
-                flag = false;
+function sort2(arr) {
+    var i = arr.length-1;  //初始时,最后位置保持不变
+    while ( i> 0) {
+        var pos= 0; //每趟开始时,无记录交换
+        for (var j= 0; j< i; j++)
+            if (arr[j]> arr[j+1]) {
+                pos= j; //记录交换的位置
+                var tmp = arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;
             }
-        }
-    }
-
-    return arr;
+        i= pos; //为下一趟排序作准备
+     }
+     return arr;
 }
 
-//简单排序
-function sort3(arr){
-
-    for(var i = 0; i < arr.length;i++){
-        var min = i;
-        for(var j = i + 1;j < arr.length;j++){
-            if(arr[min] > arr[j]){
-                min = j;
-            }
-        }
-
-        if(i != min){
-            var temp1 = arr[min];
-            var temp2 = arr[i];
-            arr[i] = temp1;
-            arr[i + 1] =temp2;
-        }
-    }
-
-    return arr;
-}
 
 //直接插入排序
 function sort4(arr){
-
-
     var len = arr.length;
     for (var i = 1; i < len; i++) {
         var key = arr[i];
@@ -170,12 +142,9 @@ function getMiddleIndex(arr){
 }
 
 function sort7(arr){
-
     if(arr.length <= 1){return arr;}
     var middleIndex = getMiddleIndex(arr);
-
     var middle=arr.splice(middleIndex,1)[0];
-
     var left=[];
     var right=[];
 
@@ -191,26 +160,48 @@ function sort7(arr){
     return sort7(left).concat([middle],sort7(right));
 }
 
+// 快排
+function quickSort(arr){
+	if(arr.length <= 1) return arr;
+	var index = Math.floor(arr.length / 2);
+
+	var middle = arr.splice(index,1)[0];
+	var left = [],right = [];
+	for(let i = 0 ; i < arr.length; i++){
+		if(middle > arr[i]){
+			left.push(arr[i])
+		}else{
+			right.push(arr[i])
+		}
+	}
+
+	return quickSort(left).concat([middle],quickSort(right))
+}
 
 
 console.time('sort1')
-sort1(arr)
+console.log(quickSort(arr))
 console.timeEnd('sort1')
-console.time('sort2')
-sort2(arr)
-console.timeEnd('sort2')
-console.time('sort3')
-sort3(arr)
-console.timeEnd('sort3')
-console.time('sort4')
-sort4(arr)
-console.timeEnd('sort4')
-console.time('sort5')
-sort5(arr)
-console.timeEnd('sort5')
-console.time('sort6')
-sort6(arr)
-console.timeEnd('sort6')
-console.time('sort7')
-sort7(arr)
-console.timeEnd('sort7')
+
+// console.time('sort1')
+// sort1(arr)
+// console.timeEnd('sort1')
+// console.time('sort2')L
+// sort2(arr)
+// console.timeEnd('sort2')
+
+// console.time('sort4')
+// sort4(arr)
+// console.timeEnd('sort4')
+// console.time('sort5')
+// sort5(arr)
+// console.timeEnd('sort5')
+// console.time('sort6')
+// sort6(arr)
+// console.timeEnd('sort6')
+// console.time('sort7')
+// sort7(arr)
+// console.timeEnd('sort7')
+
+
+
