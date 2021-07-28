@@ -73,6 +73,10 @@ srcÓÃÓÚÌæ»»µÄÔªËØ hrefÓÃÀ´½¨Á¢±êÇ©ÓëÍâ²¿×ÊÔ´Ö®¼äµÄ¹ØÏµ
 ## CSS display:noneºÍvisibility:hiddenµÄÇø±ð
 visibility:hiddenÒþ²Ø£¬µ«ÔÚä¯ÀÀÊ±±£ÁôÎ»ÖÃ£»display:noneÊÓÎª²»´æÔÚ£¬ÇÒ²»¼ÓÔØ
 
+## css Î±ÀàÓëÎ±ÔªËØ
+* Î±ÀàÊÇÓÃÓÚÑ¡ÔñDOMÊ÷ÒÔÍâµÄÐÅÏ¢»òÕß²»ÄÜÓÃ¼òµ¥Ñ¡ÔñÆ÷±íÊ¾µÄÐÅÏ¢
+* Î±ÔªËØÊÇÖ¸DOMÊ÷Ã»ÓÐ¶¨ÒåµÄÐéÄâÔªËØ
+
 ## ¶Ôµ¥Ò³ÃæÓ¦ÓÃµÄÁË½â
 #### ÓÅµã£º
 1. ÓÃ»§²»ÐèÒªÖØÐÂË¢ÐÂÒ³Ãæ£¬Í¨¹ýÒì²½»ñÈ¡Êý¾Ý½øÐÐ¾Ö²¿äÖÈ¾£¬ÓÃ»§ÌåÑé¸üºÃ¡£
@@ -185,8 +189,24 @@ jsonÊÇÒ»ÖÖÇáÁ¿¼¶µÄÊý¾Ý½»»»¸ñÊ½¡£ËüÊÇÒÔ¼üÖµ¶Ô±£´æjs¶ÔÏó£¬ËüµÄ±¾ÖÊÊÇÒ»¸ö×Ö·û´®¡£
 2. <script async>µ±ä¯ÀÀÆ÷Óöµ½ script ±êÇ©Ê±£¬ÎÄµµµÄ½âÎö²»»áÍ£Ö¹£¬ÆäËûÏß³Ì½«ÏÂÔØ½Å±¾£¬½Å±¾ÏÂÔØÍê³Éºó¿ªÊ¼Ö´ÐÐ½Å±¾£¬½Å±¾Ö´ÐÐµÄ¹ý³ÌÖÐÎÄµµ½«Í£Ö¹½âÎö£¬Ö±µ½½Å±¾Ö´ÐÐÍê±Ï¡£
 3. <script defer>µ±ä¯ÀÀÆ÷Óöµ½ script ±êÇ©Ê±£¬ÎÄµµµÄ½âÎö²»»áÍ£Ö¹£¬ÆäËûÏß³Ì½«ÏÂÔØ½Å±¾£¬´ýµ½ÎÄµµ½âÎöÍê³É£¬½Å±¾²Å»áÖ´ÐÐ¡£
 
+## encodeURIºÍencodeURIComponentµÄÇø±ð
+* encodeURI·½·¨²»»á¶ÔÏÂÁÐ×Ö·û±àÂë ASCII×ÖÄ¸ Êý×Ö ~!@#$&*()=:/,;?+'
+* encodeURIComponent·½·¨²»»á¶ÔÏÂÁÐ×Ö·û±àÂë ASCII×ÖÄ¸ Êý×Ö ~!*()'
+* encodeURIComponent±àÂë·¶Î§¸ü´ó
+
+## AMDºÍCMDµÄÇø±ð
+* AMDÊÇÒÀÀµÇ°ÖÃ£¬±ØÐëÒªÏÈ°ÑÒÀÀµ¼ÓÔØÍê²ÅÖ´ÐÐÏÂÒ»²½
+* CMDÊÇÒÀÀµ¾Í½ü£¬µ±ÐèÒªÓÃµ½µÄÊ±ºò²Å¼ÓÔØÒÀÀµ
+
+## ajaxÇëÇó¹ý³Ì
+1¡¢´´½¨ XMLHttpRequest ¶ÔÏó
+2¡¢Í¨¹ýsetRequestHeader¸Ä±äÍ·²¿ÐÅÏ¢
+3¡¢Í¨¹ýopen·½·¨À´ÉèÖÃÇëÇóµÄÀàÐÍ¡¢URL ÒÔ¼°ÊÇ·ñÒì²½ÇëÇó
+4¡¢Í¨¹ýsend·½·¨·¢ËÍÇëÇó
+5¡¢Í¨¹ýonreadystatechangeÀ´½ÓÊÕÊý¾Ý
+
 ## thisµÄÀí½â
-   thisÔÚº¯ÊýÄÚ²¿£¬±íÊ¾µ÷ÓÃ¸Ãº¯ÊýµÄ¶ÔÏó¡£
+thisÔÚº¯ÊýÄÚ²¿£¬±íÊ¾µ÷ÓÃ¸Ãº¯ÊýµÄ¶ÔÏó¡£
 
 ## $(this)ºÍthisµÄÇø±ð£¿
 $(this)´ú±íµÄÊÇÒ»¸öjquery¶ÔÏó£¬Ëü¿ÉÒÔÊ¹ÓÃjqeuryÖÐ·â×°µÄ·½·¨£¬this´ú±íµÄÊÇÒ»¸öhtml¶ÔÏó
@@ -232,6 +252,10 @@ XHTML ÔªËØ±ØÐë±»ÕýÈ·µØÇ¶Ì×¡£XHTML ÔªËØ±ØÐë±»¹Ø±Õ¡£±êÇ©Ãû±ØÐëÓÃÐ¡Ð´×ÖÄ¸¡£XHTML ÎÄ
 ##  addEventListenerºÍattacheventµÄÇø±ð
 addEventListenerµÚÈý¸ö²ÎÊýÎªtrue£¬ÊÂ¼þ»áÔÚÃ°ÅÝ½×¶ÎÖ´ÐÐ£¬Îªfalse£¬ÊÂ¼þ»áÔÚ²¶»ñ½×¶ÎÖ´ÐÐ
 
+## js == ºÍ ===µÄÇø±ð
+* == Êý¾ÝÀàÐÍ²»Ò»Ñù»áÒþÊ½×ª»»³ÉÏàÍ¬µÄÊý¾ÝÀàÐÍ£¬ÔÙ½øÐÐ±È½Ï
+* === ²»»á½øÐÐÊý¾ÝÀàÐÍµÄÒþÊ½×ª»»£¬»¹»á±È½ÏÊý¾ÝÀàÐÍ
+
 ## ¼ýÍ·º¯ÊýµÄÓÅµãÈ±µã
 * ÓÅµã£ºÐ´º¯ÊýÓï·¨¸ü¼Ó¼òµ¥¡¢º¯ÊýÄÚ²¿µÄthisÄ¬ÈÏÖ¸ÏòÉÏÒ»¼¶×÷ÓÃÓòµÄthis
 * È±µã£º¼ýÍ·º¯ÊýÃ»ÓÐ×Ô¼ºµÄthis¶ÔÏó ¼ýÍ·º¯Êý²»ÄÜ×÷Îª¹¹Ôìº¯Êý¡¢²»¿ÉÒÔÊ¹ÓÃarguments¶ÔÏó
@@ -246,6 +270,13 @@ addEventListenerµÚÈý¸ö²ÎÊýÎªtrue£¬ÊÂ¼þ»áÔÚÃ°ÅÝ½×¶ÎÖ´ÐÐ£¬Îªfalse£¬ÊÂ¼þ»áÔÚ²¶»ñ½×¶
 * ¸±×÷ÓÃ£ºÓÉÓÚ±Õ°ü»á°Ñ±äÁ¿±£´æÔÚÄÚ´æÀïÃæ£¬ÈÝÒ×µ¼ÖÂÄÚ´æÒç³ö
 * Ó¦ÓÃ³¡¾°£º·À¶¶º¯Êý¡¢½ÚÁ÷º¯Êý
 * º¯ÊýaÀïÃæÓÐ¸ö±äÁ¿b£¬returnÒ»¸öº¯Êý·µ»Ø±äÁ¿b£¬ÔÚÍâÃæ¶¨ÒåÒ»¸ö±äÁ¿c£¬c=a()£¬µ±³ÌÐòÖ´ÐÐÍêÕâÀïµÄÊ±ºò£¬aµÄÖ´ÐÐ»·¾³²¢Ã»ÓÐ±»Ïú»Ù£¬±äÁ¿bÈÔÈ»±»±Õ°üº¯ÊýµÄº¯Êý×÷ÓÃÓòÁ´ËùÒýÓÃ£¬ËùÒÔ±äÁ¿»áÒ»Ö±´æÔÚÄÚ´æÀïÃæ
+
+## js»ù±¾ÀàÐÍÓëÒýÓÃÀàÐÍµÄÇø±ð
+»ù±¾ÀàÐÍµÄÖµÊÇ·ÅÔÚÕ»ÄÚ´æÀïÃæµÄ£¬ÒýÓÃÀàÐÍµÄµØÖ·ÊÇ·ÅÔÚÕ»ÄÚ´æÀïÃæ£¬ËüµÄÖµÊÇ·ÅÔÚ¶ÑÄÚ´æÀïÃæµÄ£¬ÒòÎªËüÃÇ±£´æÔÚÄÚ´æµÄ·½Ê½²»Ò»Ñù£¬ËùÒÔ±äÁ¿µÄÖÆÓëº¯Êý´«²ÎÓÐËù²îÒì¡£
+
+## Õ»ÄÚ´æºÍ¶ÑÄÚ´æµÄÇø±ð
+Õ»ÄÚ´æ´¢´æ»ù´¡Êý¾ÝÀàÐÍµÄÖµÒÔ¼°ÒýÓÃÀàÐÍµÄµØÖ·¡¢¶ÑÄÚ´æ´¢´æÒýÓÃÀàÐÍµÄÖµ
+Õ»ÄÚ´æÊý¾ÝÀàËÆÕ»Êý¾Ý½á¹¹×ñÑ­ÏÈ½øºó³öÔ­Ôò£¬¶ÑÄÚ´æÊÇÒ»¿Å¶þ²æÊ÷À´µÄ
 
 ## »Øµ÷µØÓüµÄÀí½âÒÔ¼°½â¾ö·½Ê½
 Òì²½»Øµ÷ÀïÃæ²»¶ÏÇ¶Ì×Òì²½ÇëÇó
@@ -337,6 +368,58 @@ Component±êÇ©Í¨¹ýisÀ´ÇÐ»»×é¼þ
 1¡¢Ñ¹ËõºÏ²¢jsºÍÑùÊ½ÎÄ¼þ
 2¡¢¶à¸öÐ¡Í¼±êµÄÍ¼Æ¬¿ÉÒÔ×ö³É×ÖÌåÍ¼±ê
 
+## ´ÓÊäÈëµØÖ·µ½ä¯ÀÀÆ÷Õ¹Ê¾Ò³ÃæµÄ¹ý³ÌÖÐ¾­ÀúÁËÊ²Ã´
+1¡¢ÓòÃûÍ¨¹ýdns½âÎö£¬ÕÒµ½ip£¬Í¨¹ýipÕÒµ½·þÎñÆ÷£¬½¨Á¢tcpÁ¬½Ó
+2¡¢tcpÁ¬½Ó³É¹¦ºó£¬ä¯ÀÀÆ÷·¢ËÍhttpÇëÇó£¨¼ÓÔØ×ÊÔ´Ç°ÔÚä¯ÀÀÆ÷»º´æÀïÃæÕÒ×ÊÔ´£¬ÕÒ²»µ½×ÊÔ´»òÕß»º´æÊ±¼ä¹ýÆÚ£©£¬·þÎñÆ÷½ÓÊÕÇëÇó²¢·µ»ØÒ³Ãæ×ÊÔ´
+3¡¢ä¯ÀÀÆ÷¼ÓÔØÒ³Ãæ×ÊÔ´£¬²¢½âÎöhtmlÎÄµµ£¬Éú³ÉDOMÊ÷ºÍcssomÊ÷£¬DOMÊ÷ºÍcssom»áºÏ²¢³ÉäÖÈ¾Ê÷£¬È»ºó²¼¾ÖºÍ¼ÆËãäÖÈ¾Ê÷Ã¿¸ö½ÚµãµÄÎ»ÖÃºÍ´óÐ¡µÈµÈÄÚÈÝ
+4¡¢°ÑäÖÈ¾Ê÷äÖÈ¾µ½ÆÁÄ»ÉÏ
+
+## tcpÈý´ÎÎÕÊÖ
+¿Í»§¶Ë·¢ËÍÒ»¸ö´øÓÐSYN±êÖ¾µÄÊý¾Ý°ü¸ø·þÎñ¶Ë£¬·þÎñ¶ËÊÕµ½ºó£¬»Ø´«Ò»¸ö´øÓÐSYN/ACK±êÖ¾µÄÊý¾Ý°üÒÔÊ¾´«´ïÈ·ÈÏÐÅÏ¢£¬×îºó¿Í»§¶ËÔÙ»Ø´«Ò»¸ö´øACK±êÖ¾µÄÊý¾Ý°ü£¬´ú±íÎÕÊÖ½áÊø£¬Á¬½Ó³É¹¦
+
+## dns½âÎö¹ý³Ì
+1¡¢²éÑ¯ä¯ÀÀÆ÷dns»º´æ
+2¡¢²éÑ¯ÏµÍ³dns»º´æ
+3¡¢²éÑ¯ÔËÓªÉÌ·þÎñÆ÷
+4¡¢²éÑ¯ÓòÃû·þÎñÆ÷
+
+## ÓòÃû×é³É
+Àý×Ó£¨www.baidu.com£© wwwÊÇÈý¼¶ÓòÃû baiduÊÇ¶þ¼¶ÓòÃû .comÊÇ¶¥¼¶ÓòÃû .rootÊÇ¸ùÓòÃû 
+
+## dns²éÑ¯·½Ê½
+µÝ¹é²éÑ¯¡¢µü´ú²éÑ¯
+
+## cdnÊÇÊ²Ã´£¿
+ËüÄÜ¹»ÊµÊ±µØ¸ù¾ÝÍøÂçÁ÷Á¿ºÍ¸÷½ÚµãµÄÁ¬½Ó¡¢¸ºÔØ×´¿öÒÔ¼°µ½ÓÃ»§µÄ¾àÀëºÍÏìÓ¦Ê±¼äµÈ×ÛºÏÐÅÏ¢½«ÓÃ»§µÄÇëÇóÖØÐÂµ¼ÏòÀëÓÃ»§×î½üµÄ·þÎñ½ÚµãÉÏ¡£ÆäÄ¿µÄÊÇÊ¹ÓÃ»§¿É¾Í½üÈ¡µÃËùÐèÄÚÈÝ£¬½â¾ö InternetÍøÂçÓµ¼·µÄ×´¿ö£¬Ìá¸ßÓÃ»§·ÃÎÊÍøÕ¾µÄÏìÓ¦ËÙ¶È
+
+## À¬»ø»ØÊÕ»úÖÆ
+* Ö÷ÒªÊÇÍ¨¹ý±ê¼ÇÇå³ýËã·¨»òÕßÒýÓÃ¼ÆÊýËã·¨À´¶¨ÆÚÕÒ³ö²»ÔÙÊ¹ÓÃµÄÄÚ´æ£¬È»ºó°ÑÄÚ´æÊÍ·Å³öÀ´
+
+* ±ê¼ÇÇå³ýËã·¨
+* À¬»øÊÕ¼¯Æ÷ÔÚÔËÐÐÊ±»á¸øÄÚ´æÖÐµÄËùÓÐ±äÁ¿¶¼¼ÓÉÏÒ»¸ö±ê¼Ç£¬¼ÙÉèÄÚ´æÖÐËùÓÐ¶ÔÏó¶¼ÊÇÀ¬»ø£¬È«±ê¼ÇÎª0
+* È»ºó´Ó¸÷¸ö¸ù¶ÔÏó¿ªÊ¼±éÀú£¬°Ñ²»ÊÇÀ¬»øµÄ½Úµã¸Ä³É1
+* ÇåÀíËùÓÐ±ê¼ÇÎª0µÄÀ¬»ø£¬Ïú»Ù²¢»ØÊÕËüÃÇËùÕ¼ÓÃµÄÄÚ´æ¿Õ¼ä
+* ×îºó£¬°ÑËùÓÐÄÚ´æÖÐ¶ÔÏó±ê¼ÇÐÞ¸ÄÎª0£¬µÈ´ýÏÂÒ»ÂÖÀ¬»ø»ØÊÕ
+
+* ÒýÓÃ¼ÆÊýËã·¨
+* µ±ÉùÃ÷ÁËÒ»¸ö±äÁ¿²¢ÇÒ½«Ò»¸öÒýÓÃÀàÐÍ¸³Öµ¸ø¸Ã±äÁ¿µÄÊ±ºòÕâ¸öÖµµÄÒýÓÃ´ÎÊý¾ÍÎª 1
+* Èç¹ûÍ¬Ò»¸öÖµÓÖ±»¸³¸øÁíÒ»¸ö±äÁ¿£¬ÄÇÃ´ÒýÓÃÊý¼Ó 1
+* Èç¹û¸Ã±äÁ¿µÄÖµ±»ÆäËûµÄÖµ¸²¸ÇÁË£¬ÔòÒýÓÃ´ÎÊý¼õ 1
+* µ±Õâ¸öÖµµÄÒýÓÃ´ÎÊý±äÎª 0 µÄÊ±ºò£¬ËµÃ÷Ã»ÓÐ±äÁ¿ÔÚÊ¹ÓÃ£¬Õâ¸öÖµÃ»·¨±»·ÃÎÊÁË£¬»ØÊÕ¿Õ¼ä£¬À¬»ø»ØÊÕÆ÷»áÔÚÔËÐÐµÄÊ±ºòÇåÀíµôÒýÓÃ´ÎÊýÎª 0 µÄÖµÕ¼ÓÃµÄÄÚ´æ
+
+## xss¹¥»÷¡¢¹¥»÷·½Ê½Óë·ÀÖ¹xss¹¥»÷
+* xssÍ¨¹ýÔÚÄ¿±êÍøÕ¾ÉÏ×¢Èë¶ñÒâ½Å±¾£¬Ê¹Ö®ÔÚÓÃ»§µÄä¯ÀÀÆ÷ÉÏÔËÐÐ¡£ÀûÓÃÕâÐ©¶ñÒâ½Å±¾£¬¹¥»÷Õß¿É»ñÈ¡ÓÃ»§µÄÃô¸ÐÐÅÏ¢Èç Cookie¡¢SessionID µÈ£¬½ø¶øÎ£º¦Êý¾Ý°²È«¡£
+* ·´ÉäÐÍ£¨xss£©£º¹¥»÷ÕßÍ¨¹ý¹¹½¨Ò»¸öÁ´½Ó£¬°Ñ¶ñÒâ½Å±¾·ÅÔÚurlÉÏÃæ£¬Òýµ¼ÓÃ»§µã»÷¸ÃÁ´½Ó£¬·þÎñÆ÷½ÓÊÕµ½urlµÄ²ÎÊýÃ»×ö¹ýÂËÈ»ºóÖ±½Ó·µ»Ø¸ø¿Í·þ¶Ë£¬È»ºó¿Í·þ¶ËÖ´ÐÐÁË¶ñÒâ½Å±¾£¬½ø¶øÎ£º¦Êý¾Ý°²È«
+* ´æ´¢ÐÍ£¨xss£©£º¹¥»÷ÕßÖ±½Ó°Ñ¶ñÒâ½Å±¾±£´æÔÚÊý¾Ý¿âÀïÃæ£¬È»ºó·µ»Ø¸ø¿Í·þ¶ËÖ´ÐÐ
+* domÐÍ£¨xss£©:Í¨¹ýinnerHtml¡¢document.writeµÈµÈ·½·¨ÔÚÒ³ÃæÖÐ²åÈë´úÂë
+* ÓÃ»§ÊäÈëÒª½øÐÐ¹ýÂË¡¢×ªÒåhtml´úÂë¡¢¾¡Á¿²»ÒªÊ¹ÓÃinnenrhtmlºÍdocument.write²åÈëhtml´úÂë
+
+## ÏßÐÔ½á¹¹ºÍ·ÇÏßÐÔ½á¹¹ÓÐÄÄÐ©
+* ÏßÐÔ½á¹¹:Õ»£¬¶ÓÁÐ£¬Á´±í£¬ÏßÐÔ±í
+* ·ÇÏßÐÔ½á¹¹£º¶þÎ¬Êý×é£¬Ê÷¡¢Í¼
+
+
+
 1. Object º¯ÊýÊÇFunctionµÄÒ»¸öÊµÀý
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ð×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ð×Ô Object.prototype
 3. Function ÊÇ×Ô¼ºµÄ¹¹Ôìº¯Êý
@@ -346,3 +429,6 @@ Component±êÇ©Í¨¹ýisÀ´ÇÐ»»×é¼þ
 Ç°¶Ë¼¼ÊõÍÅ¶ÓÓÃµ½µÄ¼¼ÊõÕ»Ö÷ÒªÊÇvueÈ«¼ÒÍ°¡¢element-ui¡¢framework7¡¢vant¡£ÒÔÇ°ÔÚÆäËü¹«Ë¾ÀïÃæ²ÎÓë¹ýÓÎÏ·ÂÛÌ³¡¢ÓÎÏ·ÔËÓªÆ½Ì¨ÒÔ¼°Ò»Ð©´óÐÍµÄÕþ¸®ÃÅ»§ÍøÕ¾½¨Éè¡£
 ×î½üÀëÖ°µÄÔ­ÒòÊÇ¹«Ë¾Í»È»°áÇ¨£¬´ÓÌìºÓ°áµ½·¬Ø®£¬ÐÂµÄ¹¤×÷µØµãÀëÎÒ×¡µÄµØ·½Ì«Ô¶ÁË£¬ÉÏ°àÒª»¨2¸öÐ¡Ê±
 
+
+
+ 
