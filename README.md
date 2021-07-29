@@ -418,8 +418,6 @@ Component标签通过is来切换组件
 * 线性结构:栈，队列，链表，线性表
 * 非线性结构：二维数组，树、图
 
-
-
 1. Object 函数是Function的一个实例
 2. Object 作为对象是继承自Function.prototype的，又Function.prototype 继承自 Object.prototype
 3. Function 是自己的构造函数
