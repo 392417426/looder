@@ -272,7 +272,8 @@ addEventListenerµÚÈý¸ö²ÎÊýÎªtrue£¬ÊÂ¼þ»áÔÚÃ°ÅÝ½×¶ÎÖ´ÐÐ£¬Îªfalse£¬ÊÂ¼þ»áÔÚ²¶»ñ½×¶
 * º¯ÊýaÀïÃæÓÐ¸ö±äÁ¿b£¬returnÒ»¸öº¯Êý·µ»Ø±äÁ¿b£¬ÔÚÍâÃæ¶¨ÒåÒ»¸ö±äÁ¿c£¬c=a()£¬µ±³ÌÐòÖ´ÐÐÍêÕâÀïµÄÊ±ºò£¬aµÄÖ´ÐÐ»·¾³²¢Ã»ÓÐ±»Ïú»Ù£¬±äÁ¿bÈÔÈ»±»±Õ°üº¯ÊýµÄº¯Êý×÷ÓÃÓòÁ´ËùÒýÓÃ£¬ËùÒÔ±äÁ¿»áÒ»Ö±´æÔÚÄÚ´æÀïÃæ
 
 ## js»ù±¾ÀàÐÍÓëÒýÓÃÀàÐÍµÄÇø±ð
-»ù±¾ÀàÐÍµÄÖµÊÇ·ÅÔÚÕ»ÄÚ´æÀïÃæµÄ£¬ÒýÓÃÀàÐÍµÄµØÖ·ÊÇ·ÅÔÚÕ»ÄÚ´æÀïÃæ£¬ËüµÄÖµÊÇ·ÅÔÚ¶ÑÄÚ´æÀïÃæµÄ£¬ÒòÎªËüÃÇ±£´æÔÚÄÚ´æµÄ·½Ê½²»Ò»Ñù£¬ËùÒÔ±äÁ¿µÄÖÆÓëº¯Êý´«²ÎÓÐËù²îÒì¡£
+* »ù±¾ÀàÐÍµÄÖµÊÇ·ÅÔÚÕ»ÄÚ´æÀïÃæµÄ£¬Õ¼¾Ý¿Õ¼äÐ¡¡¢´óÐ¡¹Ì¶¨£¬ÊôÓÚ±»Æµ·±Ê¹ÓÃÊý¾Ý£¬ËùÒÔ·ÅÈëÕ»ÖÐ´æ´¢
+* ÒýÓÃÀàÐÍµÄµØÖ·ÊÇ·ÅÔÚÕ»ÄÚ´æÀïÃæ£¬ËüµÄÖµÊÇ·ÅÔÚ¶ÑÄÚ´æÀïÃæµÄ£¬Õ¼¾Ý¿Õ¼ä´ó¡¢´óÐ¡²»¹Ì¶¨£¬ÒòÎªËüÃÇ±£´æÔÚÄÚ´æµÄ·½Ê½²»Ò»Ñù£¬ËùÒÔ±äÁ¿µÄ¸´ÖÆÓëº¯Êý´«²ÎÓÐËù²îÒì¡£
 
 ## Õ»ÄÚ´æºÍ¶ÑÄÚ´æµÄÇø±ð
 Õ»ÄÚ´æ´¢´æ»ù´¡Êý¾ÝÀàÐÍµÄÖµÒÔ¼°ÒýÓÃÀàÐÍµÄµØÖ·¡¢¶ÑÄÚ´æ´¢´æÒýÓÃÀàÐÍµÄÖµ
@@ -286,7 +287,16 @@ generator»òÕßasyncºÍawait
 ±ØÐë¾ß±¸³¤¶ÈlengthÊôÐÔ
 
 ## es6ÌØÐÔ
-¾Ö²¿±äÁ¿letÃüÁî ³£Á¿constÃüÁî ¡¢±äÁ¿µÄ½â¹¹Óë¸³Öµ¡¢ÍØÕ¹×Ö·û´®¡¢Êý×é¡¢¶ÔÏó¡¢ÕýÔò¡¢º¯ÊýµÄÒ»Ð©·½·¨¡¢ÐÂÔöÁËsymbolÊý¾ÝÀàÐÍ¡¢ÐÂÔöÁËset¡¢mapÊý¾Ý½á¹¹¡¢ÐÂÔöÁËpromise¡¢prosx¡¢reflect¡¢Generator¡¢class api
+* ¾Ö²¿±äÁ¿letÃüÁî ³£Á¿constÃüÁî
+* ±äÁ¿µÄ½â¹¹Óë¸³Öµ
+* ÍØÕ¹×Ö·û´®¡¢Êý×é¡¢¶ÔÏó¡¢ÕýÔò¡¢º¯ÊýµÄÒ»Ð©·½·¨
+* ÐÂÔöÁËfor ofÑ­»·£¬ÓÃÀ´±éÀú¾ßÓÐµü´úÆ÷½Ó¿ÚµÄÊý¾Ý½á¹¹
+* ÐÂÔöÁËsymbolÊý¾ÝÀàÐÍ
+* ÐÂÔöÁËset¡¢mapÊý¾Ý½á¹¹
+* ÐÂÔöÁËpromise¡¢GeneratorÕâÁ½¸öÐÂµÄapi¡¢asyncºÍawaitÓï·¨ÌÇ£¬ÓÃÀ´½â¾öÒì²½±à³ÌÎÊÌâ
+* ÐÂÔöÁËprosx´úÀíapi ÓÃÀ´ÐÞ¸ÄÄ¿±ê¶ÔÏóÄ³Ð©²Ù×÷µÄÄ¬ÈÏÐÐÎª
+* ÐÂÔöÁËreflect api ÓÃÀ´¹æ·¶¶ÔÏóÀïÃæµÄ·½·¨£¬ÈÃ·½·¨µÄ·µ»Ø½á¹û¸ü¼ÓºÏÀí
+* ÐÂÔöclass¹Ø¼ü×Ö£¬ÓÃÀ´¶¨Òå¶ÔÏóµÄ
 
 ## ¿çÓòÊÇÊ²Ã´£¿ÈçºÎ½â¾ö¿çÓòÎÊÌâ£¿
 ·¢ÆðÇëÇóËùÔÚµÄÓò¸úÇëÇó×ÊÔ´ËùÔÚµÄÓò²»Ò»Ñù£¬ÄÇ¾ÍÊÇ¿çÓò£¬ËüÊÇä¯ÀÀÆ÷µÄÍ¬Ô´²ßÂÔÔì³ÉµÄ,Ö»ÒªÐ­Òé¡¢ÓòÃû¡¢¶Ë¿ÚÓÐÒ»¸ö²»Ò»Ñù¾Í¿ÉÒÔËµÊÇ¿çÓò¡£jsonp¡¢cors¡¢websocket
@@ -360,7 +370,14 @@ Component±êÇ©Í¨¹ýisÀ´ÇÐ»»×é¼þ
 ÏìÓ¦Ê½Ô­ÀíÊÇ²ÉÓÃ¹Û²ìÕßÄ£Ê½¡£Ö÷ÒªÊÇÍ¨¹ýObserverÊý¾ÝµÄ¹Û²ìÕß£¬depÊý¾Ý¸üÐÂµÄ·¢²¼Õß£¬WatcherÊý¾Ý¸üÐÂµÄ¶©ÔÄÕßÈý¸öÀàÊµÏÖµÄ¡£µ±´´½¨vueÊµÀýµÄÊ±ºò£¬Í¨¹ýdefinePropertyÀ´¶¨ÒådataÀïÃæµÄ×Ö¶ÎºÍÀ¹½ØÊý¾Ý£¬getÊý¾ÝµÄÊ±ºòÊÕ¼¯¶©ÔÄÕß£¬setÊý¾ÝµÄÊ±ºò·¢²¼¸üÐÂ£¬Í¨Öªwatcher£¬¶©ÔÄµÄÊý¾Ý¸Ä±äÊ±Ö´ÐÐÏàÓ¦µÄ»Øµ÷º¯Êý
 
 ## ÐéÄâdomÊÇÊ²Ã´£¿
-Ò»¸ödomÊ÷½á¹¹ÒÔjs¶ÔÏó±íÊ¾³öÀ´
+Ò»¸ödomÊ÷½á¹¹ÒÔjs¶ÔÏó±íÊ¾³öÀ´£¬Õâ¸ö¶ÔÏó»á
+
+## ÐÞÊÎ·û
+* stop ×èÖ¹ÊÂ¼þÃ°ÅÝ
+* prevent ×èÖ¹ÊÂ¼þÄ¬ÈÏÐÐÎª
+* once ÊÂ¼þÖ»´¥·¢Ò»´Î
+* capture ÊÂ¼þÔÚ²¶»ñ½×¶Î´¥·¢
+* self ÊÂ¼þÖ»ÔÚµ±Ç°ÔªËØÉÏ´¥·¢
 
 ## webÐÔÄÜÓÅ»¯
 ·ÖÎª¼¸¸ö·½Ãæ
