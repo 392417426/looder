@@ -430,27 +430,27 @@ Component标签通过is来切换组件
 * 非线性结构：二维数组，树、图
 
 ## webpack性能优化
-1、配置noParse告诉webpack不要编译某些文件
-2、配置loader时通过test、exclude缩小搜索范围
-3、通过dllplugin把基础库分离到dll文件
-4、使用HappyPack开启多进程处理模块
-5、使用UglifyJSPlugin配置parallel开启多进程进行打包
-6、通过配置externals可以使基础库不会打包，然后通过htmlwebpackplugin插件往页面模版上注入cdn脚本
+* 1、配置noParse告诉webpack不要编译某些文件
+* 2、配置loader时通过test、exclude缩小搜索范围
+* 3、通过dllplugin把基础库分离到dll文件
+* 4、使用HappyPack开启多进程处理模块
+* 5、使用UglifyJSPlugin配置parallel开启多进程进行打包
+* 6、通过配置externals可以使基础库不会打包，然后通过htmlwebpackplugin插件往页面模版上注入cdn脚本
 
 ## web性能优化
-1、使用缓存机制缓存静态资源
-2、请求资源避免重定向
-3、异步加载第三方资源
-4、减少使用cookie
-5、压缩合并图片变成精灵图、小图标图片可以做成字体图标
-6、样式放在head里面，脚本要放在body底部
-7、压缩合并脚本和样式
-8、使用cdn加载静态资源
-9、在head里面加上dns预解析
-10、减少DOM节点嵌套
-11、高频率触发的事件可以使用防抖和节流函数
-12、图片加载使用懒加载、图片加载前可以给图片一张默认图片，尽量避免图片重置大小
-13、样式避免没要的嵌套、避免使用表达式、删除没用的样式
+* 1、使用缓存机制缓存静态资源
+* 2、请求资源避免重定向
+* 3、异步加载第三方资源
+* 4、减少使用cookie
+* 5、压缩合并图片变成精灵图、小图标图片可以做成字体图标
+* 6、样式放在head里面，脚本要放在body底部
+* 7、压缩合并脚本和样式
+* 8、使用cdn加载静态资源
+* 9、在head里面加上dns预解析
+* 10、减少DOM节点嵌套
+* 11、高频率触发的事件可以使用防抖和节流函数
+* 12、图片加载使用懒加载、图片加载前可以给图片一张默认图片，尽量避免图片重置大小
+* 13、样式避免没要的嵌套、避免使用表达式、删除没用的样式
 
 1. Object 函数是Function的一个实例
 2. Object 作为对象是继承自Function.prototype的，又Function.prototype 继承自 Object.prototype
