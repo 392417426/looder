@@ -370,20 +370,14 @@ Component标签通过is来切换组件
 响应式原理是采用观察者模式。主要是通过Observer数据的观察者，dep数据更新的发布者，Watcher数据更新的订阅者三个类实现的。当创建vue实例的时候，通过defineProperty来定义data里面的字段和拦截数据，get数据的时候收集订阅者，set数据的时候发布更新，通知watcher，订阅的数据改变时执行相应的回调函数
 
 ## 虚拟dom是什么？
-一个dom树结构以js对象表示出来，这个对象会
+一个dom树结构以js对象表示出来，这个对象包含了 tag、props、children 三个属性。
 
-## 修饰符
+## vuejs修饰符
 * stop 阻止事件冒泡
 * prevent 阻止事件默认行为
 * once 事件只触发一次
 * capture 事件在捕获阶段触发
 * self 事件只在当前元素上触发
-
-## web性能优化
-分为几个方面
-一、减少http请求
-1、压缩合并js和样式文件
-2、多个小图标的图片可以做成字体图标
 
 ## 从输入地址到浏览器展示页面的过程中经历了什么
 1、域名通过dns解析，找到ip，通过ip找到服务器，建立tcp连接
@@ -434,6 +428,29 @@ Component标签通过is来切换组件
 ## 线性结构和非线性结构有哪些
 * 线性结构:栈，队列，链表，线性表
 * 非线性结构：二维数组，树、图
+
+## webpack性能优化
+1、配置noParse告诉webpack不要编译某些文件
+2、配置loader时通过test、exclude缩小搜索范围
+3、通过dllplugin把基础库分离到dll文件
+4、使用HappyPack开启多进程处理模块
+5、使用UglifyJSPlugin配置parallel开启多进程进行打包
+6、通过配置externals可以使基础库不会打包，然后通过htmlwebpackplugin插件往页面模版上注入cdn脚本
+
+## web性能优化
+1、使用缓存机制缓存静态资源
+2、请求资源避免重定向
+3、异步加载第三方资源
+4、减少使用cookie
+5、压缩合并图片变成精灵图、小图标图片可以做成字体图标
+6、样式放在head里面，脚本要放在body底部
+7、压缩合并脚本和样式
+8、使用cdn加载静态资源
+9、在head里面加上dns预解析
+10、减少DOM节点嵌套
+11、高频率触发的事件可以使用防抖和节流函数
+12、图片加载使用懒加载、图片加载前可以给图片一张默认图片，尽量避免图片重置大小
+13、样式避免没要的嵌套、避免使用表达式、删除没用的样式
 
 1. Object 函数是Function的一个实例
 2. Object 作为对象是继承自Function.prototype的，又Function.prototype 继承自 Object.prototype

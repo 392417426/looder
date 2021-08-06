@@ -2,7 +2,7 @@ var arr = [];
 for(var i = 0;i < 1000000;i++){
     arr.push(Math.floor(Math.random() * 100000000))
 }
-//Ã°ÅİÅÅĞò
+//å†’æ³¡æ’åº
 function sort1(arr){
 
     for(var i= 0; i < arr.length;i++){
@@ -19,23 +19,23 @@ function sort1(arr){
     return arr;
 }
 
-//Ã°ÅİÅÅĞòÓÅ»¯
+//å†’æ³¡æ’åºä¼˜åŒ–
 function sort2(arr) {
-    var i = arr.length-1;  //³õÊ¼Ê±,×îºóÎ»ÖÃ±£³Ö²»±ä
+    var i = arr.length-1;  //åˆå§‹æ—¶,æœ€åä½ç½®ä¿æŒä¸å˜
     while ( i> 0) {
-        var pos= 0; //Ã¿ÌË¿ªÊ¼Ê±,ÎŞ¼ÇÂ¼½»»»
+        var pos= 0; //æ¯è¶Ÿå¼€å§‹æ—¶,æ— è®°å½•äº¤æ¢
         for (var j= 0; j< i; j++)
             if (arr[j]> arr[j+1]) {
-                pos= j; //¼ÇÂ¼½»»»µÄÎ»ÖÃ
+                pos= j; //è®°å½•äº¤æ¢çš„ä½ç½®
                 var tmp = arr[j]; arr[j]=arr[j+1];arr[j+1]=tmp;
             }
-        i= pos; //ÎªÏÂÒ»ÌËÅÅĞò×÷×¼±¸
+        i= pos; //ä¸ºä¸‹ä¸€è¶Ÿæ’åºä½œå‡†å¤‡
      }
      return arr;
 }
 
 
-//Ö±½Ó²åÈëÅÅĞò
+//ç›´æ¥æ’å…¥æ’åº
 function sort4(arr){
     var len = arr.length;
     for (var i = 1; i < len; i++) {
@@ -52,7 +52,7 @@ function sort4(arr){
     return arr;
 }
 
-//Ï£¶ûÅÅĞò
+//å¸Œå°”æ’åº
 function sort5(arr){
 
     var increment = arr.length;
@@ -76,7 +76,7 @@ function sort5(arr){
     return arr;
 }
 
-//¹é²¢ÅÅĞò
+//å½’å¹¶æ’åº
 function merge(left, right) {
     var result = [];
 
@@ -99,19 +99,19 @@ function sort6(a) {
     for (var i = 0, len = a.length; i < len; i++)
         work.push([a[i]]);
 
-    work.push([]); // Èç¹ûÊı×é³¤¶ÈÎªÆæÊı
+    work.push([]); // å¦‚æœæ•°ç»„é•¿åº¦ä¸ºå¥‡æ•°
 
     for (var lim = len; lim > 1; lim = ~~((lim + 1) / 2)) {
         for (var j = 0, k = 0; k < lim; j++, k += 2)
             work[j] = merge(work[k], work[k + 1]);
 
-        work[j] = []; // Èç¹ûÊı×é³¤¶ÈÎªÆæÊı
+        work[j] = []; // å¦‚æœæ•°ç»„é•¿åº¦ä¸ºå¥‡æ•°
     }
 
     return work[0];
 }
 
-//¿ìËÙÅÅĞò(ÈıÊıÈ¡ÖĞ)
+//å¿«é€Ÿæ’åº(ä¸‰æ•°å–ä¸­)
 function getMiddleIndex(arr){
     var len = arr.length;
     var low = {"index":0,"value":arr[0]};
@@ -160,12 +160,12 @@ function sort7(arr){
     return sort7(left).concat([middle],sort7(right));
 }
 
-// ¿ìÅÅ
+// å¿«æ’
 function quickSort(arr){
 	if(arr.length <= 1) return arr;
 	var index = Math.floor(arr.length / 2);
 
-	var middle = arr.splice(index,1)[0];
+	var middle = arr.splice(-,1)[0];
 	var left = [],right = [];
 	for(let i = 0 ; i < arr.length; i++){
 		if(middle > arr[i]){
