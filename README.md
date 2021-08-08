@@ -435,7 +435,7 @@ Component标签通过is来切换组件
 * 3、通过dllplugin把基础库分离到dll文件
 * 4、使用HappyPack开启多进程处理模块
 * 5、使用UglifyJSPlugin配置parallel开启多进程进行打包
-* 6、通过配置externals可以使基础库不会打包，然后通过htmlwebpackplugin插件往页面模版上注入cdn脚本
+* 6、通过配置externals可以使基础库不会打包，然后通过htmlwebpackplugin插件往页面模版上注入cdn链接
 
 ## web性能优化
 * 1、使用缓存机制缓存静态资源
