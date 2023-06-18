@@ -357,6 +357,12 @@ Component标签通过is来切换组件
 ## Vuejs组件通讯
 父组件通过属性来传递数据给子组件，子组件通过emit方法定义一个事件返回数据给父组件，父组件监听事件接收返回的数据，还可以通过全局状态进行通讯 创建一个新的vue实例 然后在vue的原型上新增一个属性，这个属性跟新创建的实力关联起来，然后在组件里面使用这个属性使用来定义事件，这样其它组件都可以通过这个属性监听到定义事件
 
+
+## vue3中ref和reactive有啥区别
+ref主要是用于定义基本数据类型，也可以定义对象类型，它是内容调用reactive实现的
+reative只能定义对象类型的
+ref通过Object.defineProperty来实现响应式的，reative是通过es6里的代理proxy来实现的
+
 ## Vue2和vue3的区别 
 响应式原理发生了改变，vue2是通过defineproperty来拦截数据的，3是通过proxy代理来拦截数据的
 3新增了composition api，解决了2组件使用多个mixins出现命名空间冲突的问题
