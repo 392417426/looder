@@ -373,7 +373,8 @@ refÍ¨¹ýObject.definePropertyÀ´ÊµÏÖÏìÓ¦Ê½µÄ£¬reativeÊÇÍ¨¹ýes6ÀïµÄ´úÀíproxyÀ´ÊµÏÖµ
 Êý×éË³Ðò·¢Éú¸Ä±äµÄÊ±ºò£¬vue²»»áÒÆ¶¯ÁÐ±íÀïµÄÔªËØÆ¥ÅäÊý×éË³ÐòµÄ£¬ËüÊÇ¾ÍµØ¸üÐÂÔªËØµÄ
 
 ## ÏìÓ¦Ê½Ô­Àí
-ÏìÓ¦Ê½Ô­ÀíÊÇ²ÉÓÃ¹Û²ìÕßÄ£Ê½¡£Ö÷ÒªÊÇÍ¨¹ýObserverÊý¾ÝµÄ¹Û²ìÕß£¬depÊý¾Ý¸üÐÂµÄ·¢²¼Õß£¬WatcherÊý¾Ý¸üÐÂµÄ¶©ÔÄÕßÈý¸öÀàÊµÏÖµÄ¡£µ±´´½¨vueÊµÀýµÄÊ±ºò£¬Í¨¹ýdefinePropertyÀ´¶¨ÒådataÀïÃæµÄ×Ö¶ÎºÍÀ¹½ØÊý¾Ý£¬getÊý¾ÝµÄÊ±ºòÊÕ¼¯¶©ÔÄÕß£¬setÊý¾ÝµÄÊ±ºò·¢²¼¸üÐÂ£¬Í¨Öªwatcher£¬¶©ÔÄµÄÊý¾Ý¸Ä±äÊ±Ö´ÐÐÏàÓ¦µÄ»Øµ÷º¯Êý
+.
+ÏìÓ¦Ê½Ô­ÀíÊÇ²ÉÓÃ¹Û²ìÕßÄ£Ê½¡£µ±´´½¨vueÊµÀýµÄÊ±ºò£¬Í¨¹ýObject.defineProperty¶ÔÊôÐÔ½øÐÐÀ¹½Ø£¬ÔÚgetº¯ÊýÀïÊÕ¼¯ÒÀÀµ£¬Ë­Ê¹ÓÃÁËÕâ¸öÊôÐÔµÄº¯Êý£¬ÔÚsetº¯Êý·¢²¼¸üÐÂ£¬Ö´ÐÐ¶ÔÓ¦µÄº¯Êý
 
 ## ÐéÄâdomÊÇÊ²Ã´£¿
 Ò»¸ödomÊ÷½á¹¹ÒÔjs¶ÔÏó±íÊ¾³öÀ´£¬Õâ¸ö¶ÔÏó°üº¬ÁË tag¡¢props¡¢children Èý¸öÊôÐÔ¡£
@@ -457,6 +458,13 @@ refÍ¨¹ýObject.definePropertyÀ´ÊµÏÖÏìÓ¦Ê½µÄ£¬reativeÊÇÍ¨¹ýes6ÀïµÄ´úÀíproxyÀ´ÊµÏÖµ
 * 11¡¢¸ßÆµÂÊ´¥·¢µÄÊÂ¼þ¿ÉÒÔÊ¹ÓÃ·À¶¶ºÍ½ÚÁ÷º¯Êý
 * 12¡¢Í¼Æ¬¼ÓÔØÊ¹ÓÃÀÁ¼ÓÔØ¡¢Í¼Æ¬¼ÓÔØÇ°¿ÉÒÔ¸øÍ¼Æ¬Ò»ÕÅÄ¬ÈÏÍ¼Æ¬£¬¾¡Á¿±ÜÃâÍ¼Æ¬ÖØÖÃ´óÐ¡
 * 13¡¢ÑùÊ½±ÜÃâÃ»ÒªµÄÇ¶Ì×¡¢±ÜÃâÊ¹ÓÃ±í´ïÊ½¡¢É¾³ýÃ»ÓÃµÄÑùÊ½
+
+## ÈçºÎÀí½â JS µÄÒì²½?
+JSÊÇÒ»ÃÅµ¥Ïß³ÌµÄÓïÑÔ£¬ÕâÊÇÒòÎªËüÔËÐÐÔÚä¯ÀÀÆ÷µÄäÖÈ¾Ö÷Ïß³ÌÖÐ£¬¶øäÖÈ¾Ö÷Ïß³ÌÖ»ÓÐÒ»¸ö¡£¶øäÖÈ¾Ö÷Ïß³Ì³Ðµ£×ÅÖî¶àµÄ¹¤×÷£¬äÖÈ¾Ò³Ãæ¡¢Ö´ÐÐ JS ¶¼ÔÚÆäÖÐÔËÐÐ¡£Èç¹ûÊ¹ÓÃÍ¬²½µÄ·½Ê½£¬¾Í¼«ÓÐ¿ÉÄÜµ¼ÖÂÖ÷Ïß³Ì²úÉú×èÈû£¬´Ó¶øµ¼ÖÂÏûÏ¢¶ÓÁÐÖÐµÄºÜ¶àÆäËûÈÎÎñÎÞ·¨µÃµ½Ö´ÐÐ¡£ÕâÑùÒ»À´£¬Ò»·½Ãæ»áµ¼ÖÂ·±Ã¦µÄÖ÷Ïß³Ì°×°×µÄÏûºÄÊ±¼ä£¬ÁíÒ»·½Ãæµ¼ÖÂÒ³ÃæÎÞ·¨¼°Ê±¸üÐÂ£¬¸øÓÃ»§Ôì³É¿¨ËÀÏÖÏó¡£
+
+## ²ûÊöÒ»ÏÂ JS µÄÊÂ¼þÑ­»·
+ÊÂ¼þÑ­»·ÓÖ½Ð×öÏûÏ¢Ñ­»·£¬ÊÇä¯ÀÀÆ÷äÖÈ¾Ö÷Ïß³ÌµÄ¹¤×÷·½Ê½¡£ÔÚChrome µÄÔ´ÂëÖÐ£¬Ëü¿ªÆôÒ»¸ö²»»á½áÊøµÄ for Ñ­»·£¬Ã¿´ÎÑ­»·´ÓÏûÏ¢¶ÓÁÐÖÐÈ¡³öµÚÒ»¸öÈÎÎñÖ´ÐÐ£¬¶øÆäËûÏß³ÌÖ»ÐèÒªÔÚºÏÊÊµÄÊ±ºò½«ÈÎÎñ¼ÓÈëµ½¶ÓÁÐÄ©Î²¼´¿É¡£¹ýÈ¥°ÑÏûÏ¢¶ÓÁÐ¼òµ¥·ÖÎªºê¶ÓÁÐºÍÎ¢¶ÓÁÐ£¬ÕâÖÖËµ·¨Ä¿Ç°ÒÑÎÞ·¨Âú×ã¸´ÔÓµÄä¯ÀÀÆ÷»·¾³£¬È¡¶ø´úÖ®µÄÊÇÒ»ÖÖ¸ü¼ÓÁé»î¶à±äµÄ´¦Àí·½Ê½¡£
+¸ù¾Ý W3C¹Ù·½µÄ½âÊÍ£¬Ã¿¸öÈÎÎñÓÐ²»Í¬µÄÀàÐÍ£¬Í¬ÀàÐÍµÄÈÎÎñ±ØÐëÔÚÍ¬Ò»¸ö¶ÓÁÐ£¬²»Í¬µÄÈÎÎñ¿ÉÒÔÊôÓÚ²»Í¬µÄ¶ÓÁÐ¡£²»Í¬ÈÎÎñ¶ÓÁÐÓÐ²»Í¬µÄÓÅÏÈ¼¶£¬ÔÚÒ»´ÎÊÂ¼þÑ­»·ÖÐ£¬ÓÉä¯ÀÀÆ÷×ÔÐÐ¾ö¶¨È¡ÄÄÒ»¸ö¶ÓÁÐµÄÈÎÎñ¡£µ«ä¯ÀÀÆ÷±ØÐëÓÐÒ»¸öÎ¢¶ÓÁÐ£¬Î¢¶ÓÁÐµÄÈÎÎñÒ»¶¨¾ßÓÐ×î¸ßµÄÓÅÏÈ¼¶£¬±ØÐëÓÅÏÈµ÷¶ÈÖ´ÐÐ¡£
 
 1. Object º¯ÊýÊÇFunctionµÄÒ»¸öÊµÀý
 2. Object ×÷Îª¶ÔÏóÊÇ¼Ì³Ð×ÔFunction.prototypeµÄ£¬ÓÖFunction.prototype ¼Ì³Ð×Ô Object.prototype
