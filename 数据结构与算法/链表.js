@@ -1,4 +1,5 @@
 /*
+单向链表
 相对于数组,链表有一些优点
 内存空间不是必须连续的. 可以充分利用计算机的内存。实现灵活的内存动态管理 
 链表不必在创建时就确定大小, 并且大小可以无限的延伸下去
@@ -56,7 +57,7 @@ function LinkList(){
             this.head = newNode;
         }else{
             let current = this.head;
-            for(let i = 0; i < this.length ;i++){
+            for(let i = 1; i <= position ;i++){
                 if(position == i){
                     newNode.next = current.next;
                     current.next = newNode;
@@ -72,7 +73,7 @@ function LinkList(){
 
     LinkList.prototype.get = function(position){
         //不对负数进行处理，直接报错
-        if(position < 0 || position > this.length) return false;
+        if(position < 0 || position >= this.length) return false;
         let result = ''
         let current = this.head;
         for(let i = 0; i < this.length ;i++){
@@ -101,7 +102,7 @@ function LinkList(){
     
     LinkList.prototype.update = function(position,element){
         //不对负数进行处理，直接报错
-        if(position < 0 || position > this.length) return false;
+        if(position < 0 || position >= this.length) return false;
         let current = this.head;
         for(let i = 0; i < this.length ;i++){
             if(position == i){
@@ -116,18 +117,18 @@ function LinkList(){
 
     LinkList.prototype.removeAt = function(position){
         //不对负数进行处理，直接报错
-        if(position < 0 || position > this.length) return false;
+        if(position < 0 || position >= this.length) return null;
         let current = this.head;
         if(position === 0){
             this.head = current.next;
         }else{
-            let pre = null;
+            let prev = null;
             for(let i = 0; i < this.length ;i++){
                 if(position == i){
-                    pre.next = current.next;
+                    prev.next = current.next;
                     break;
                 }
-                pre = current;
+                prev = current;
                 current = current.next;
                 
             }
@@ -138,23 +139,8 @@ function LinkList(){
     }
 
     LinkList.prototype.remove = function(element){
-        let current = this.head;
-        if(this.head.data === element){
-            this.head = current.next;
-        }else{
-            let pre = null;
-            for(let i = 0; i < this.length ;i++){
-                if(element == current.data){
-                    pre.next = current.next;
-                    break;
-                }
-                pre = current;
-                current = current.next;
-                
-            }
-        }
-
-        this.length--;
+        let index = this.indexOf(element);
+        return this.removeAt(index)
     }
 
     LinkList.prototype.isEmpty = function(){
@@ -182,5 +168,5 @@ let list = new LinkList();
 list.append('aaa');
 list.append('bbb');
 list.append('ccc');
-list.remove('ccc')
-console.log(list.toString())
+list.insert(3,'dd')
+console.log(list)
