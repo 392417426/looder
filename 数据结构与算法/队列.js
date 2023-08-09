@@ -1,3 +1,11 @@
+/*
+队列的认识
+队列(Queue)，它是一种受限的线性表,先进先出(FIFO First In First Out)
+受限之处在于它只允许在表的前端( front )进行删除操作
+口 而在表的后端(rear)进行插入操作
+
+*/
+
 //队列结构 以数组方式实现
 function Queue(){
     this.items = [];
@@ -54,3 +62,4 @@ function passGame(nameList,number){
 }
 
 console.log(passGame([1,2,3,4,5],2))
+

@@ -1,4 +1,11 @@
 /*
+双向链表:
+既可以从头遍历到尾,又可以从尾遍历到头G
+也就是链表相连的过程是双向的.那么它的实现原理你能猜到吗?
+一个节点既有向前连接的引用,也有一个向后连接的引用
+双向链表可以有效的解决单向链表中提到的问题双向链表有什么缺点呢?
+每次在插入或删除某个节点时，需要处理四个引用,而不是两个.也就是实现起来要困难一些
+D并且相当于单向链表,必然占用内存空间更大一些口 但是这些缺点和我们使用起来的方便程度相比，是微不足道的.
 
 append(element): 向列表尾部添加一个新的项
 insert(position,element): 向列表的特定位置插入一个新的项
@@ -83,12 +90,10 @@ function LinkList(){
         if(position < 0 || position >= this.length) return false;
         let result = ''
         let current = this.head;
-        let prev = null;
         for(let i = 0; i < this.length ;i++){
             if(position == i){
                 result = current.data;
             }
-            prev = current;
             current = current.next;
         }
 
@@ -154,8 +159,6 @@ function LinkList(){
             }
         }
 
-       
-
         this.length--;
 
     }
@@ -191,4 +194,4 @@ list.append('bbb');
 list.append('ccc');
 list.append('ddd');
 list.get(1);
-console.log(list.toString())
+console.log(list.head)
