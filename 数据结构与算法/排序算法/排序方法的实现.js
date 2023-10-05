@@ -109,7 +109,6 @@ function ArrayList(){
             this.array[j] = temp
         }
     }
-
     //希尔排序
     ArrayList.prototype.shellSort = function(){
         let length = this.array.length;
